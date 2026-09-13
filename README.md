@@ -97,9 +97,9 @@ My goal is to help businesses grow through technology by developing websites, ma
 
 <p align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=SEU_USUARIO&show_icons=true&theme=tokyonight&count_private=true"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=renanbarrostech-cmd&show_icons=true&theme=tokyonight&count_private=true"/>
 
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SEU_USUARIO&layout=compact&theme=tokyonight"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=renanbarrostech-cmd&layout=compact&theme=tokyonight"/>
 
 </p>
 
