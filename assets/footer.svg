@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 120" width="1280" height="120" fill="none" role="presentation">
+  <defs>
+    <linearGradient id="fh" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0"/><stop offset="30%" stop-color="#8B5CF6" stop-opacity=".8"/>
+      <stop offset="70%" stop-color="#06B6D4" stop-opacity=".7"/><stop offset="100%" stop-color="#06B6D4" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff" stop-opacity=".75"/><stop offset="100%" stop-color="#000"/>
+    </linearGradient>
+    <radialGradient id="fglow" cx="50%" cy="0%" r="70%">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity=".22"/><stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="fspark" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="50%" stop-color="#FFFFFF" stop-opacity=".9"/>
+      <stop offset="100%" stop-color="#67E8F9" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="fmask"><rect width="1280" height="120" fill="url(#fade)"/></mask>
+    <mask id="fline"><rect x="0" y="0" width="1280" height="2" fill="url(#fh)"/></mask>
+    <pattern id="fdots" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="9" cy="9" r="1.3" fill="#8B5CF6" fill-opacity=".4"/>
+    </pattern>
+  </defs>
+  <style>
+    .wave { animation: wave 6s ease-in-out infinite; }
+    @keyframes wave { 0%,100% { opacity: .45 } 50% { opacity: .9 } }
+    .fglide { animation: fglide 6.5s cubic-bezier(.55,0,.3,1) infinite; }
+    @keyframes fglide { 0% { transform: translateX(-280px) } 65%,100% { transform: translateX(1330px) } }
+  </style>
+  <rect width="1280" height="120" fill="url(#fglow)"/>
+  <rect class="wave" width="1280" height="120" fill="url(#fdots)" mask="url(#fmask)"/>
+  <rect x="0" y="0" width="1280" height="2" fill="url(#fh)"/>
+  <g mask="url(#fline)"><rect class="fglide" x="0" y="0" width="260" height="2" fill="url(#fspark)"/></g>
+</svg>
