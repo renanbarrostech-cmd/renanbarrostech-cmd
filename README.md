@@ -6,10 +6,10 @@
 
 <br/>
 
-<a href="https://www.linkedin.com/in/renan-costa-barros"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="https://portfolio-software-engineer-five.vercel.app"><img src="https://img.shields.io/badge/Portfolio-6D5AE6?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
-<a href="mailto:renanbarros.tech@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-<a href="https://www.instagram.com/renan.devbarros"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
+<a href="https://portfolio-software-engineer-five.vercel.app"><img src="https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0D1117" alt="Portfolio" /></a>&nbsp;
+<a href="https://www.linkedin.com/in/renan-costa-barros"><img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117" alt="LinkedIn" /></a>&nbsp;
+<a href="mailto:renanbarros.tech@gmail.com"><img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117" alt="Email" /></a>&nbsp;
+<a href="https://www.instagram.com/renan.devbarros"><img src="https://img.shields.io/badge/Instagram-0D1117?style=for-the-badge&logo=instagram&logoColor=white&labelColor=0D1117" alt="Instagram" /></a>
 
 <br/>
 
@@ -19,122 +19,129 @@
 
 <br/><br/>
 
-<img src="https://github-widgetbox.vercel.app/api/profile?username=renanbarrostech-cmd&data=repositories,commits&theme=darkmode" alt="GitHub overview" />
-
 </div>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:6D5AE6,50:8B5CF6,100:06B6D4&height=3&section=header" alt="" />
 
 ## About
 
-I build **modern web applications and SaaS products end to end** — data modeling, API design, interface, performance and production deploy.
+I design and build **web applications and SaaS products end to end** — data modeling, API design, interface, performance and production deploy.
 
 My background in the **financial sector** shapes how I engineer: every feature exists to cut cost, save time or generate revenue. I care as much about **security, Core Web Vitals and developer experience** as I do about the code that ships.
 
 ```ts
 const renan = {
   role: "Full Stack Developer & Software Engineer",
-  location: "Brazil",
-  domains: ["SaaS", "Financial Systems", "Dashboards", "Business Automation"],
-  stack: {
-    frontend: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
-    backend:  ["Node.js", "NestJS", "Prisma", "Drizzle"],
-    database: ["PostgreSQL", "Neon", "Redis"],
-    cloud:    ["Vercel", "Docker", "GitHub Actions"],
-  },
-  principles: ["Clean Architecture", "SOLID", "Type safety first", "Ship small, ship often"],
-  currentlyBuilding: "Products people are happy to pay for",
+  focus: ["SaaS", "Financial Systems", "Automation", "Scalable Web Apps"],
+  stack: ["TypeScript", "React", "Next.js", "Node.js", "PostgreSQL"],
+  principles: ["Clean Architecture", "Type Safety", "Scalable by Design"],
+  mission: "Build software that solves real problems and creates lasting value.",
 } as const;
 ```
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:6D5AE6,50:8B5CF6,100:06B6D4&height=3&section=header" alt="" />
+<img width="100%" src="https://raw.githubusercontent.com/renanbarrostech-cmd/renanbarrostech-cmd/main/assets/divider.svg" alt="" />
 
-## Tech Stack
-
-<div align="center">
-
-<img src="https://github-readme-tech-stack.vercel.app/api/cards?title=Core+Stack&align=center&titleAlign=center&fontSize=16&lineCount=3&theme=github_dark&hideBg=true&line1=nextdotjs,Next.js,FFFFFF;react,React,61DAFB;typescript,TypeScript,3178C6;tailwindcss,Tailwind,06B6D4;&line2=nodedotjs,Node.js,339933;nestjs,NestJS,E0234E;prisma,Prisma,FFFFFF;postgresql,PostgreSQL,4169E1;&line3=vercel,Vercel,FFFFFF;docker,Docker,2496ED;githubactions,Actions,2088FF;zod,Zod,3E67B1;" alt="Core stack" />
-
-<br/>
-
-**Frontend**
-
-<img src="https://skillicons.dev/icons?i=nextjs,react,ts,js,tailwind,html,css,figma&theme=dark&perline=8" alt="Frontend" />
-
-**Backend &amp; Data**
-
-<img src="https://skillicons.dev/icons?i=nodejs,nestjs,express,prisma,graphql,postgres,mysql,redis&theme=dark&perline=8" alt="Backend" />
-
-**Cloud, Tooling &amp; Workflow**
-
-<img src="https://skillicons.dev/icons?i=vercel,docker,git,github,githubactions,linux,vscode,pnpm&theme=dark&perline=8" alt="Tooling" />
-
-<br/>
-
-<img src="https://img.shields.io/badge/shadcn%2Fui-000000?style=flat-square&logo=shadcnui&logoColor=white" alt="shadcn/ui" />
-<img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white" alt="Framer Motion" />
-<img src="https://img.shields.io/badge/Zod-3E67B1?style=flat-square&logo=zod&logoColor=white" alt="Zod" />
-<img src="https://img.shields.io/badge/React_Hook_Form-EC5990?style=flat-square&logo=reacthookform&logoColor=white" alt="React Hook Form" />
-<img src="https://img.shields.io/badge/Zustand-433E38?style=flat-square&logo=react&logoColor=white" alt="Zustand" />
-<img src="https://img.shields.io/badge/Better_Auth-000000?style=flat-square&logo=auth0&logoColor=white" alt="Better Auth" />
-<img src="https://img.shields.io/badge/Neon-00E599?style=flat-square&logo=postgresql&logoColor=0D1117" alt="Neon" />
-<img src="https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white" alt="Jest" />
-<img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white" alt="n8n" />
-
-</div>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:6D5AE6,50:8B5CF6,100:06B6D4&height=3&section=header" alt="" />
-
-
-## ✦ GITHUB ACTIVITY
+## Stack
 
 <div align="center">
 
-<img
-src="https://github-readme-stats-salesp07.vercel.app/api?username=renanbarrostech-cmd&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=FFFFFF&icon_color=6366F1&text_color=94A3B8"
-height="180"
-alt="GitHub Statistics"
-/>
-
-<img
-src="https://streak-stats.demolab.com?user=renanbarrostech-cmd&hide_border=true&background=0D1117&ring=6366F1&fire=06B6D4&currStreakLabel=FFFFFF&sideLabels=94A3B8&dates=64748B"
-height="180"
-alt="GitHub Contribution Streak"
-/>
-
-<br/><br/>
-
-<img
-src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=renanbarrostech-cmd&layout=compact&langs_count=8&hide_border=true&bg_color=0D1117&title_color=FFFFFF&text_color=94A3B8"
-height="180"
-alt="Most Used Languages"
-/>
-
-<img
-src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=renanbarrostech-cmd&theme=github_dark&utcOffset=-3"
-height="180"
-alt="Productive Time"
-/>
-
-<br/><br/>
-
-<br/><br/>
-
-<sub>
-<strong>Code is built every day.</strong><br/>
-Consistency compounds into engineering expertise.
-</sub>
+<table>
+<tr>
+<td align="right" width="150"><sub><b>FRONTEND</b></sub></td>
+<td>
+<img src="https://img.shields.io/badge/Next.js-0D1117?style=flat-square&logo=nextdotjs&logoColor=white&labelColor=0D1117" alt="Next.js" />
+<img src="https://img.shields.io/badge/React-0D1117?style=flat-square&logo=react&logoColor=white&labelColor=0D1117" alt="React" />
+<img src="https://img.shields.io/badge/TypeScript-0D1117?style=flat-square&logo=typescript&logoColor=white&labelColor=0D1117" alt="TypeScript" />
+<img src="https://img.shields.io/badge/Tailwind-0D1117?style=flat-square&logo=tailwindcss&logoColor=white&labelColor=0D1117" alt="Tailwind CSS" />
+<img src="https://img.shields.io/badge/shadcn%2Fui-0D1117?style=flat-square&logo=shadcnui&logoColor=white&labelColor=0D1117" alt="shadcn/ui" />
+<img src="https://img.shields.io/badge/Framer%20Motion-0D1117?style=flat-square&logo=framer&logoColor=white&labelColor=0D1117" alt="Framer Motion" />
+</td>
+</tr>
+<tr>
+<td align="right"><sub><b>BACKEND</b></sub></td>
+<td>
+<img src="https://img.shields.io/badge/Node.js-0D1117?style=flat-square&logo=nodedotjs&logoColor=white&labelColor=0D1117" alt="Node.js" />
+<img src="https://img.shields.io/badge/NestJS-0D1117?style=flat-square&logo=nestjs&logoColor=white&labelColor=0D1117" alt="NestJS" />
+<img src="https://img.shields.io/badge/Prisma-0D1117?style=flat-square&logo=prisma&logoColor=white&labelColor=0D1117" alt="Prisma" />
+<img src="https://img.shields.io/badge/Drizzle-0D1117?style=flat-square&logo=drizzle&logoColor=white&labelColor=0D1117" alt="Drizzle" />
+<img src="https://img.shields.io/badge/Zod-0D1117?style=flat-square&logo=zod&logoColor=white&labelColor=0D1117" alt="Zod" />
+<img src="https://img.shields.io/badge/Better%20Auth-0D1117?style=flat-square&logo=auth0&logoColor=white&labelColor=0D1117" alt="Better Auth" />
+</td>
+</tr>
+<tr>
+<td align="right"><sub><b>DATA</b></sub></td>
+<td>
+<img src="https://img.shields.io/badge/PostgreSQL-0D1117?style=flat-square&logo=postgresql&logoColor=white&labelColor=0D1117" alt="PostgreSQL" />
+<img src="https://img.shields.io/badge/Neon-0D1117?style=flat-square&logo=neon&logoColor=white&labelColor=0D1117" alt="Neon" />
+<img src="https://img.shields.io/badge/MySQL-0D1117?style=flat-square&logo=mysql&logoColor=white&labelColor=0D1117" alt="MySQL" />
+</td>
+</tr>
+<tr>
+<td align="right"><sub><b>INFRA</b></sub></td>
+<td>
+<img src="https://img.shields.io/badge/Vercel-0D1117?style=flat-square&logo=vercel&logoColor=white&labelColor=0D1117" alt="Vercel" />
+<img src="https://img.shields.io/badge/Docker-0D1117?style=flat-square&logo=docker&logoColor=white&labelColor=0D1117" alt="Docker" />
+<img src="https://img.shields.io/badge/GitHub%20Actions-0D1117?style=flat-square&logo=githubactions&logoColor=white&labelColor=0D1117" alt="GitHub Actions" />
+</td>
+</tr>
+</table>
 
 </div>
 
+<img width="100%" src="https://raw.githubusercontent.com/renanbarrostech-cmd/renanbarrostech-cmd/main/assets/divider.svg" alt="" />
 
-### Contribution Activity
+## Selected Work
 
-<img width="85%" src="https://ssr-contributions-svg.vercel.app/_/renanbarrostech-cmd?chart=3dbar&gap=0.6&scale=2&flatten=0&animation=wave&animation_duration=6&format=svg&weeks=30&colors=161B22,3B2E6E,5B3FB0,7C5CF0,A78BFA" alt="3D animated contribution graph" />
+<table>
+<tr>
+<td width="50%" valign="top">
 
-</div>
+#### [Treinos API](https://github.com/renanbarrostech-cmd/treinos-api)
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:6D5AE6,50:8B5CF6,100:06B6D4&height=3&section=header" alt="" />
+Workout tracking REST API — typed end to end, data modeled with Prisma and a Docker setup ready to deploy.
+
+`TypeScript` · `Node.js` · `Prisma` · `Docker`
+
+[Code →](https://github.com/renanbarrostech-cmd/treinos-api)
+
+</td>
+<td width="50%" valign="top">
+
+#### [Treinos Frontend](https://github.com/renanbarrostech-cmd/treinos-frontend)
+
+The client for the workout API — Next.js and TypeScript, with the API client generated straight from the spec.
+
+`Next.js` · `TypeScript` · `Orval` · `Tailwind`
+
+[Code →](https://github.com/renanbarrostech-cmd/treinos-frontend)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### [Campo Minado](https://github.com/renanbarrostech-cmd/Campo-Minado)
+
+Classic minesweeper in vanilla JavaScript — recursive flood fill, zero dependencies, playable in the browser.
+
+`JavaScript` · `HTML` · `CSS`
+
+[Play →](https://campo-minado-cyan.vercel.app) · [Code →](https://github.com/renanbarrostech-cmd/Campo-Minado)
+
+</td>
+<td width="50%" valign="top">
+
+#### [JavaScript ES6](https://github.com/renanbarrostech-cmd/CURSO_JAVASCRIPT_ES6-)
+
+Study repo on the ES6 features I use daily — destructuring, spread, map/filter/reduce, classes and modules.
+
+`JavaScript` · `ES6`
+
+[Code →](https://github.com/renanbarrostech-cmd/CURSO_JAVASCRIPT_ES6-)
+
+</td>
+</tr>
+</table>
+
+<img width="100%" src="https://raw.githubusercontent.com/renanbarrostech-cmd/renanbarrostech-cmd/main/assets/divider.svg" alt="" />
 
 ## ✦ CURRENT FOCUS
 
@@ -180,47 +187,66 @@ Exploring:
 </tr>
 </table>
 
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:111827,50:6366F1,100:06B6D4&height=2&section=header" width="100%" />
-
-<br/>
-
-# LET'S BUILD SOMETHING GREAT
+## ✦ GITHUB ACTIVITY
 
 <div align="center">
 
-### Turning ideas into software that creates real business value.
+<img
+src="https://github-readme-stats-salesp07.vercel.app/api?username=renanbarrostech-cmd&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=FFFFFF&icon_color=6366F1&text_color=94A3B8"
+height="180"
+alt="GitHub Statistics"
+/>
 
-I build **modern, secure and scalable applications** — from architecture and databases to interfaces and production.
+<img
+src="https://streak-stats.demolab.com?user=renanbarrostech-cmd&hide_border=true&background=0D1117&ring=6366F1&fire=06B6D4&currStreakLabel=FFFFFF&sideLabels=94A3B8&dates=64748B"
+height="180"
+alt="GitHub Contribution Streak"
+/>
 
 <br/>
 
-<a href="mailto:renanbarros.tech@gmail.com">
-<img src="https://img.shields.io/badge/EMAIL-111827?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
-
-<a href="https://www.linkedin.com/in/renan-costa-barros">
-<img src="https://img.shields.io/badge/LINKEDIN-111827?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-
-<a href="https://rb-tech-six.vercel.app">
-<img src="https://img.shields.io/badge/PORTFOLIO-111827?style=for-the-badge&logo=vercel&logoColor=white" />
-</a>
-
-<br/><br/>
-
-<sub>
-<strong>First,</strong> solve the problem. Then, write the code.
-</sub>
-
-<br/><br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&height=130&section=footer&color=0:06B6D4,50:6366F1,100:111827&animation=fadeIn" width="100%" />
+<img
+src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=renanbarrostech-cmd&layout=compact&langs_count=8&hide_border=true&bg_color=0D1117&title_color=FFFFFF&text_color=94A3B8"
+height="180"
+alt="Most Used Languages"
+/>
 
 </div>
 
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:6D5AE6,50:8B5CF6,100:06B6D4&height=3&section=header" alt="" />
+## Activity
 
 <div align="center">
+
+<img height="165" src="https://github-readme-stats-salesp07.vercel.app/api?username=renanbarrostech-cmd&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&hide_title=true&bg_color=0D1117&icon_color=8B5CF6&text_color=94A3B8&title_color=FFFFFF" alt="GitHub stats" />
+<img height="165" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=renanbarrostech-cmd&layout=compact&langs_count=6&hide_border=true&bg_color=0D1117&title_color=FFFFFF&text_color=94A3B8" alt="Most used languages" />
+
+<br/><br/>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/renanbarrostech-cmd/renanbarrostech-cmd/output/snake-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/renanbarrostech-cmd/renanbarrostech-cmd/output/snake.svg" /><img width="100%" src="https://raw.githubusercontent.com/renanbarrostech-cmd/renanbarrostech-cmd/output/snake-dark.svg" alt="Snake eating my contribution graph" /></picture>
+
+</div>
+
+<img width="100%" src="https://raw.githubusercontent.com/renanbarrostech-cmd/renanbarrostech-cmd/main/assets/divider.svg" alt="" />
+
+<div align="center">
+
+<br/>
+
+### Let's build something that matters
+
+Modern, secure and scalable applications — from architecture and database to interface and production.
+
+<br/>
+
+<a href="mailto:renanbarros.tech@gmail.com"><img src="https://img.shields.io/badge/Start%20a%20conversation-8B5CF6?style=for-the-badge&logo=gmail&logoColor=white&labelColor=6D28D9" alt="Email me" /></a>&nbsp;
+<a href="https://portfolio-software-engineer-five.vercel.app"><img src="https://img.shields.io/badge/See%20my%20work-0D1117?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0D1117" alt="Portfolio" /></a>
+
+<br/><br/>
+
+<sub><i>First, solve the problem. Then, write the code.</i></sub>
+
+<br/>
+
+</div>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:6D5AE6,50:8B5CF6,100:06B6D4&height=3&section=header" alt="" />
