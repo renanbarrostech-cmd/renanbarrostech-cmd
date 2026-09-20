@@ -213,14 +213,9 @@ alt="Most Used Languages"
 
 </div>
 
-## Activity
-
 <div align="center">
 
-<img height="165" src="https://github-readme-stats-salesp07.vercel.app/api?username=renanbarrostech-cmd&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&hide_title=true&bg_color=0D1117&icon_color=8B5CF6&text_color=94A3B8&title_color=FFFFFF" alt="GitHub stats" />
-<img height="165" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=renanbarrostech-cmd&layout=compact&langs_count=6&hide_border=true&bg_color=0D1117&title_color=FFFFFF&text_color=94A3B8" alt="Most used languages" />
-
-<br/><br/>
+<br/>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/renanbarrostech-cmd/renanbarrostech-cmd/output/snake-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/renanbarrostech-cmd/renanbarrostech-cmd/output/snake.svg" /><img width="100%" src="https://raw.githubusercontent.com/renanbarrostech-cmd/renanbarrostech-cmd/output/snake-dark.svg" alt="Snake eating my contribution graph" /></picture>
 
