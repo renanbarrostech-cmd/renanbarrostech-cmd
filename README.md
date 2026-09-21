@@ -197,11 +197,8 @@ height="180"
 alt="GitHub Statistics"
 />
 
-<img
-src="https://streak-stats.demolab.com?user=renanbarrostech-cmd&hide_border=true&background=0D1117&ring=6366F1&fire=06B6D4&currStreakLabel=FFFFFF&sideLabels=94A3B8&dates=64748B"
-height="180"
-alt="GitHub Contribution Streak"
-/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=renanbarrostech-cmd&theme=tokyonight&hide_border=true&background=0d1117&ring=EC7000&fire=EC7000&currStreakLabel=EC7000&sideLabels=003D74" alt="GitHub Streak" width="49%"/>
 
 <br/>
 
