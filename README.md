@@ -30,7 +30,7 @@ My background in the **financial sector** shapes how I engineer: every feature e
 ```ts
 const renan = {
   role: "Full Stack Developer & Software Engineer",
-  focus: ["SaaS", "Financial Systems", "Automation", "Scalable Web Apps"],
+  focus: ["SaaS", "Automation", "Scalable Web Apps"],
   stack: ["TypeScript", "React", "Next.js", "Node.js", "PostgreSQL"],
   principles: ["Clean Architecture", "Type Safety", "Scalable by Design"],
   mission: "Build software that solves real problems and creates lasting value.",
