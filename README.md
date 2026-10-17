@@ -140,9 +140,9 @@ Duas dicas que eu daria para quem está onde eu estava:
 <!-- AUTO:agora:END -->
 
 <!-- AUTO:dica:START -->
-> 💡 **Dica do dia: `zodResolver`**  
-> React Hook Form + `zodResolver(schema)` valida o formulário no cliente com o mesmo schema que o servidor usa.  
-> <sub>Muda todo dia sozinha · 3/20</sub>
+> 💡 **Dica do dia: `Proxy de API no Next`**  
+> No RKF Bank o navegador chama `/api/...` no próprio Next, que repassa para o backend: sem CORS e sem expor o endereço da API.  
+> <sub>Muda todo dia sozinha · 4/20</sub>
 <!-- AUTO:dica:END -->
 
 <picture>
