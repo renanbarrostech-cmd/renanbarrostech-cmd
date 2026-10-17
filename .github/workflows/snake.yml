@@ -20,8 +20,9 @@ jobs:
       contents: write
 
     steps:
+      # svg-only roda sem Docker: a pasta dist/ fica com o dono certo e o passo de juntar consegue gravar nela
       - name: Generate snake animation
-        uses: Platane/snk@v3
+        uses: Platane/snk/svg-only@v3
         id: snake
         with:
           github_user_name: ${{ github.repository_owner }}
