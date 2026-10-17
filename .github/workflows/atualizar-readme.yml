@@ -1,0 +1,50 @@
+# Mantém o README vivo: repositórios, atividade recente, gráficos e SVGs animados.
+# Os dados do Obsidian chegam pelo progresso.json (gerado na máquina do Renan, porque o Actions não enxerga o vault).
+# Roda a cada 6 horas, a cada push na main que mexa em progresso.json/scripts e pelo botão "Run workflow".
+name: Atualizar README
+
+on:
+  schedule:
+    - cron: "23 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - progresso.json
+      - scripts/**
+      - .github/workflows/atualizar-readme.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: atualizar-readme
+  cancel-in-progress: false
+
+jobs:
+  readme:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Gerar README e SVGs
+        run: node scripts/atualizar-readme.mjs --api
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commitar só se algo mudou
+        run: |
+          git add README.md assets
+          if git diff --cached --quiet; then
+            echo "Nada mudou."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "docs(perfil): atualização automática do README"
+          git push
