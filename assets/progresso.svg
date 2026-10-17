@@ -1,9 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="860" height="240" viewBox="0 0 860 240" role="img" aria-labelledby="t">
 <title id="t">Régua Junior → Pleno: 11 de 19; MVP do RKF Bank (frontend): 8 de 20; Assuntos de estudo praticados: 8 de 14</title>
 <style>
-  :root{--bg:#ffffff;--card:#f6f8fa;--borda:#d0d7de;--texto:#1f2328;--suave:#57606a;--a1:#6d28d9;--a2:#0891b2;--a3:#7c3aed}
-  @media (prefers-color-scheme:dark){:root{--bg:#0d1117;--card:#161b22;--borda:#30363d;--texto:#e6edf3;--suave:#8b949e;--a1:#8b5cf6;--a2:#06b6d4;--a3:#a78bfa}}
-  @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+  :root{--bg:#ffffff;--card:#f6f8fa;--borda:#d0d7de;--texto:#1f2328;--suave:#57606a;--a1:#6d28d9;--a2:#0891b2;--a3:#7c3aed;
+    --ok:#1a7f37;--str:#0a7ea4;--kw:#8250df;--num:#bc4c00;--l0:#ebedf0;--l1:#ddd6fe;--l2:#a78bfa;--l3:#7c3aed;--l4:#5b21b6}
+  @media (prefers-color-scheme:dark){:root{--bg:#0d1117;--card:#161b22;--borda:#30363d;--texto:#e6edf3;--suave:#8b949e;--a1:#8b5cf6;--a2:#06b6d4;--a3:#a78bfa;
+    --ok:#3fb950;--str:#7dd3fc;--kw:#c4b5fd;--num:#fdba74;--l0:#161b22;--l1:#2e2160;--l2:#4c3ba6;--l3:#7c5cf0;--l4:#a78bfa}}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;opacity:1!important}}
   text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
   .mono{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace}
   .tit{font-size:16px;font-weight:700;fill:var(--texto)}
@@ -15,7 +17,7 @@
   <linearGradient id="g" x1="0" x2="1" y1="0" y2="0"><stop offset="0" style="stop-color:var(--a1)"/><stop offset="1" style="stop-color:var(--a2)"/></linearGradient>
 </defs>
 <rect width="860" height="240" rx="16" style="fill:var(--bg);stroke:var(--borda)"/>
-  <text x="32" y="30" class="tit">📈 Onde estou agora</text>
+  <text x="32" y="30" class="tit">📈 Rumo ao Pleno: onde estou agora</text>
   <text x="32" y="60" class="rot">Régua Junior → Pleno</text>
   <text x="828" y="60" text-anchor="end" class="val">11/19 · 58%</text>
   <rect x="32" y="72" width="796" height="14" rx="7" style="fill:var(--card);stroke:var(--borda)"/>

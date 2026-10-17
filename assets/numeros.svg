@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="184" viewBox="0 0 860 184" role="img" aria-labelledby="t">
+<title id="t">Renan em números: 19 repositórios públicos, 494 contribuições no último ano, 17 commits no RKF Bank, 11/19 régua Pleno competências, 8 assuntos praticados, 146 h horas de formação certificadas</title>
+<style>
+  :root{--bg:#ffffff;--card:#f6f8fa;--borda:#d0d7de;--texto:#1f2328;--suave:#57606a;--a1:#6d28d9;--a2:#0891b2;--a3:#7c3aed;
+    --ok:#1a7f37;--str:#0a7ea4;--kw:#8250df;--num:#bc4c00;--l0:#ebedf0;--l1:#ddd6fe;--l2:#a78bfa;--l3:#7c3aed;--l4:#5b21b6}
+  @media (prefers-color-scheme:dark){:root{--bg:#0d1117;--card:#161b22;--borda:#30363d;--texto:#e6edf3;--suave:#8b949e;--a1:#8b5cf6;--a2:#06b6d4;--a3:#a78bfa;
+    --ok:#3fb950;--str:#7dd3fc;--kw:#c4b5fd;--num:#fdba74;--l0:#161b22;--l1:#2e2160;--l2:#4c3ba6;--l3:#7c5cf0;--l4:#a78bfa}}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;opacity:1!important}}
+  text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+  .mono{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace}
+  .tit{font-size:16px;font-weight:700;fill:var(--texto)}
+  .num{font-size:28px;font-weight:800;fill:url(#g)}
+  .rot{font-size:12.5px;font-weight:600;fill:var(--texto)}
+  .sub{font-size:11px;fill:var(--suave)}
+  .card{opacity:0;animation:sobe .7s ease-out forwards}
+  @keyframes sobe{from{opacity:0;transform:translateY(8px)}to{opacity:1}}</style>
+<defs>
+  <linearGradient id="g" x1="0" x2="1" y1="0" y2="0"><stop offset="0" style="stop-color:var(--a1)"/><stop offset="1" style="stop-color:var(--a2)"/></linearGradient>
+</defs>
+<rect width="860" height="184" rx="16" style="fill:var(--bg);stroke:var(--borda)"/>
+  <text x="24" y="36" class="tit">📊 Renan em números</text>
+  <g class="card" style="animation-delay:0.2s" transform="translate(24,56)">
+    <rect width="124" height="104" rx="12" style="fill:var(--card);stroke:var(--borda)"/>
+    <text x="62" y="46" text-anchor="middle" class="num">19</text>
+    <text x="62" y="72" text-anchor="middle" class="rot">repositórios</text>
+    <text x="62" y="88" text-anchor="middle" class="sub">públicos</text>
+  </g>
+  <g class="card" style="animation-delay:0.32s" transform="translate(159,56)">
+    <rect width="124" height="104" rx="12" style="fill:var(--card);stroke:var(--borda)"/>
+    <text x="62" y="46" text-anchor="middle" class="num">494</text>
+    <text x="62" y="72" text-anchor="middle" class="rot">contribuições</text>
+    <text x="62" y="88" text-anchor="middle" class="sub">no último ano</text>
+  </g>
+  <g class="card" style="animation-delay:0.44s" transform="translate(294,56)">
+    <rect width="124" height="104" rx="12" style="fill:var(--card);stroke:var(--borda)"/>
+    <text x="62" y="46" text-anchor="middle" class="num">17</text>
+    <text x="62" y="72" text-anchor="middle" class="rot">commits</text>
+    <text x="62" y="88" text-anchor="middle" class="sub">no RKF Bank</text>
+  </g>
+  <g class="card" style="animation-delay:0.56s" transform="translate(429,56)">
+    <rect width="124" height="104" rx="12" style="fill:var(--card);stroke:var(--borda)"/>
+    <text x="62" y="46" text-anchor="middle" class="num">11/19</text>
+    <text x="62" y="72" text-anchor="middle" class="rot">régua Pleno</text>
+    <text x="62" y="88" text-anchor="middle" class="sub">competências</text>
+  </g>
+  <g class="card" style="animation-delay:0.6799999999999999s" transform="translate(564,56)">
+    <rect width="124" height="104" rx="12" style="fill:var(--card);stroke:var(--borda)"/>
+    <text x="62" y="46" text-anchor="middle" class="num">8</text>
+    <text x="62" y="72" text-anchor="middle" class="rot">assuntos</text>
+    <text x="62" y="88" text-anchor="middle" class="sub">praticados</text>
+  </g>
+  <g class="card" style="animation-delay:0.8s" transform="translate(699,56)">
+    <rect width="124" height="104" rx="12" style="fill:var(--card);stroke:var(--borda)"/>
+    <text x="62" y="46" text-anchor="middle" class="num">146 h</text>
+    <text x="62" y="72" text-anchor="middle" class="rot">horas de formação</text>
+    <text x="62" y="88" text-anchor="middle" class="sub">certificadas</text>
+  </g>
+</svg>

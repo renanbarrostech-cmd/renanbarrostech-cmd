@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="258" viewBox="0 0 860 258" role="img" aria-labelledby="t">
+<title id="t">Fluxo do cadastro: tela, hook, cliente HTTP, proxy do Next, Spring Boot, ViaCEP e MySQL, voltando com 201 Created</title>
+<style>
+  :root{--bg:#ffffff;--card:#f6f8fa;--borda:#d0d7de;--texto:#1f2328;--suave:#57606a;--a1:#6d28d9;--a2:#0891b2;--a3:#7c3aed;
+    --ok:#1a7f37;--str:#0a7ea4;--kw:#8250df;--num:#bc4c00;--l0:#ebedf0;--l1:#ddd6fe;--l2:#a78bfa;--l3:#7c3aed;--l4:#5b21b6}
+  @media (prefers-color-scheme:dark){:root{--bg:#0d1117;--card:#161b22;--borda:#30363d;--texto:#e6edf3;--suave:#8b949e;--a1:#8b5cf6;--a2:#06b6d4;--a3:#a78bfa;
+    --ok:#3fb950;--str:#7dd3fc;--kw:#c4b5fd;--num:#fdba74;--l0:#161b22;--l1:#2e2160;--l2:#4c3ba6;--l3:#7c5cf0;--l4:#a78bfa}}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;opacity:1!important}}
+  text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+  .mono{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace}
+  .tit{font-size:16px;font-weight:700;fill:var(--texto)}
+  .bt{font-size:12.5px;font-weight:700;fill:var(--texto)}
+  .bs{font-size:11px;fill:var(--suave)}
+  .seta{stroke:var(--borda);stroke-width:2}
+  .trilha{stroke:var(--borda);stroke-width:2;stroke-dasharray:2 6;stroke-linecap:round}
+  .desce{stroke:var(--borda);stroke-width:1.5;stroke-dasharray:2 4}
+  .pacote{fill:var(--a1)}
+  .volta{fill:var(--ok)}
+  .resp{font-size:13px;font-weight:700;fill:var(--ok);opacity:0;animation:resp 6s linear infinite}
+  .via{font-size:11px;fill:var(--suave)}
+  @keyframes resp{0%,70%{opacity:0}78%,95%{opacity:1}100%{opacity:0}}</style>
+<defs>
+  <linearGradient id="g" x1="0" x2="1" y1="0" y2="0"><stop offset="0" style="stop-color:var(--a1)"/><stop offset="1" style="stop-color:var(--a2)"/></linearGradient>
+</defs>
+<rect width="860" height="258" rx="16" style="fill:var(--bg);stroke:var(--borda)"/>
+  <text x="24" y="36" class="tit">🔁 O que acontece quando alguém se cadastra no RKF Bank</text>
+  <g transform="translate(576,44)">
+    <rect width="118" height="32" rx="8" stroke-dasharray="4 3" style="fill:var(--bg);stroke:var(--borda)"/>
+    <text x="59" y="21" text-anchor="middle" class="bt">📮 ViaCEP</text>
+  </g>
+  <line x1="635" y1="76" x2="635" y2="96" class="seta" stroke-dasharray="3 3"/>
+  <line x1="142" y1="124" x2="162" y2="124" class="seta"/><line x1="280" y1="124" x2="300" y2="124" class="seta"/><line x1="418" y1="124" x2="438" y2="124" class="seta"/><line x1="556" y1="124" x2="576" y2="124" class="seta"/><line x1="694" y1="124" x2="714" y2="124" class="seta"/>
+  <g transform="translate(24,96)">
+    <rect width="118" height="56" rx="10" style="fill:var(--card);stroke:var(--borda)"/>
+    <text x="59" y="25" text-anchor="middle" class="bt">Tela de cadastro</text>
+    <text x="59" y="42" text-anchor="middle" class="bs">React</text>
+  </g>
+  <g transform="translate(162,96)">
+    <rect width="118" height="56" rx="10" style="fill:var(--card);stroke:var(--borda)"/>
+    <text x="59" y="25" text-anchor="middle" class="bt">useCadastroForm</text>
+    <text x="59" y="42" text-anchor="middle" class="bs">hook</text>
+  </g>
+  <g transform="translate(300,96)">
+    <rect width="118" height="56" rx="10" style="fill:var(--card);stroke:var(--borda)"/>
+    <text x="59" y="25" text-anchor="middle" class="bt">lib/api</text>
+    <text x="59" y="42" text-anchor="middle" class="bs">cliente HTTP</text>
+  </g>
+  <g transform="translate(438,96)">
+    <rect width="118" height="56" rx="10" style="fill:var(--card);stroke:var(--borda)"/>
+    <text x="59" y="25" text-anchor="middle" class="bt">Proxy /api</text>
+    <text x="59" y="42" text-anchor="middle" class="bs">Next.js</text>
+  </g>
+  <g transform="translate(576,96)">
+    <rect width="118" height="56" rx="10" style="fill:var(--card);stroke:var(--borda)"/>
+    <text x="59" y="25" text-anchor="middle" class="bt">Spring Boot</text>
+    <text x="59" y="42" text-anchor="middle" class="bs">backend</text>
+  </g>
+  <g transform="translate(714,96)">
+    <rect width="118" height="56" rx="10" style="fill:var(--card);stroke:var(--borda)"/>
+    <text x="59" y="25" text-anchor="middle" class="bt">MySQL</text>
+    <text x="59" y="42" text-anchor="middle" class="bs">banco</text>
+  </g>
+  <line x1="83" y1="176" x2="773" y2="176" class="trilha"/>
+  <line x1="83" y1="152" x2="83" y2="176" class="desce"/><line x1="221" y1="152" x2="221" y2="176" class="desce"/><line x1="359" y1="152" x2="359" y2="176" class="desce"/><line x1="497" y1="152" x2="497" y2="176" class="desce"/><line x1="635" y1="152" x2="635" y2="176" class="desce"/><line x1="773" y1="152" x2="773" y2="176" class="desce"/>
+  <circle r="7" class="pacote"><animateMotion dur="6s" repeatCount="indefinite" keyPoints="0;1;1" keyTimes="0;0.5;1" calcMode="linear" path="M83,176 L773,176"/><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.51;1" dur="6s" repeatCount="indefinite"/></circle>
+  <circle r="7" class="volta"><animateMotion dur="6s" repeatCount="indefinite" keyPoints="1;1;0" keyTimes="0;0.5;1" calcMode="linear" path="M83,176 L773,176"/><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5;0.51;1" dur="6s" repeatCount="indefinite"/></circle>
+  <text x="83" y="206" text-anchor="middle" class="resp">✔ 201 Created</text>
+  <text x="24" y="238" class="via">Ida: POST /api/clientes com CPF, contato e CEP · O backend busca o endereço no ViaCEP e grava no MySQL · Volta: 201 + cliente</text>
+</svg>

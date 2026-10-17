@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="348" viewBox="0 0 860 348" role="img" aria-labelledby="t">
+<title id="t">Arquivo renan.ts: nome Renan Barros, Osasco SP, Dev Full Stack Junior para Pleno, stack Next.js, React, TypeScript, Node.js e PostgreSQL</title>
+<style>
+  :root{--bg:#ffffff;--card:#f6f8fa;--borda:#d0d7de;--texto:#1f2328;--suave:#57606a;--a1:#6d28d9;--a2:#0891b2;--a3:#7c3aed;
+    --ok:#1a7f37;--str:#0a7ea4;--kw:#8250df;--num:#bc4c00;--l0:#ebedf0;--l1:#ddd6fe;--l2:#a78bfa;--l3:#7c3aed;--l4:#5b21b6}
+  @media (prefers-color-scheme:dark){:root{--bg:#0d1117;--card:#161b22;--borda:#30363d;--texto:#e6edf3;--suave:#8b949e;--a1:#8b5cf6;--a2:#06b6d4;--a3:#a78bfa;
+    --ok:#3fb950;--str:#7dd3fc;--kw:#c4b5fd;--num:#fdba74;--l0:#161b22;--l1:#2e2160;--l2:#4c3ba6;--l3:#7c5cf0;--l4:#a78bfa}}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;opacity:1!important}}
+  text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+  .mono{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace}
+  .barra{fill:var(--card)}
+  .aba{font-size:12px;fill:var(--texto)}
+  .nl{font-size:12px;fill:var(--suave)}
+  .mono{font-size:13.5px}
+  .id{fill:var(--texto)}.p{fill:var(--suave)}.kw{fill:var(--kw)}.str{fill:var(--str)}.fn{fill:var(--a2)}
+  .ln{opacity:0;animation:digita .3s ease-out forwards}
+  .cursor{fill:var(--a1);animation:pisca 1s steps(1) infinite}
+  @keyframes digita{to{opacity:1}}
+  @keyframes pisca{50%{opacity:0}}</style>
+<defs>
+  <linearGradient id="g" x1="0" x2="1" y1="0" y2="0"><stop offset="0" style="stop-color:var(--a1)"/><stop offset="1" style="stop-color:var(--a2)"/></linearGradient>
+</defs>
+<rect width="860" height="348" rx="16" style="fill:var(--bg);stroke:var(--borda)"/>
+  <path d="M1 17 a16 16 0 0 1 16 -16 h826 a16 16 0 0 1 16 16 v23 h-858 z" class="barra"/>
+  <circle cx="22" cy="21" r="6" fill="#ff5f57"/><circle cx="42" cy="21" r="6" fill="#febc2e"/><circle cx="62" cy="21" r="6" fill="#28c840"/>
+  <rect x="86" y="8" width="104" height="32" rx="6" style="fill:var(--bg);stroke:var(--borda)"/>
+  <text x="100" y="29" class="aba mono">renan.ts</text>
+  <g class="ln" style="animation-delay:0.40s"><text x="40" y="76" class="mono nl">1</text><text x="74" y="76" class="mono" xml:space="preserve"><tspan class="kw">const </tspan><tspan class="id">renan </tspan><tspan class="p">= {</tspan></text></g>
+<g class="ln" style="animation-delay:0.72s"><text x="40" y="97" class="mono nl">2</text><text x="74" y="97" class="mono" xml:space="preserve"><tspan class="id">  nome</tspan><tspan class="p">: </tspan><tspan class="str">&quot;Renan Barros&quot;</tspan><tspan class="p">,</tspan></text></g>
+<g class="ln" style="animation-delay:1.04s"><text x="40" y="118" class="mono nl">3</text><text x="74" y="118" class="mono" xml:space="preserve"><tspan class="id">  cidade</tspan><tspan class="p">: </tspan><tspan class="str">&quot;Osasco, SP&quot;</tspan><tspan class="p">,</tspan></text></g>
+<g class="ln" style="animation-delay:1.36s"><text x="40" y="139" class="mono nl">4</text><text x="74" y="139" class="mono" xml:space="preserve"><tspan class="id">  papel</tspan><tspan class="p">: </tspan><tspan class="str">&quot;Dev Full Stack · Junior → Pleno&quot;</tspan><tspan class="p">,</tspan></text></g>
+<g class="ln" style="animation-delay:1.68s"><text x="40" y="160" class="mono nl">5</text><text x="74" y="160" class="mono" xml:space="preserve"><tspan class="id">  stack</tspan><tspan class="p">: [</tspan><tspan class="str">&quot;Next.js&quot;</tspan><tspan class="p">, </tspan><tspan class="str">&quot;React&quot;</tspan><tspan class="p">, </tspan><tspan class="str">&quot;TypeScript&quot;</tspan><tspan class="p">, </tspan><tspan class="str">&quot;Node.js&quot;</tspan><tspan class="p">, </tspan><tspan class="str">&quot;PostgreSQL&quot;</tspan><tspan class="p">],</tspan></text></g>
+<g class="ln" style="animation-delay:2.00s"><text x="40" y="181" class="mono nl">6</text><text x="74" y="181" class="mono" xml:space="preserve"><tspan class="id">  aprendendo</tspan><tspan class="p">: [</tspan><tspan class="str">&quot;testes no front&quot;</tspan><tspan class="p">, </tspan><tspan class="str">&quot;CI/CD&quot;</tspan><tspan class="p">, </tspan><tspan class="str">&quot;performance&quot;</tspan><tspan class="p">, </tspan><tspan class="str">&quot;inglês&quot;</tspan><tspan class="p">],</tspan></text></g>
+<g class="ln" style="animation-delay:2.32s"><text x="40" y="202" class="mono nl">7</text><text x="74" y="202" class="mono" xml:space="preserve"><tspan class="id">  veioDe</tspan><tspan class="p">: </tspan><tspan class="str">&quot;planilhas, notas fiscais e faturamento&quot;</tspan><tspan class="p">,</tspan></text></g>
+<g class="ln" style="animation-delay:2.64s"><text x="40" y="223" class="mono nl">8</text><text x="74" y="223" class="mono" xml:space="preserve"><tspan class="p">} </tspan><tspan class="kw">as const</tspan><tspan class="p">;</tspan></text></g>
+<g class="ln" style="animation-delay:2.96s"><text x="40" y="244" class="mono nl">9</text><text x="74" y="244" class="mono" xml:space="preserve"></text></g>
+<g class="ln" style="animation-delay:3.28s"><text x="40" y="265" class="mono nl">10</text><text x="74" y="265" class="mono" xml:space="preserve"><tspan class="kw">export function </tspan><tspan class="fn">proximoPasso</tspan><tspan class="p">() {</tspan></text></g>
+<g class="ln" style="animation-delay:3.60s"><text x="40" y="286" class="mono nl">11</text><text x="74" y="286" class="mono" xml:space="preserve"><tspan class="kw">  return </tspan><tspan class="str">&quot;Entregar o MVP do RKF Bank e chegar ao Pleno.&quot;</tspan><tspan class="p">;</tspan></text></g>
+<g class="ln" style="animation-delay:3.92s"><text x="40" y="307" class="mono nl">12</text><text x="74" y="307" class="mono" xml:space="preserve"><tspan class="p">}</tspan></text></g>
+  <rect x="74" y="314" width="8" height="16" class="cursor"/>
+</svg>

@@ -1,6 +1,6 @@
-# Gera a animação da cobrinha a partir do grid de contribuições.
+# Gera a cobrinha que come o gráfico de contribuições e o gráfico 3D de contribuições,
+# e publica os SVGs na branch "output", que o README consome.
 # Roda a cada 12h, a cada push na main e sob demanda (Actions > Run workflow).
-# O SVG é publicado na branch "output", que o README consome.
 
 name: Generate Snake
 
@@ -28,6 +28,15 @@ jobs:
           outputs: |
             dist/snake.svg?palette=github-light&color_snake=#7C3AED&color_dots=#EBEDF0,#DDD6FE,#A78BFA,#7C3AED,#5B21B6
             dist/snake-dark.svg?palette=github-dark&color_snake=#06B6D4&color_dots=#161B22,#2E2160,#4C3BA6,#7C5CF0,#A78BFA
+
+      - name: Gerar gráfico 3D de contribuições
+        uses: yoshi389111/github-profile-3d-contrib@v0.9.3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: Juntar os arquivos
+        run: cp profile-3d-contrib/*.svg dist/
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4

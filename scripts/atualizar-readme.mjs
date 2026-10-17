@@ -38,6 +38,46 @@ async function buscar(caminho, arquivoFixture) {
   return r.json();
 }
 
+// O calendário de contribuições vem da página pública do perfil (funciona sem token).
+async function buscarCalendario() {
+  let html;
+  if (process.env.GH_API_FIXTURES) {
+    const f = join(process.env.GH_API_FIXTURES, "contributions.html");
+    if (!existsSync(f)) return null;
+    html = readFileSync(f, "utf8");
+  } else {
+    const r = await fetch(`https://github.com/users/${USUARIO}/contributions`, { headers: { "User-Agent": `${USUARIO}-readme` } });
+    if (!r.ok) throw new Error(`contribuições: HTTP ${r.status}`);
+    html = await r.text();
+  }
+  const datas = Object.fromEntries([...html.matchAll(/data-date="([\d-]+)"\s+id="([^"]+)"/g)].map((m) => [m[2], m[1]]));
+  const porDia = {};
+  for (const m of html.matchAll(/<tool-tip[^>]*for="([^"]+)"[^>]*>([^<]*)<\/tool-tip>/g)) {
+    const data = datas[m[1]];
+    if (data) porDia[data] = Number(/^\s*(\d+)/.exec(m[2])?.[1] || 0);
+  }
+  const dias = Object.entries(porDia)
+    .sort(([a], [b]) => a.localeCompare(b))
+    .map(([data, n]) => ({ data, n }));
+  if (dias.length < 30) throw new Error("calendário de contribuições vazio");
+  const total = Number((/([\d,.]+)\s+contributions?\s+in the last year/.exec(html)?.[1] || "").replace(/[,.]/g, "")) || dias.reduce((s, d) => s + d.n, 0);
+  return { dias, total };
+}
+
+/** Dias seguidos (contando a partir de hoje, ou de ontem se hoje ainda não teve commit), 7 e 30 dias, último dia ativo. */
+function resumirCalendario({ dias, total }) {
+  const ate = (k) => dias.slice(-k).reduce((s, d) => s + d.n, 0);
+  let i = dias.length - 1;
+  if (dias[i]?.n === 0) i--;
+  let seguidos = 0;
+  while (i >= 0 && dias[i].n > 0) {
+    seguidos++;
+    i--;
+  }
+  const ultimo = [...dias].reverse().find((d) => d.n > 0)?.data || null;
+  return { seguidos, d7: ate(7), d30: ate(30), ultimo, total };
+}
+
 // A API de eventos públicos não traz mais a lista de commits dos pushes, então os commits
 // recentes vêm de /repos/{repo}/commits?author=... nos repositórios com push mais recente
 // e no repositório do projeto principal (na branch configurada, ex.: develop do RKF Bank).
@@ -79,7 +119,13 @@ async function dadosApi() {
       .filter((c) => (vistos.has(c.sha) ? false : vistos.add(c.sha)))
       .sort((a, b) => new Date(b.data) - new Date(a.data))
       .filter((c) => (porRepo[c.repo] = (porRepo[c.repo] || 0) + 1) <= 4); // no máximo 4 por repositório
-    return { repos, commits };
+    let calendario = null;
+    try {
+      calendario = await buscarCalendario();
+    } catch (err) {
+      console.warn(`Aviso: pulso não atualizado (${err.message}). Fica o SVG anterior.`);
+    }
+    return { repos, commits, calendario };
   } catch (err) {
     console.warn(`Aviso: API do GitHub indisponível (${err.message}). Usando só o progresso.json.`);
     return null;
@@ -204,6 +250,60 @@ ${fila.map((e) => `| ${icone[e.status]} ${celula(e.assunto)} | ${celula(e.area)}
 </details>`;
 }
 
+// Uma dica por dia, tirada do que eu uso nos meus projetos. Muda sozinha à meia-noite (horário de Brasília).
+const DICAS = [
+  ["\"use client\" só onde precisa", "No App Router todo componente nasce Server Component. Marque como client só o que tem estado, efeito ou evento: o resto vai pronto do servidor e o bundle fica menor."],
+  ["z.infer", "Um schema do Zod vira tipo TypeScript com `z.infer<typeof schema>`: validação e tipo saem da mesma fonte, sem duplicar nada."],
+  ["zodResolver", "React Hook Form + `zodResolver(schema)` valida o formulário no cliente com o mesmo schema que o servidor usa."],
+  ["Proxy de API no Next", "No RKF Bank o navegador chama `/api/...` no próprio Next, que repassa para o backend: sem CORS e sem expor o endereço da API."],
+  ["Log sem dado pessoal", "Mascare CPF, e-mail e telefone dentro do logger, antes de escrever. Quem loga não precisa lembrar: a LGPD vira padrão."],
+  ["Máscara não é validação", "Formatar o CPF no input ajuda quem digita, mas a regra (dígitos verificadores, unicidade) precisa ser validada no servidor."],
+  ["as const", "`as const` deixa o objeto imutável e os tipos literais: ótimo para rotas, configurações e listas de opções."],
+  ["satisfies", "`const x = {...} satisfies Tipo` checa o formato sem perder os tipos literais, diferente de anotar `: Tipo`."],
+  ["key estável em listas", "Use o id do item como `key`, nunca o índice: se a lista reordenar, o React não confunde o estado dos componentes."],
+  ["useEffect não deriva estado", "Se um valor pode ser calculado a partir de props ou estado, calcule durante o render. `useEffect` é para sincronizar com algo de fora."],
+  ["next/font", "`next/font` baixa a fonte no build e serve do seu domínio: sem pedido extra ao Google e sem pulo de layout."],
+  ["next/image", "Defina largura e altura (ou `fill`) no `next/image`: o navegador reserva o espaço e o CLS não sobe."],
+  ["select no Prisma", "Busque só os campos que a tela usa com `select`: menos dados trafegando e nada sensível vazando por engano."],
+  ["Migração aplicada não se edita", "Mudou o banco? Crie uma migração nova. Editar uma que já rodou deixa os ambientes diferentes entre si."],
+  ["Sessão em cookie httpOnly", "Com Better Auth a sessão fica num cookie httpOnly: o JavaScript da página não lê o token, o que reduz o estrago de um XSS."],
+  [".env fora do Git", "Commitou um segredo? Apagar o arquivo não basta: ele fica no histórico. Troque a chave e coloque `.env` no `.gitignore`."],
+  ["Commits semânticos", "`feat:`, `fix:`, `docs:`, `chore:`… O histórico vira um changelog e o revisor entende o PR antes de abrir o diff."],
+  ["Contrato da API no mesmo PR", "Mudou uma rota? Atualize o contrato no mesmo PR: é a regra combinada entre front e back no RKF Bank."],
+  ["Tool calling", "Na Treinos API a IA não inventa dados: ela chama funções tipadas (ler dados do usuário, criar plano) e responde com o resultado."],
+  ["Fallback sem custo", "No BellaFlow, sem o n8n configurado o chat responde por regras de palavra-chave: a demonstração funciona mesmo sem IA paga."],
+];
+
+function blocoDica() {
+  const hoje = new Date(new Date().toLocaleString("en-US", { timeZone: "America/Sao_Paulo" }));
+  const dia = Math.floor(Date.UTC(hoje.getFullYear(), hoje.getMonth(), hoje.getDate()) / 864e5);
+  const i = dia % DICAS.length;
+  const [titulo, texto] = DICAS[i];
+  return `> 💡 **Dica do dia: \`${titulo}\`**  \n> ${texto}  \n> <sub>Muda todo dia sozinha · ${i + 1}/${DICAS.length}</sub>`;
+}
+
+/** Barras 3D em STL (o GitHub renderiza o bloco ```stl como modelo 3D que dá para girar). */
+function stlBarras(valores) {
+  const faces = [];
+  const caixa = (x0, y0, z0, x1, y1, z1) => {
+    const v = (x, y, z) => `${x.toFixed(3)} ${y.toFixed(3)} ${z.toFixed(3)}`;
+    const quad = (n, a, b, c, d) => {
+      faces.push(`  facet normal ${n}\n    outer loop\n      vertex ${a}\n      vertex ${b}\n      vertex ${c}\n    endloop\n  endfacet`);
+      faces.push(`  facet normal ${n}\n    outer loop\n      vertex ${a}\n      vertex ${c}\n      vertex ${d}\n    endloop\n  endfacet`);
+    };
+    quad("0 0 -1", v(x0, y0, z0), v(x0, y1, z0), v(x1, y1, z0), v(x1, y0, z0));
+    quad("0 0 1", v(x0, y0, z1), v(x1, y0, z1), v(x1, y1, z1), v(x0, y1, z1));
+    quad("0 -1 0", v(x0, y0, z0), v(x1, y0, z0), v(x1, y0, z1), v(x0, y0, z1));
+    quad("0 1 0", v(x0, y1, z0), v(x0, y1, z1), v(x1, y1, z1), v(x1, y1, z0));
+    quad("-1 0 0", v(x0, y0, z0), v(x0, y0, z1), v(x0, y1, z1), v(x0, y1, z0));
+    quad("1 0 0", v(x1, y0, z0), v(x1, y1, z0), v(x1, y1, z1), v(x1, y0, z1));
+  };
+  const max = Math.max(...valores, 1);
+  caixa(-4, -4, -1, valores.length * 12, 12, 0); // base
+  valores.forEach((n, i) => caixa(i * 12, 0, 0, i * 12 + 8, 8, Math.max(0.6, (n / max) * 32)));
+  return `solid repositorios_por_mes\n${faces.join("\n")}\nendsolid repositorios_por_mes`;
+}
+
 function blocoGantt() {
   if (!p.pdi?.gantt) return "_Roadmap em breve._";
   return `\`\`\`mermaid\n${p.pdi.gantt}\n\`\`\``;
@@ -230,7 +330,7 @@ function blocoRepos(api) {
       url: x.html_url,
       descricao: x.description || doVault[x.name] || "",
       linguagem: x.language || "Sem linguagem",
-      ano: x.created_at.slice(0, 4),
+      mes: x.created_at.slice(0, 7),
       ultimo: x.pushed_at.slice(0, 10),
     }));
   } else {
@@ -239,13 +339,24 @@ function blocoRepos(api) {
       url: x.repositorio,
       descricao: x.descricao,
       linguagem: x.stack.find((s) => ["TypeScript", "JavaScript", "HTML", "CSS"].includes(s)) || x.stack[0] || "Sem linguagem",
-      ano: String(x.inicio).slice(0, 4),
+      mes: String(x.inicio).slice(0, 7),
       ultimo: x.ultimo,
     }));
   }
   if (!repos.length) return "_Sem repositórios públicos._";
   const contar = (campo) => repos.reduce((acc, x) => ((acc[x[campo]] = (acc[x[campo]] || 0) + 1), acc), {});
   const linguas = Object.entries(contar("linguagem")).sort((a, b) => b[1] - a[1]);
+  // Repositórios criados por mês, do primeiro mês até o atual (meses sem repositório entram com 0).
+  const porMes = contar("mes");
+  const meses = [];
+  const [ai, mi] = Object.keys(porMes).sort()[0].split("-").map(Number);
+  const agora = new Date();
+  for (let a = ai, m = mi; a < agora.getFullYear() || (a === agora.getFullYear() && m <= agora.getMonth() + 1); m === 12 ? (a++, (m = 1)) : m++) {
+    meses.push(`${a}-${String(m).padStart(2, "0")}`);
+  }
+  const NOMES = ["jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago", "set", "out", "nov", "dez"];
+  const rotulos = meses.map((k) => `"${NOMES[Number(k.slice(5)) - 1]}/${k.slice(2, 4)}"`);
+  const valores = meses.map((k) => porMes[k] || 0);
   const tabela = [...repos]
     .sort((a, b) => b.ultimo.localeCompare(a.ultimo))
     .map((x) => `| [${celula(x.nome)}](${x.url}) | ${celula(x.descricao || "—")} | ${celula(x.linguagem)} | ${x.ultimo} |`)
@@ -258,6 +369,21 @@ function blocoRepos(api) {
 pie showData
     title Linguagem principal dos repositórios
 ${linguas.map(([l, n]) => `    "${l}" : ${n}`).join("\n")}
+\`\`\`
+
+\`\`\`mermaid
+xychart-beta
+    title "Repositórios criados por mês"
+    x-axis [${rotulos.join(", ")}]
+    y-axis "Repositórios" 0 --> ${Math.max(...valores) + 2}
+    bar [${valores.join(", ")}]
+    line [${valores.join(", ")}]
+\`\`\`
+
+**🧊 Os mesmos números em 3D** (gire com o mouse, dê zoom com a roda). Da esquerda para a direita: ${meses.map((k) => `${NOMES[Number(k.slice(5)) - 1]}/${k.slice(2, 4)}`).join(", ")}.
+
+\`\`\`stl
+${stlBarras(valores)}
 \`\`\`
 
 | Repositório | O que é | Linguagem | Último commit |
@@ -275,6 +401,7 @@ const blocos = {
   status: blocoStatus(),
   recrutador: blocoRecrutador(),
   agora: blocoAgora(),
+  dica: blocoDica(),
   atividade: blocoAtividade(api),
   diario: blocoDiario(),
   regua: blocoRegua(),
@@ -297,5 +424,19 @@ for (const [nome, conteudo] of Object.entries(blocos)) {
 }
 if (faltando.length) console.warn(`Marcadores não encontrados (ignorados): ${faltando.join(", ")}`);
 if (readme !== antes) writeFileSync(README, readme, "utf8");
-const svgs = SEM_SVG ? [] : gerarSvgs(p, RAIZ);
+// Números e pulso dependem dos dados do GitHub: só são regerados quando a leitura deu certo.
+const HORAS_CERTIFICADAS = 146; // Formação Full Stack DevClub (140 h) + Imersão Arquitetura com IA (6 h)
+const extras = {};
+if (api?.calendario) {
+  extras.pulso = { dias: api.calendario.dias, resumo: resumirCalendario(api.calendario) };
+  extras.numeros = {
+    repos: String(api.repos.length),
+    contribuicoes: String(api.calendario.total),
+    commitsRkf: String(p.projeto?.commitsDoAutor ?? "—"),
+    regua: `${r.praticadas}/${r.total}`,
+    praticados: String(estudos.filter((e) => e.status === "praticado").length),
+    horas: `${HORAS_CERTIFICADAS} h`,
+  };
+}
+const svgs = SEM_SVG ? [] : gerarSvgs(p, RAIZ, extras);
 console.log(`README ${readme !== antes ? "atualizado" : "sem mudanças"} · ${Object.keys(blocos).length - faltando.length} blocos · ${svgs.length} SVGs${api ? " · API ok" : ""}`);

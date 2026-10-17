@@ -1,15 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="120" height="40" viewBox="0 0 120 40" role="img" aria-labelledby="t">
 <title id="t">Trilhas</title>
 <style>
-  :root{--bg:#ffffff;--card:#f6f8fa;--borda:#d0d7de;--texto:#1f2328;--suave:#57606a;--a1:#6d28d9;--a2:#0891b2;--a3:#7c3aed}
-  @media (prefers-color-scheme:dark){:root{--bg:#0d1117;--card:#161b22;--borda:#30363d;--texto:#e6edf3;--suave:#8b949e;--a1:#8b5cf6;--a2:#06b6d4;--a3:#a78bfa}}
-  @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+  :root{--bg:#ffffff;--card:#f6f8fa;--borda:#d0d7de;--texto:#1f2328;--suave:#57606a;--a1:#6d28d9;--a2:#0891b2;--a3:#7c3aed;
+    --ok:#1a7f37;--str:#0a7ea4;--kw:#8250df;--num:#bc4c00;--l0:#ebedf0;--l1:#ddd6fe;--l2:#a78bfa;--l3:#7c3aed;--l4:#5b21b6}
+  @media (prefers-color-scheme:dark){:root{--bg:#0d1117;--card:#161b22;--borda:#30363d;--texto:#e6edf3;--suave:#8b949e;--a1:#8b5cf6;--a2:#06b6d4;--a3:#a78bfa;
+    --ok:#3fb950;--str:#7dd3fc;--kw:#c4b5fd;--num:#fdba74;--l0:#161b22;--l1:#2e2160;--l2:#4c3ba6;--l3:#7c5cf0;--l4:#a78bfa}}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;opacity:1!important}}
   text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
   .mono{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace}
   .b{fill:var(--card);stroke:var(--borda)}
   .d{fill:url(#g)}
   .tx{font-size:14px;font-weight:600;fill:var(--texto)}
-  .anel{fill:none;stroke:url(#g);stroke-width:1.5;opacity:.0;animation:pulsa 3s ease-in-out infinite}
+  .anel{fill:none;stroke:url(#g);stroke-width:1.5;opacity:0;animation:pulsa 3s ease-in-out infinite}
   @keyframes pulsa{50%{opacity:.9}}</style>
 <defs>
   <linearGradient id="g" x1="0" x2="1" y1="0" y2="0"><stop offset="0" style="stop-color:var(--a1)"/><stop offset="1" style="stop-color:var(--a2)"/></linearGradient>

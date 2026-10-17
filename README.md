@@ -7,20 +7,26 @@
 <a href="https://portfolio-software-engineer-five.vercel.app"><img src="https://img.shields.io/badge/Portf%C3%B3lio-Vercel-0D1117?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfólio"></a>
 <img src="https://img.shields.io/badge/Gradua%C3%A7%C3%A3o-GTI%20Est%C3%A1cio-6D28D9?style=for-the-badge" alt="Graduação em GTI na Estácio">
 <img src="https://img.shields.io/badge/Forma%C3%A7%C3%A3o-DevClub%20Full%20Stack-06B6D4?style=for-the-badge" alt="Formação Full Stack DevClub">
+<img src="https://img.shields.io/badge/Projetos-Full%20Stack%20Club-8B5CF6?style=for-the-badge" alt="Full Stack Club">
 
 <br><br>
 
 <a href="#-escolha-a-sua-trilha"><img src="assets/botoes/trilhas.svg" alt="🎮 Trilhas"></a>
 <a href="#-ao-vivo"><img src="assets/botoes/ao-vivo.svg" alt="📡 Ao vivo"></a>
 <a href="#-trajetória"><img src="assets/botoes/trajetoria.svg" alt="🧭 Trajetória"></a>
-<a href="#-projeto-atual--rkf-bank"><img src="assets/botoes/rkf-bank.svg" alt="🏦 RKF Bank"></a>
+<a href="#-projeto-atual--rkf-bank"><img src="assets/botoes/rkf-bank.svg" alt="🏦 Projeto atual"></a>
 <a href="#️-projetos-em-destaque"><img src="assets/botoes/projetos.svg" alt="🗂️ Projetos"></a>
-<br>
 <a href="#-junior--pleno--onde-estou"><img src="assets/botoes/pleno.svg" alt="📈 Junior → Pleno"></a>
+<br>
 <a href="#-pdi--roadmap-2026"><img src="assets/botoes/roadmap.svg" alt="🎯 Roadmap"></a>
 <a href="#️-tecnologias"><img src="assets/botoes/stack.svg" alt="🛠️ Stack"></a>
+<a href="#-atuação-profissional"><img src="assets/botoes/atuacao.svg" alt="💼 Atuação"></a>
 <a href="#-pergunte-ao-renan"><img src="assets/botoes/perguntas.svg" alt="💬 Perguntas"></a>
 <a href="#-formação-e-certificações"><img src="assets/botoes/formacao.svg" alt="🎓 Formação"></a>
+
+<br><br>
+
+<img src="assets/numeros.svg" width="100%" alt="Renan em números: repositórios públicos, contribuições no último ano, commits no RKF Bank, régua Pleno, assuntos praticados e horas de formação">
 
 </div>
 
@@ -48,11 +54,16 @@
 <a href="https://www.linkedin.com/in/renan-costa-barros"><img src="assets/botoes/linkedin.svg" alt="💼 Conversar no LinkedIn"></a>
 <a href="mailto:renanbarros.tech@gmail.com"><img src="assets/botoes/email.svg" alt="✉️ Enviar e-mail"></a>
 
-**👉 Quero ver evidências**
+<details>
+<summary><b>👉 Quero ver evidências</b></summary>
+<br>
 
 - Régua de competências com evidência por projeto: [📈 Junior → Pleno](#-junior--pleno--onde-estou)
 - O que eu construí no frontend do RKF Bank: [🏦 Projeto atual](#-projeto-atual--rkf-bank)
-- Perguntas técnicas respondidas com o que eu fiz de verdade: [💬 Pergunte ao Renan](#-pergunte-ao-renan)
+- Uma IA que monta treinos chamando funções de verdade: [🏋️ Treinos API](#-os-dois-que-eu-mostraria-numa-entrevista)
+- Perguntas técnicas respondidas com o que eu fiz: [💬 Pergunte ao Renan](#-pergunte-ao-renan)
+
+</details>
 
 </details>
 
@@ -63,12 +74,14 @@
 Sugestão de leitura, do mais simples ao mais completo:
 
 1. 💣 **[Campo Minado](https://github.com/renanbarrostech-cmd/Campo-Minado)**: JavaScript puro, flood fill recursivo, [jogável no navegador](https://campo-minado-cyan.vercel.app).
-2. ✅ **[Task Manager](https://github.com/renanbarrostech-cmd/FSC-TASK-MANEGER-BACKEND)**: API em Node.js + Express + MongoDB e o [frontend em React](https://github.com/renanbarrostech-cmd/FSC-TASK-MANEGER-FRONTEND).
-3. 🏋️ **[Treinos API](https://github.com/renanbarrostech-cmd/treinos-api)**: Fastify, Zod, Prisma, Better Auth, documentação interativa e uma rota de IA.
-4. 💇 **[BellaFlow](https://github.com/renanbarrostech-cmd/bella-flow)**: Next.js 16 + Prisma + Neon, com um chat processado por um workflow do n8n.
-5. 🏦 **[RKF Bank](https://github.com/k3vinrich4rd/rkf_bank/tree/develop/frontend)**: o frontend de um banco digital feito em dupla, com camada de API tipada, proxy no Next e logs que não vazam dados pessoais.
+2. ✅ **[Task Manager](https://github.com/renanbarrostech-cmd/FSC-TASK-MANEGER-BACKEND)**: API em Node.js + Express + MongoDB, com controllers, models e erros separados, e o [frontend em React](https://github.com/renanbarrostech-cmd/FSC-TASK-MANEGER-FRONTEND).
+3. 🏋️ **[Treinos API](https://github.com/renanbarrostech-cmd/treinos-api)**: Fastify + Zod + Prisma, regras em *use cases* e um personal trainer de IA com *tool calling*.
+4. 💇 **[BellaFlow](https://github.com/renanbarrostech-cmd/bella-flow)**: Next.js 16 + Prisma 7 + Neon, com um chat processado por um workflow do n8n.
+5. 🏦 **[RKF Bank](https://github.com/k3vinrich4rd/rkf_bank/tree/develop/frontend)**: o frontend de um banco digital feito em dupla.
 
-**👉 Onde olhar primeiro no RKF Bank**
+<details>
+<summary><b>👉 Onde olhar primeiro no RKF Bank</b></summary>
+<br>
 
 | Arquivo | Por que é interessante |
 | --- | --- |
@@ -80,18 +93,23 @@ Sugestão de leitura, do mais simples ao mais completo:
 
 </details>
 
+</details>
+
 <details>
 <summary><img src="assets/botoes/trilha-estudante.svg" alt="🌱 Também estou mudando de carreira"></summary>
 <br>
 
-Eu comecei em 2023 como **jovem aprendiz numa transportadora**, mexendo com planilhas, notas fiscais e faturamento. Hoje sou assistente financeiro lá e, ao mesmo tempo, construo software. O caminho que funcionou para mim:
+Eu comecei em 2023 como **jovem aprendiz numa transportadora**, mexendo com planilhas, notas fiscais e faturamento. Hoje sou assistente financeiro lá e, em paralelo, construo software. O caminho que funcionou para mim:
 
 ```mermaid
 flowchart LR
-    A[HTML, CSS e<br/>lógica em JS] --> B[JavaScript<br/>ES6+] --> C[React e<br/>Node.js] --> D[Next.js e<br/>TypeScript] --> E[Banco, ORM<br/>e autenticação] --> F[Projeto real<br/>em dupla]
+    A[HTML, CSS e<br/>lógica em JS] --> B[JavaScript<br/>ES6+] --> C[Node.js e<br/>APIs] --> D[React e<br/>Next.js] --> E[Banco, ORM<br/>e autenticação] --> F[Projeto real<br/>em dupla]
 ```
 
-Dica: **resolva um problema que você conhece de perto**. Eu entendia as rotinas do escritório antes de entender React, e isso me ajudou a saber *o que* construir antes de saber *como*.
+Duas dicas que eu daria para quem está onde eu estava:
+
+- **Resolva um problema que você conhece de perto.** Eu entendia as rotinas do escritório antes de entender React, e isso me ajudou a saber *o que* construir antes de saber *como*.
+- **Um projeto em dupla ensina o que tutorial não ensina:** contrato de API, Pull Request, revisão e combinar decisões por escrito.
 
 </details>
 
@@ -100,6 +118,8 @@ Dica: **resolva um problema que você conhece de perto**. Eu entendia as rotinas
 ## 📡 Ao vivo
 
 > Esta seção se atualiza sozinha. Cada commit que eu faço alimenta o meu Obsidian, que alimenta este README. 🤖
+
+<img src="assets/pulso.svg" width="100%" alt="Pulso das últimas semanas: mapa de calor de contribuições, dias seguidos, contribuições em 7 e 30 dias e último dia com commit">
 
 <!-- AUTO:status:START -->
 ![Régua Pleno](https://img.shields.io/static/v1?label=R%C3%A9gua%20Pleno&message=11%2F19&color=8B5CF6&style=flat-square) ![MVP RKF Bank](https://img.shields.io/static/v1?label=MVP%20RKF%20Bank&message=8%2F20&color=06B6D4&style=flat-square) ![Testes RKF Bank](https://img.shields.io/static/v1?label=Testes%20RKF%20Bank&message=front%200%20%C2%B7%20back%20109&color=22C55E&style=flat-square) ![Foco agora](https://img.shields.io/static/v1?label=Foco%20agora&message=Testes%20com%20Vitest%20e%20Testing%20Library&color=6D28D9&style=flat-square)
@@ -118,6 +138,12 @@ Dica: **resolva um problema que você conhece de perto**. Eu entendia as rotinas
 
 </details>
 <!-- AUTO:agora:END -->
+
+<!-- AUTO:dica:START -->
+> 💡 **Dica do dia: `zodResolver`**  
+> React Hook Form + `zodResolver(schema)` valida o formulário no cliente com o mesmo schema que o servidor usa.  
+> <sub>Muda todo dia sozinha · 3/20</sub>
+<!-- AUTO:dica:END -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/renanbarrostech-cmd/renanbarrostech-cmd/output/snake-dark.svg">
@@ -140,7 +166,7 @@ Dica: **resolva um problema que você conhece de perto**. Eu entendia as rotinas
 | ✨ | [`FSC-TASK-MANEGER-FRONTEND`](https://github.com/renanbarrostech-cmd/FSC-TASK-MANEGER-FRONTEND) | [`9bac2d2`](https://github.com/renanbarrostech-cmd/FSC-TASK-MANEGER-FRONTEND/commit/9bac2d21a49ad310f9416fb1600643fcff485ae7) feat: add lifecycle methods to our components | 11/10/2026 |
 | ♻️ | [`FSC-TASK-MANEGER-FRONTEND`](https://github.com/renanbarrostech-cmd/FSC-TASK-MANEGER-FRONTEND) | [`5a66b48`](https://github.com/renanbarrostech-cmd/FSC-TASK-MANEGER-FRONTEND/commit/5a66b48395874e2e9e3670d63353b3dc5c80db8e) refactor: convert component to Class | 11/10/2026 |
 
-<sub>✨ feat · 🐛 fix · 🧪 test · 📝 docs · 🔧 chore/build/ci · ♻️ refactor | 🤖 atualizado sozinho a cada 6 horas · 16/10 às 21:06</sub>
+<sub>✨ feat · 🐛 fix · 🧪 test · 📝 docs · 🔧 chore/build/ci · ♻️ refactor | 🤖 atualizado sozinho a cada 6 horas · 16/10 às 21:46</sub>
 
 </details>
 <!-- AUTO:atividade:END -->
@@ -172,14 +198,21 @@ flowchart LR
     A["💻 git commit<br/>em qualquer projeto"] -->|hook post-commit| B["🧠 Obsidian<br/>diário + nota do projeto"]
     B -->|régua, checklist, estudos| C["📦 progresso.json"]
     C -->|git push| D["⚙️ GitHub Actions<br/>a cada 6h"]
-    D --> E["🌐 este README<br/>banner, gráficos, cobrinha"]
+    D --> E["🌐 este README<br/>números, pulso, gráficos, cobrinha"]
+    click E "https://github.com/renanbarrostech-cmd" _blank
 ```
 
 <img src="assets/divisor.svg" width="100%" alt="">
 
 ## 🧭 Trajetória
 
-<img src="assets/trajetoria.svg" width="100%" alt="Minha trajetória: 2023 primeiro emprego, 2024 graduação em GTI, 2025 Full Stack Club, 2026 formação DevClub e RKF Bank, agora rumo ao Pleno">
+<img src="assets/trajetoria.svg" width="100%" alt="Minha história em cenas: 2023 primeiro emprego, 2024 graduação em GTI, 2025 Full Stack Club, 2026 formação DevClub e RKF Bank, agora rumo ao Pleno">
+
+<div align="center">
+
+<img src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=renanbarrostech-cmd&layout=donut&langs_count=6&hide_border=true&bg_color=0D1117&title_color=8B5CF6&text_color=E6EDF3" alt="Linguagens">
+
+</div>
 
 > Osasco, SP. Dev Full Stack em transição de carreira. Sempre estudando, sempre entregando.
 
@@ -187,8 +220,35 @@ Entrei no mercado em **2023 como jovem aprendiz** numa transportadora. Em três 
 
 Em paralelo, estudo desenvolvimento todos os dias: **Gestão da Tecnologia da Informação** na Estácio, a **Formação Full Stack do DevClub** (140 h) e as formações do **Full Stack Club**. Hoje faço o **frontend do [RKF Bank](#-projeto-atual--rkf-bank)** em dupla com o [Kevin Richard](https://github.com/k3vinrich4rd).
 
+> *Primeiro, resolva o problema. Depois, escreva o código.*
+
 <details>
-<summary><b>📅 Ver minha linha do tempo no GitHub</b></summary>
+<summary><b>📍 De onde eu codo (mapa interativo: arraste e dê zoom)</b></summary>
+<br>
+
+```geojson
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Osasco, SP",
+        "description": "Renan Barros — Dev Full Stack",
+        "marker-color": "#8B5CF6",
+        "marker-size": "large",
+        "marker-symbol": "rocket"
+      },
+      "geometry": { "type": "Point", "coordinates": [-46.7917, -23.5329] }
+    }
+  ]
+}
+```
+
+</details>
+
+<details>
+<summary><b>📅 Ver minha linha do tempo</b></summary>
 <br>
 
 ```mermaid
@@ -196,13 +256,14 @@ timeline
     title Da planilha ao banco digital
     2023 : Jovem aprendiz numa transportadora
     2024 : Graduação em GTI (Estácio)
-         : Duas promoções no trabalho
+         : Auxiliar de escritório e auxiliar financeiro
     2025 : Full Stack Club
          : React, Node.js e projetos do zero ao deploy
     2026 : Formação Full Stack DevClub (140 h)
-         : Campo Minado, Task Manager, Treinos API
-         : BellaFlow com Next.js, Prisma e n8n
+         : Campo Minado, Nimbus Atlas, Task Manager
+         : Treinos API com IA e BellaFlow com n8n
          : RKF Bank - frontend em dupla
+         : Assistente financeiro
 ```
 
 </details>
@@ -211,47 +272,129 @@ timeline
 
 ## 🚀 Sobre mim
 
+<img src="assets/sobre-mim.svg" width="100%" alt="Arquivo renan.ts aberto numa IDE, linha por linha">
+
+<details>
+<summary><b>📄 Ver como texto (para copiar)</b></summary>
+<br>
+
 ```ts
 const renan = {
   nome: "Renan Barros",
   cidade: "Osasco, SP",
-  papel: "Desenvolvedor Full Stack (Junior → Pleno)",
-  stack: ["Next.js", "React", "TypeScript", "Node.js", "PostgreSQL", "Prisma"],
-  foco: ["frontend que vira produto", "APIs tipadas", "segurança desde o início"],
-  aprendendo: ["testes no frontend", "CI/CD", "performance", "inglês técnico"],
-  principio: "Primeiro, resolva o problema. Depois, escreva o código.",
+  papel: "Dev Full Stack · Junior → Pleno",
+  stack: ["Next.js", "React", "TypeScript", "Node.js", "PostgreSQL"],
+  aprendendo: ["testes no front", "CI/CD", "performance", "inglês"],
+  veioDe: "planilhas, notas fiscais e faturamento",
 } as const;
+
+export function proximoPasso() {
+  return "Entregar o MVP do RKF Bank e chegar ao Pleno.";
+}
 ```
+
+</details>
 
 <img src="assets/divisor.svg" width="100%" alt="">
 
 ## 🏦 Projeto atual — RKF Bank
+
+[![Último commit](https://img.shields.io/github/last-commit/k3vinrich4rd/rkf_bank/develop?style=flat-square&label=%C3%BAltimo%20commit&color=8B5CF6)](https://github.com/k3vinrich4rd/rkf_bank/commits/develop)
+[![Commits por mês](https://img.shields.io/github/commit-activity/m/k3vinrich4rd/rkf_bank?style=flat-square&label=commits%2Fm%C3%AAs&color=06B6D4)](https://github.com/k3vinrich4rd/rkf_bank/pulse)
+[![PRs fechados](https://img.shields.io/github/issues-pr-closed/k3vinrich4rd/rkf_bank?style=flat-square&label=PRs%20fechados&color=6D28D9)](https://github.com/k3vinrich4rd/rkf_bank/pulls?q=is%3Apr+is%3Aclosed)
 
 ![Next.js](https://img.shields.io/badge/Next.js-16-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-19-149ECA?style=flat-square&logo=react&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 ![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-000000?style=flat-square&logo=shadcnui&logoColor=white)
-![Backend](https://img.shields.io/badge/backend-Java%20%2B%20Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![Backend](https://img.shields.io/badge/backend%20(Kevin)-Java%20%2B%20Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
 
 > Banco digital **full stack** feito em dupla. **Eu cuido do frontend** em Next.js: landing page, cadastro com endereço pelo CEP, abertura de conta e tela da conta. O **[Kevin Richard](https://github.com/k3vinrich4rd)** cuida do backend em Java e Spring Boot. A meta é o MVP no ar até **31/10/2026**.
 
 <a href="https://github.com/k3vinrich4rd/rkf_bank/tree/develop/frontend"><img src="assets/botoes/ver-codigo.svg" alt="📂 Ver código"></a>
 <a href="https://github.com/k3vinrich4rd/rkf_bank#readme"><img src="assets/botoes/ler-readme.svg" alt="📖 Ler o README"></a>
 
-**🧭 Como uma tela conversa com o backend**
+<img src="assets/terminal.svg" width="100%" alt="Terminal mostrando os meus últimos commits no RKF Bank">
+
+<img src="assets/fluxo-cadastro.svg" width="100%" alt="Animação: um cadastro percorre a tela, o hook, o cliente HTTP, o proxy do Next, o Spring Boot, o ViaCEP e o MySQL, e volta com 201 Created">
+
+<details>
+<summary><b>🗺️ Mapa das telas (o que está pronto e o que falta)</b></summary>
+<br>
 
 ```mermaid
 flowchart LR
-    U["👤 Navegador"] -->|páginas| N["⚛️ Next.js 16<br/>App Router"]
-    N -->|"/api/* (proxy)"| P["🔁 Proxy do Next"]
-    P -->|REST| B["☕ Spring Boot<br/>(Kevin)"]
-    B --> DB[("🐬 MySQL")]
-    B -->|CEP| V["📮 ViaCEP"]
-    N -.->|lib/logger com máscara| L["📝 Logs sem dados pessoais"]
+    L["🏠 Landing"] --> LG["🔐 Login"]
+    L --> C["📝 Cadastro<br/>(CEP → endereço)"]
+    C --> A["🏦 Abrir conta"]
+    A --> T["💳 Tela da conta<br/>(saldo e ID)"]
+    LG -.-> T
+    T --> D["➕ Depósito"]
+    T --> S["➖ Saque"]
+    T --> TR["🔁 Transferência"]
+    T --> E["📄 Extrato"]
+    classDef pronto fill:#16a34a22,stroke:#16a34a,color:#16a34a
+    classDef falta fill:#64748b22,stroke:#64748b,stroke-dasharray:4 3
+    class L,C,A,T pronto
+    class D,S,TR,E falta
+    class LG falta
 ```
 
-**🖥️ O que eu entreguei no frontend**
+<sub>Verde: pronto · Tracejado: falta. A página de login existe só no visual; a integração com o JWT do backend é o próximo passo.</sub>
+
+</details>
+
+<details>
+<summary><b>🧭 Jornada do cliente no front</b></summary>
+<br>
+
+```mermaid
+journey
+    title Do cadastro ao extrato (nota = quão pronta está a tela)
+    section Cadastro
+      Informa nome, CPF, contato e CEP: 5: Cliente
+      Endereço chega pelo ViaCEP: 5: API
+    section Conta
+      Abre a conta corrente: 5: Cliente
+      Vê saldo, dados e ID para receber: 5: Cliente
+    section Dinheiro
+      Deposita, saca e transfere: 2: Cliente
+    section Extrato
+      Vê os lançamentos: 2: Cliente
+```
+
+</details>
+
+<details>
+<summary><b>🔁 O cadastro com CEP, passo a passo</b></summary>
+<br>
+
+```mermaid
+sequenceDiagram
+    autonumber
+    actor U as Cliente
+    participant T as Tela de cadastro
+    participant H as useCadastroForm
+    participant N as Proxy /api (Next)
+    participant B as Spring Boot (Kevin)
+    participant V as ViaCEP
+    U->>T: preenche nome, CPF, contato e CEP
+    T->>H: valida e aplica máscaras
+    H->>N: POST /api/clientes
+    N->>B: POST /clientes
+    B->>V: busca o endereço pelo CEP
+    V-->>B: logradouro, cidade, UF
+    B-->>N: 201 Created + cliente
+    N-->>H: cliente criado
+    H-->>T: tela de sucesso → abrir conta
+```
+
+</details>
+
+<details>
+<summary><b>🖥️ O que eu entreguei no frontend</b></summary>
+<br>
 
 | Entrega | O que tem de interessante |
 | --- | --- |
@@ -261,8 +404,13 @@ flowchart LR
 | Tela da conta | saldo, dados e o ID para receber transferências |
 | Camada de API | um cliente HTTP tipado + serviços de clientes e contas, chamados por um proxy no Next |
 | Logs | todo log passa por um logger que mascara dados pessoais (LGPD) |
+| Documentação | revisão da documentação do projeto inteiro e do contrato da API |
 
-**🔎 Logs que não vazam dados pessoais**
+</details>
+
+<details>
+<summary><b>🔎 Logs que não vazam dados pessoais</b></summary>
+<br>
 
 ```ts
 // frontend/lib/logger/mascara.ts (trecho)
@@ -273,7 +421,28 @@ cpf: (valor) => {
 },
 ```
 
-**🤝 Como a dupla se organiza**
+O logger aplica a máscara **antes** de escrever: quem loga não precisa lembrar. Para proteger um campo novo, basta adicioná-lo ao mapa de máscaras.
+
+</details>
+
+<details>
+<summary><b>🧪 Qualidade no front: o que já tem e o que falta (sem maquiagem)</b></summary>
+<br>
+
+| Prática | Situação |
+| --- | --- |
+| TypeScript + ESLint (`eslint-config-next`) | ✅ em todo o frontend |
+| Cliente HTTP único e tipos do contrato da API | ✅ `lib/api/types.ts` |
+| Logs com dados pessoais mascarados | ✅ `lib/logger` |
+| Testes automatizados no front | 🔄 próximo passo: Vitest + Testing Library |
+| CI do front (lint, typecheck e build em todo PR) | ⏳ planejado (o backend já tem) |
+| Dependências sem CVE conhecida | ⏳ CVEs do `next` 16.3.6 mapeadas, correção pendente |
+
+</details>
+
+<details>
+<summary><b>🤝 Como a dupla se organiza</b></summary>
+<br>
 
 - **Contrato da API** é a regra entre front e back: se uma rota muda, o contrato muda no mesmo PR.
 - **Decisões registradas** com data e motivo (`planing/decisoes.md`), e **recados** entre nós dois (`planing/recados.md`).
@@ -306,27 +475,131 @@ gitGraph
     commit id: "tela da conta"
 ```
 
+</details>
+
 <img src="assets/divisor.svg" width="100%" alt="">
 
 ## 🗂️ Projetos em destaque
 
+### ⭐ Os dois que eu mostraria numa entrevista
+
 <div align="center">
 
+<a href="https://github.com/k3vinrich4rd/rkf_bank"><img src="https://github-readme-stats-salesp07.vercel.app/api/pin/?username=k3vinrich4rd&repo=rkf_bank&hide_border=true&bg_color=0D1117&title_color=8B5CF6&icon_color=06B6D4&text_color=94A3B8" alt="RKF Bank"></a>
 <a href="https://github.com/renanbarrostech-cmd/treinos-api"><img src="https://github-readme-stats-salesp07.vercel.app/api/pin/?username=renanbarrostech-cmd&repo=treinos-api&hide_border=true&bg_color=0D1117&title_color=8B5CF6&icon_color=06B6D4&text_color=94A3B8" alt="Treinos API"></a>
+
+</div>
+
+|  | 🏦 [RKF Bank](https://github.com/k3vinrich4rd/rkf_bank) | 🏋️ [Treinos API](https://github.com/renanbarrostech-cmd/treinos-api) |
+| --- | --- | --- |
+| **O que é** | banco digital full stack, feito em dupla | API de planos de treino com um personal trainer de IA (bootcamp Full Stack Club) |
+| **Meu papel** | todo o frontend | projeto individual |
+| **Domínio** | cliente, conta, saldo, depósito, saque, transferência, extrato | usuário, plano de treino, dias, sessões e estatísticas |
+| **O que mostra** | proxy de API no Next, cliente HTTP tipado, logs com máscara (LGPD), trabalho em dupla com PRs | regras em *use cases* separadas das rotas, schemas Zod, documentação interativa e IA com *tool calling* |
+| **Stack** | Next.js 16 · React 19 · TypeScript · Tailwind 4 · shadcn/ui | Fastify · Zod · Prisma · Better Auth · AI SDK |
+| **Ver primeiro** | [`lib/api/client.ts`](https://github.com/k3vinrich4rd/rkf_bank/tree/develop/frontend/lib/api) · [`lib/logger`](https://github.com/k3vinrich4rd/rkf_bank/tree/develop/frontend/lib/logger) | [`src/routes/ai.ts`](https://github.com/renanbarrostech-cmd/treinos-api/blob/HEAD/src/routes/ai.ts) · [`src/usecases`](https://github.com/renanbarrostech-cmd/treinos-api/tree/HEAD/src/usecases) |
+
+### 🧩 Outros projetos que valem o clique
+
+<div align="center">
+
 <a href="https://github.com/renanbarrostech-cmd/bella-flow"><img src="https://github-readme-stats-salesp07.vercel.app/api/pin/?username=renanbarrostech-cmd&repo=bella-flow&hide_border=true&bg_color=0D1117&title_color=8B5CF6&icon_color=06B6D4&text_color=94A3B8" alt="BellaFlow"></a>
 <a href="https://github.com/renanbarrostech-cmd/treinos-frontend"><img src="https://github-readme-stats-salesp07.vercel.app/api/pin/?username=renanbarrostech-cmd&repo=treinos-frontend&hide_border=true&bg_color=0D1117&title_color=8B5CF6&icon_color=06B6D4&text_color=94A3B8" alt="Treinos Frontend"></a>
 <a href="https://github.com/renanbarrostech-cmd/Nimbus-Atlas"><img src="https://github-readme-stats-salesp07.vercel.app/api/pin/?username=renanbarrostech-cmd&repo=Nimbus-Atlas&hide_border=true&bg_color=0D1117&title_color=8B5CF6&icon_color=06B6D4&text_color=94A3B8" alt="Nimbus Atlas"></a>
+<a href="https://github.com/renanbarrostech-cmd/FSC-TASK-MANEGER-BACKEND"><img src="https://github-readme-stats-salesp07.vercel.app/api/pin/?username=renanbarrostech-cmd&repo=FSC-TASK-MANEGER-BACKEND&hide_border=true&bg_color=0D1117&title_color=8B5CF6&icon_color=06B6D4&text_color=94A3B8" alt="Task Manager"></a>
 
 </div>
 
 |  | Projeto | Por que vale a pena olhar | Stack |
 | --- | --- | --- | --- |
-| 🏋️ | **[Treinos API](https://github.com/renanbarrostech-cmd/treinos-api)** | API tipada de ponta a ponta, com documentação interativa e uma rota de IA | Fastify · Zod · Prisma · Better Auth · AI SDK |
+| 💇 | **[BellaFlow](https://github.com/renanbarrostech-cmd/bella-flow)** | automação de atendimento para salões, com chat processado pelo n8n | Next.js 16 · Prisma 7 · Neon · n8n |
 | 📱 | **[Treinos Frontend](https://github.com/renanbarrostech-cmd/treinos-frontend)** | cliente HTTP gerado direto da especificação da API (Orval) | Next.js · TypeScript · Tailwind |
-| 💇 | **[BellaFlow](https://github.com/renanbarrostech-cmd/bella-flow)** | demonstração de automação de atendimento para salões, com chat processado pelo n8n | Next.js 16 · Prisma 7 · Neon · n8n |
-| 🌩️ | **[Nimbus Atlas](https://github.com/renanbarrostech-cmd/Nimbus-Atlas)** | países e clima em tempo real consumindo APIs públicas | HTML · CSS · JavaScript |
+| 🌩️ | **[Nimbus Atlas](https://github.com/renanbarrostech-cmd/Nimbus-Atlas)** | países e clima em tempo real com duas APIs públicas | HTML · CSS · JavaScript |
+| ✅ | **[Task Manager](https://github.com/renanbarrostech-cmd/FSC-TASK-MANEGER-BACKEND)** | API REST com controllers, models e tratamento de erros separados | Node.js · Express · MongoDB |
 | ⚽ | **[Fut de Sexta](https://github.com/renanbarrostech-cmd/futdelta)** | sorteio dos times da pelada: marca quem vem e sorteia em um toque | HTML · CSS · JavaScript |
-| 💣 | **[Campo Minado](https://github.com/renanbarrostech-cmd/Campo-Minado)** | flood fill recursivo, sem dependências, [jogável no navegador](https://campo-minado-cyan.vercel.app) | JavaScript |
+| 💣 | **[Campo Minado](https://github.com/renanbarrostech-cmd/Campo-Minado)** | flood fill recursivo, sem dependências, [jogável](https://campo-minado-cyan.vercel.app) | JavaScript |
+
+<details>
+<summary><b>🏋️ Treinos API — um personal trainer de IA que chama funções de verdade</b></summary>
+<br>
+
+![Fastify](https://img.shields.io/badge/Fastify-5-000000?style=flat-square&logo=fastify&logoColor=white)
+![Zod](https://img.shields.io/badge/Zod-4-3E67B1?style=flat-square&logo=zod&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-7-2D3748?style=flat-square&logo=prisma&logoColor=white)
+![Better Auth](https://img.shields.io/badge/Better%20Auth-1.4-000000?style=flat-square)
+![AI SDK](https://img.shields.io/badge/AI%20SDK-6-000000?style=flat-square&logo=vercel&logoColor=white)
+
+| Funcionalidade | Detalhe |
+| --- | --- |
+| Planos de treino | criar, listar e detalhar planos, com dias e sessões de treino |
+| Sessões | iniciar e atualizar a sessão de um dia de treino |
+| Estatísticas e home | dados agregados para o painel do usuário |
+| Personal trainer de IA | o chat chama *tools* tipadas: lê os dados do usuário, salva peso e altura e cria o plano |
+| Arquitetura | rotas finas e regras em *use cases* (`CreateWorkoutPlan`, `StartWorkoutSession`…) |
+| Documentação | Swagger + referência interativa com Scalar |
+
+```mermaid
+sequenceDiagram
+    actor U as Usuário
+    participant IA as Chat de IA
+    participant T as Tools (use cases)
+    U->>IA: "quero um treino"
+    IA->>T: getUserTrainData
+    T-->>IA: dados do usuário (ou vazio)
+    IA->>U: pergunta objetivo e dias livres
+    U->>IA: responde
+    IA->>T: createWorkoutPlan
+    T-->>IA: plano salvo no banco
+    IA-->>U: plano explicado em linguagem simples
+```
+
+🔗 **[treinos-api](https://github.com/renanbarrostech-cmd/treinos-api)** · **[treinos-frontend](https://github.com/renanbarrostech-cmd/treinos-frontend)**
+
+</details>
+
+<details>
+<summary><b>💇 BellaFlow — automação de atendimento para salões</b></summary>
+<br>
+
+| Tela | O que faz |
+| --- | --- |
+| Dashboard | cards de indicadores, gráfico de crescimento e agenda do dia |
+| Agendamentos | calendário do mês e tabela completa de horários |
+| Clientes | base com WhatsApp, último atendimento e serviços |
+| Automação n8n | explica o fluxo passo a passo e mostra o status da conexão |
+| Conversas | chat estilo WhatsApp ligado de verdade ao backend |
+
+**O detalhe de produto:** com o n8n configurado, a mensagem vai para o workflow, que responde por um callback. Sem ele, o próprio app responde por regras de palavra-chave, sem custo de IA. Assim a demonstração funciona na frente do cliente mesmo antes da integração.
+
+🔗 **[bella-flow](https://github.com/renanbarrostech-cmd/bella-flow)**
+
+</details>
+
+<details>
+<summary><b>🌩️ Nimbus Atlas — países e clima em tempo real</b></summary>
+<br>
+
+- Busca um país pelo nome e mostra bandeira, capital, população, região e moeda (**REST Countries API**).
+- Consulta o clima da capital sob demanda pelas coordenadas (**Open-Meteo API**).
+- Sem framework: HTML, CSS e JavaScript puro, com tema escuro.
+
+🔗 **[Nimbus-Atlas](https://github.com/renanbarrostech-cmd/Nimbus-Atlas)**
+
+</details>
+
+<details>
+<summary><b>📦 Outros repositórios que contam a minha evolução</b></summary>
+<br>
+
+| Tema | Repositórios |
+| --- | --- |
+| Fundamentos de JavaScript | [Lógica com JavaScript (livro)](https://github.com/renanbarrostech-cmd/Logica-com-JavaScript-livro) · [JavaScript ES6+](https://github.com/renanbarrostech-cmd/CURSO_JAVASCRIPT_ES6-) · [Calculator](https://github.com/renanbarrostech-cmd/Calculator) · [Whiteboard](https://github.com/renanbarrostech-cmd/Whiteboard) |
+| Node.js | [Node.js assíncrono](https://github.com/renanbarrostech-cmd/NODE_JS_ASSINCRONO) · [Módulos no Node.js](https://github.com/renanbarrostech-cmd/MODULOS_NO_NODE_JS) · [Task Manager (back)](https://github.com/renanbarrostech-cmd/FSC-TASK-MANEGER-BACKEND) |
+| React e Next.js | [Task Manager (front)](https://github.com/renanbarrostech-cmd/FSC-TASK-MANEGER-FRONTEND) · [Treinos Frontend](https://github.com/renanbarrostech-cmd/treinos-frontend) · [DevBarros Vendas](https://github.com/renanbarrostech-cmd/devbarros-vendas) · [Mini game](https://github.com/renanbarrostech-cmd/mini-game) · [Portfólio v1](https://github.com/renanbarrostech-cmd/portfolio-devbarrostech) |
+| Pensando como produto | [BellaFlow](https://github.com/renanbarrostech-cmd/bella-flow) · [Vertex Systems](https://github.com/renanbarrostech-cmd/Vertex-Systems) (requisitos de cliente simulados) · [Fut de Sexta](https://github.com/renanbarrostech-cmd/futdelta) · [Nimbus Atlas](https://github.com/renanbarrostech-cmd/Nimbus-Atlas) |
+| Ferramentas | [Curso de Git e GitHub](https://github.com/renanbarrostech-cmd/CURSO_GIT_E_GITHUB) |
+
+</details>
 
 <!-- AUTO:repos:START -->
 <details>
@@ -340,6 +613,610 @@ pie showData
     "TypeScript" : 6
     "HTML" : 4
     "CSS" : 2
+```
+
+```mermaid
+xychart-beta
+    title "Repositórios criados por mês"
+    x-axis ["mai/26", "jun/26", "jul/26", "ago/26", "set/26", "out/26"]
+    y-axis "Repositórios" 0 --> 12
+    bar [2, 0, 2, 4, 10, 1]
+    line [2, 0, 2, 4, 10, 1]
+```
+
+**🧊 Os mesmos números em 3D** (gire com o mouse, dê zoom com a roda). Da esquerda para a direita: mai/26, jun/26, jul/26, ago/26, set/26, out/26.
+
+```stl
+solid repositorios_por_mes
+  facet normal 0 0 -1
+    outer loop
+      vertex -4.000 -4.000 -1.000
+      vertex -4.000 12.000 -1.000
+      vertex 72.000 12.000 -1.000
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex -4.000 -4.000 -1.000
+      vertex 72.000 12.000 -1.000
+      vertex 72.000 -4.000 -1.000
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex -4.000 -4.000 0.000
+      vertex 72.000 -4.000 0.000
+      vertex 72.000 12.000 0.000
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex -4.000 -4.000 0.000
+      vertex 72.000 12.000 0.000
+      vertex -4.000 12.000 0.000
+    endloop
+  endfacet
+  facet normal 0 -1 0
+    outer loop
+      vertex -4.000 -4.000 -1.000
+      vertex 72.000 -4.000 -1.000
+      vertex 72.000 -4.000 0.000
+    endloop
+  endfacet
+  facet normal 0 -1 0
+    outer loop
+      vertex -4.000 -4.000 -1.000
+      vertex 72.000 -4.000 0.000
+      vertex -4.000 -4.000 0.000
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex -4.000 12.000 -1.000
+      vertex -4.000 12.000 0.000
+      vertex 72.000 12.000 0.000
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex -4.000 12.000 -1.000
+      vertex 72.000 12.000 0.000
+      vertex 72.000 12.000 -1.000
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex -4.000 -4.000 -1.000
+      vertex -4.000 -4.000 0.000
+      vertex -4.000 12.000 0.000
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex -4.000 -4.000 -1.000
+      vertex -4.000 12.000 0.000
+      vertex -4.000 12.000 -1.000
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 72.000 -4.000 -1.000
+      vertex 72.000 12.000 -1.000
+      vertex 72.000 12.000 0.000
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 72.000 -4.000 -1.000
+      vertex 72.000 12.000 0.000
+      vertex 72.000 -4.000 0.000
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex 0.000 0.000 0.000
+      vertex 0.000 8.000 0.000
+      vertex 8.000 8.000 0.000
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex 0.000 0.000 0.000
+      vertex 8.000 8.000 0.000
+      vertex 8.000 0.000 0.000
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 0.000 0.000 6.400
+      vertex 8.000 0.000 6.400
+      vertex 8.000 8.000 6.400
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 0.000 0.000 6.400
+      vertex 8.000 8.000 6.400
+      vertex 0.000 8.000 6.400
+    endloop
+  endfacet
+  facet normal 0 -1 0
+    outer loop
+      vertex 0.000 0.000 0.000
+      vertex 8.000 0.000 0.000
+      vertex 8.000 0.000 6.400
+    endloop
+  endfacet
+  facet normal 0 -1 0
+    outer loop
+      vertex 0.000 0.000 0.000
+      vertex 8.000 0.000 6.400
+      vertex 0.000 0.000 6.400
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 0.000 8.000 0.000
+      vertex 0.000 8.000 6.400
+      vertex 8.000 8.000 6.400
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 0.000 8.000 0.000
+      vertex 8.000 8.000 6.400
+      vertex 8.000 8.000 0.000
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex 0.000 0.000 0.000
+      vertex 0.000 0.000 6.400
+      vertex 0.000 8.000 6.400
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex 0.000 0.000 0.000
+      vertex 0.000 8.000 6.400
+      vertex 0.000 8.000 0.000
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 8.000 0.000 0.000
+      vertex 8.000 8.000 0.000
+      vertex 8.000 8.000 6.400
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 8.000 0.000 0.000
+      vertex 8.000 8.000 6.400
+      vertex 8.000 0.000 6.400
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex 12.000 0.000 0.000
+      vertex 12.000 8.000 0.000
+      vertex 20.000 8.000 0.000
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex 12.000 0.000 0.000
+      vertex 20.000 8.000 0.000
+      vertex 20.000 0.000 0.000
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 12.000 0.000 0.600
+      vertex 20.000 0.000 0.600
+      vertex 20.000 8.000 0.600
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 12.000 0.000 0.600
+      vertex 20.000 8.000 0.600
+      vertex 12.000 8.000 0.600
+    endloop
+  endfacet
+  facet normal 0 -1 0
+    outer loop
+      vertex 12.000 0.000 0.000
+      vertex 20.000 0.000 0.000
+      vertex 20.000 0.000 0.600
+    endloop
+  endfacet
+  facet normal 0 -1 0
+    outer loop
+      vertex 12.000 0.000 0.000
+      vertex 20.000 0.000 0.600
+      vertex 12.000 0.000 0.600
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 12.000 8.000 0.000
+      vertex 12.000 8.000 0.600
+      vertex 20.000 8.000 0.600
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 12.000 8.000 0.000
+      vertex 20.000 8.000 0.600
+      vertex 20.000 8.000 0.000
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex 12.000 0.000 0.000
+      vertex 12.000 0.000 0.600
+      vertex 12.000 8.000 0.600
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex 12.000 0.000 0.000
+      vertex 12.000 8.000 0.600
+      vertex 12.000 8.000 0.000
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 20.000 0.000 0.000
+      vertex 20.000 8.000 0.000
+      vertex 20.000 8.000 0.600
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 20.000 0.000 0.000
+      vertex 20.000 8.000 0.600
+      vertex 20.000 0.000 0.600
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex 24.000 0.000 0.000
+      vertex 24.000 8.000 0.000
+      vertex 32.000 8.000 0.000
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex 24.000 0.000 0.000
+      vertex 32.000 8.000 0.000
+      vertex 32.000 0.000 0.000
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 24.000 0.000 6.400
+      vertex 32.000 0.000 6.400
+      vertex 32.000 8.000 6.400
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 24.000 0.000 6.400
+      vertex 32.000 8.000 6.400
+      vertex 24.000 8.000 6.400
+    endloop
+  endfacet
+  facet normal 0 -1 0
+    outer loop
+      vertex 24.000 0.000 0.000
+      vertex 32.000 0.000 0.000
+      vertex 32.000 0.000 6.400
+    endloop
+  endfacet
+  facet normal 0 -1 0
+    outer loop
+      vertex 24.000 0.000 0.000
+      vertex 32.000 0.000 6.400
+      vertex 24.000 0.000 6.400
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 24.000 8.000 0.000
+      vertex 24.000 8.000 6.400
+      vertex 32.000 8.000 6.400
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 24.000 8.000 0.000
+      vertex 32.000 8.000 6.400
+      vertex 32.000 8.000 0.000
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex 24.000 0.000 0.000
+      vertex 24.000 0.000 6.400
+      vertex 24.000 8.000 6.400
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex 24.000 0.000 0.000
+      vertex 24.000 8.000 6.400
+      vertex 24.000 8.000 0.000
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 32.000 0.000 0.000
+      vertex 32.000 8.000 0.000
+      vertex 32.000 8.000 6.400
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 32.000 0.000 0.000
+      vertex 32.000 8.000 6.400
+      vertex 32.000 0.000 6.400
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex 36.000 0.000 0.000
+      vertex 36.000 8.000 0.000
+      vertex 44.000 8.000 0.000
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex 36.000 0.000 0.000
+      vertex 44.000 8.000 0.000
+      vertex 44.000 0.000 0.000
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 36.000 0.000 12.800
+      vertex 44.000 0.000 12.800
+      vertex 44.000 8.000 12.800
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 36.000 0.000 12.800
+      vertex 44.000 8.000 12.800
+      vertex 36.000 8.000 12.800
+    endloop
+  endfacet
+  facet normal 0 -1 0
+    outer loop
+      vertex 36.000 0.000 0.000
+      vertex 44.000 0.000 0.000
+      vertex 44.000 0.000 12.800
+    endloop
+  endfacet
+  facet normal 0 -1 0
+    outer loop
+      vertex 36.000 0.000 0.000
+      vertex 44.000 0.000 12.800
+      vertex 36.000 0.000 12.800
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 36.000 8.000 0.000
+      vertex 36.000 8.000 12.800
+      vertex 44.000 8.000 12.800
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 36.000 8.000 0.000
+      vertex 44.000 8.000 12.800
+      vertex 44.000 8.000 0.000
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex 36.000 0.000 0.000
+      vertex 36.000 0.000 12.800
+      vertex 36.000 8.000 12.800
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex 36.000 0.000 0.000
+      vertex 36.000 8.000 12.800
+      vertex 36.000 8.000 0.000
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 44.000 0.000 0.000
+      vertex 44.000 8.000 0.000
+      vertex 44.000 8.000 12.800
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 44.000 0.000 0.000
+      vertex 44.000 8.000 12.800
+      vertex 44.000 0.000 12.800
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex 48.000 0.000 0.000
+      vertex 48.000 8.000 0.000
+      vertex 56.000 8.000 0.000
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex 48.000 0.000 0.000
+      vertex 56.000 8.000 0.000
+      vertex 56.000 0.000 0.000
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 48.000 0.000 32.000
+      vertex 56.000 0.000 32.000
+      vertex 56.000 8.000 32.000
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 48.000 0.000 32.000
+      vertex 56.000 8.000 32.000
+      vertex 48.000 8.000 32.000
+    endloop
+  endfacet
+  facet normal 0 -1 0
+    outer loop
+      vertex 48.000 0.000 0.000
+      vertex 56.000 0.000 0.000
+      vertex 56.000 0.000 32.000
+    endloop
+  endfacet
+  facet normal 0 -1 0
+    outer loop
+      vertex 48.000 0.000 0.000
+      vertex 56.000 0.000 32.000
+      vertex 48.000 0.000 32.000
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 48.000 8.000 0.000
+      vertex 48.000 8.000 32.000
+      vertex 56.000 8.000 32.000
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 48.000 8.000 0.000
+      vertex 56.000 8.000 32.000
+      vertex 56.000 8.000 0.000
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex 48.000 0.000 0.000
+      vertex 48.000 0.000 32.000
+      vertex 48.000 8.000 32.000
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex 48.000 0.000 0.000
+      vertex 48.000 8.000 32.000
+      vertex 48.000 8.000 0.000
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 56.000 0.000 0.000
+      vertex 56.000 8.000 0.000
+      vertex 56.000 8.000 32.000
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 56.000 0.000 0.000
+      vertex 56.000 8.000 32.000
+      vertex 56.000 0.000 32.000
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex 60.000 0.000 0.000
+      vertex 60.000 8.000 0.000
+      vertex 68.000 8.000 0.000
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex 60.000 0.000 0.000
+      vertex 68.000 8.000 0.000
+      vertex 68.000 0.000 0.000
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 60.000 0.000 3.200
+      vertex 68.000 0.000 3.200
+      vertex 68.000 8.000 3.200
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 60.000 0.000 3.200
+      vertex 68.000 8.000 3.200
+      vertex 60.000 8.000 3.200
+    endloop
+  endfacet
+  facet normal 0 -1 0
+    outer loop
+      vertex 60.000 0.000 0.000
+      vertex 68.000 0.000 0.000
+      vertex 68.000 0.000 3.200
+    endloop
+  endfacet
+  facet normal 0 -1 0
+    outer loop
+      vertex 60.000 0.000 0.000
+      vertex 68.000 0.000 3.200
+      vertex 60.000 0.000 3.200
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 60.000 8.000 0.000
+      vertex 60.000 8.000 3.200
+      vertex 68.000 8.000 3.200
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 60.000 8.000 0.000
+      vertex 68.000 8.000 3.200
+      vertex 68.000 8.000 0.000
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex 60.000 0.000 0.000
+      vertex 60.000 0.000 3.200
+      vertex 60.000 8.000 3.200
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex 60.000 0.000 0.000
+      vertex 60.000 8.000 3.200
+      vertex 60.000 8.000 0.000
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 68.000 0.000 0.000
+      vertex 68.000 8.000 0.000
+      vertex 68.000 8.000 3.200
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 68.000 0.000 0.000
+      vertex 68.000 8.000 3.200
+      vertex 68.000 0.000 3.200
+    endloop
+  endfacet
+endsolid repositorios_por_mes
 ```
 
 | Repositório | O que é | Linguagem | Último commit |
@@ -364,7 +1241,7 @@ pie showData
 | [portfolio-devbarrostech](https://github.com/renanbarrostech-cmd/portfolio-devbarrostech) | Primeira versão do portfólio em Next.js (maio/2026). | TypeScript | 2026-05-14 |
 | [mini-game](https://github.com/renanbarrostech-cmd/mini-game) | — | TypeScript | 2026-05-14 |
 
-<sub>🤖 Lido da API do GitHub em 16/10 às 21:06.</sub>
+<sub>🤖 Lido da API do GitHub em 16/10 às 21:46.</sub>
 
 </details>
 <!-- AUTO:repos:END -->
@@ -374,6 +1251,36 @@ pie showData
 ## 📈 Junior → Pleno — onde estou
 
 > O que separa um Junior de um Pleno não é só saber mais tecnologia: é **entregar com autonomia, qualidade e visão do todo**. Esta é a minha régua, com evidências.
+
+<details>
+<summary><b>🗺️ Mapa de habilidades (minha leitura hoje)</b></summary>
+<br>
+
+```mermaid
+quadrantChart
+    title Onde investir para chegar ao Pleno
+    x-axis Pouca pratica --> Muita pratica
+    y-axis Menor impacto --> Maior impacto
+    quadrant-1 Pontos fortes
+    quadrant-2 Prioridade de estudo
+    quadrant-3 Explorar depois
+    quadrant-4 Manter afiado
+    Next.js: [0.82, 0.9]
+    TypeScript: [0.75, 0.85]
+    UI e Tailwind: [0.8, 0.55]
+    APIs em Node: [0.62, 0.7]
+    Prisma e ORM: [0.6, 0.62]
+    Better Auth: [0.55, 0.74]
+    Git em time: [0.7, 0.6]
+    IA aplicada: [0.55, 0.48]
+    Testes no front: [0.18, 0.9]
+    CI e CD: [0.15, 0.76]
+    Performance: [0.22, 0.7]
+    System design: [0.25, 0.6]
+    Ingles tecnico: [0.3, 0.66]
+```
+
+</details>
 
 <!-- AUTO:regua:START -->
 <img src="assets/progresso.svg" alt="Régua: 11 de 19 competências praticadas; MVP do RKF Bank: 8 de 20" width="100%">
@@ -464,7 +1371,7 @@ mindmap
 <img src="https://github-readme-stats-salesp07.vercel.app/api?username=renanbarrostech-cmd&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=FFFFFF&icon_color=8B5CF6&text_color=94A3B8" alt="GitHub Stats" height="165">
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=renanbarrostech-cmd&hide_border=true&background=0D1117&ring=8B5CF6&fire=06B6D4&currStreakLabel=8B5CF6&sideLabels=94A3B8&dates=94A3B8&currStreakNum=FFFFFF&sideNums=FFFFFF" alt="GitHub Streak" height="165">
 
-<img src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=renanbarrostech-cmd&layout=compact&langs_count=8&hide_border=true&bg_color=0D1117&title_color=FFFFFF&text_color=94A3B8" alt="Linguagens mais usadas">
+<img src="https://raw.githubusercontent.com/renanbarrostech-cmd/renanbarrostech-cmd/output/profile-night-rainbow.svg" alt="Meus commits em 3D" width="100%">
 
 </div>
 
@@ -480,6 +1387,7 @@ mindmap
 | 🧩 Backend | Node.js, APIs, banco e autenticação | ![](https://img.shields.io/badge/Em%20andamento-8B5CF6?style=flat-square) |
 | 🛡️ Qualidade | CI, testes e segurança de dependências | ![](https://img.shields.io/badge/Planejado-64748B?style=flat-square) |
 | 🏗️ Arquitetura | system design aplicado | ![](https://img.shields.io/badge/Em%20estudo-06B6D4?style=flat-square) |
+| 🤖 IA aplicada | tool calling, agentes e produtividade | ![](https://img.shields.io/badge/Praticando-6D28D9?style=flat-square) |
 | 🌎 Inglês | leitura técnica e conversação | ![](https://img.shields.io/badge/Em%20estudo-06B6D4?style=flat-square) |
 
 <details open>
@@ -573,6 +1481,49 @@ gantt
 
 </details>
 
+<details>
+<summary><b>⚛️ Próximo foco no frontend</b></summary>
+<br>
+
+- [x] componentes, hooks e formulários com validação;
+- [x] camada de API tipada e proxy no Next;
+- [x] logs com dados mascarados;
+- [ ] testes com Vitest e Testing Library (primeiro alvo: `use-cadastro-form`);
+- [ ] CI do front: lint, typecheck e build em todo PR;
+- [ ] login com JWT integrado ao backend;
+- [ ] performance medida com Lighthouse (LCP, CLS e INP);
+- [ ] testes end-to-end com Playwright.
+
+</details>
+
+<details>
+<summary><b>🏗️ Arquitetura — ver detalhes</b></summary>
+<br>
+
+![System Design](https://img.shields.io/badge/System%20Design-6D28D9?style=flat-square)
+![Load Balancing](https://img.shields.io/badge/Load%20Balancing-0891B2?style=flat-square)
+![AWS Fargate](https://img.shields.io/badge/AWS-Fargate-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+
+- Fiz a **Imersão Arquitetura de Software com IA** (Full Stack Club): um encurtador de URLs pensado para 11.600 leituras e 1.160 escritas por segundo, do desenho ao deploy na AWS.
+- Estimativa de capacidade, escala horizontal, balanceamento de carga e réplica de leitura.
+- Próximo passo: aplicar esse raciocínio num projeto meu, começando pelo RKF Bank.
+
+</details>
+
+<details>
+<summary><b>🤖 IA aplicada — ver detalhes</b></summary>
+<br>
+
+![AI SDK](https://img.shields.io/badge/AI%20SDK-000000?style=flat-square&logo=vercel&logoColor=white)
+![Claude Code](https://img.shields.io/badge/Claude%20Code-D97757?style=flat-square)
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
+
+- **No produto:** IA com *tool calling* na Treinos API e automação com n8n no BellaFlow.
+- **No dia a dia:** uso assistentes com regras de projeto (`CLAUDE.md`, `.claude/rules`) para manter o padrão de código, e reviso criticamente o que a IA gera.
+- **Este perfil:** o README se atualiza sozinho a partir das minhas notas no Obsidian.
+
+</details>
+
 <img src="assets/divisor.svg" width="100%" alt="">
 
 ## 🛠️ Tecnologias
@@ -582,6 +1533,44 @@ gantt
 [![Tecnologias](https://skillicons.dev/icons?i=nextjs,react,ts,js,tailwind,nodejs,prisma,postgres,mongodb,docker,git,github,vercel,vscode,figma&perline=8)](https://skillicons.dev)
 
 </div>
+
+<details>
+<summary><b>🧠 Mapa mental da stack</b></summary>
+<br>
+
+```mermaid
+mindmap
+  root((⚛️ Renan))
+    Frontend
+      Next.js 16
+      React 19
+      TypeScript
+      Tailwind CSS
+      shadcn/ui
+    Formulários
+      React Hook Form
+      Zod
+    Backend
+      Node.js
+      Fastify
+      Express
+      Better Auth
+    Dados
+      PostgreSQL e Neon
+      Prisma e Drizzle
+      MySQL
+      MongoDB
+    Entrega
+      Vercel
+      Docker
+      GitHub Actions
+    IA
+      AI SDK
+      n8n
+      Claude Code
+```
+
+</details>
 
 <details>
 <summary><b>Ver a stack por categoria</b></summary>
@@ -596,6 +1585,21 @@ gantt
 | Ferramentas | Git · GitHub · VS Code · Cursor · Claude Code · Figma · n8n |
 
 </details>
+
+<img src="assets/divisor.svg" width="100%" alt="">
+
+## 💼 Atuação profissional
+
+Atuo como **Assistente Financeiro numa transportadora em Osasco**, onde entrei como jovem aprendiz em 2023 e fui promovido quatro vezes. É lá que eu vejo, todo dia, o problema real por trás do software: rotina repetitiva, planilha que ninguém confia e dado espalhado.
+
+| Área | O que eu levo para o código |
+| --- | --- |
+| Processos | faturamento semanal, notas fiscais e agendamentos: entendo a regra de negócio antes de codar |
+| Dados | planilhas de acompanhamento: sei o valor de um dado confiável e bem organizado |
+| Entrega | quatro promoções em três anos: responsabilidade e constância |
+| Colaboração | trabalho em dupla no RKF Bank: contrato de API, PRs e decisões por escrito |
+| Evolução | estudo todos os dias: graduação, formações e projetos próprios |
+| Inglês | básico, em desenvolvimento ativo |
 
 <img src="assets/divisor.svg" width="100%" alt="">
 
@@ -628,10 +1632,26 @@ Hoje a conta aberta fica guardada no navegador e a tela da conta a recupera por 
 </details>
 
 <details>
+<summary><b>Como funciona o personal trainer de IA da Treinos API?</b></summary>
+<br>
+
+A IA não responde "de cabeça". Ela tem *tools* tipadas que chamam os mesmos *use cases* da API: primeiro `getUserTrainData` para saber se a pessoa já tem dados, depois salva peso e altura se faltar, e só então `createWorkoutPlan` grava o plano no banco. O modelo conversa; quem decide o que é salvo é o código.
+
+</details>
+
+<details>
 <summary><b>Como é trabalhar em dupla, um no front e outro no back?</b></summary>
 <br>
 
 O segredo foi **combinar antes de codar**: o contrato da API é a fonte da verdade, as decisões ficam escritas com data e motivo, e dúvidas viram recados num arquivo do repositório. Um exemplo real: eu vi que um campo do JSON não batia com o contrato (`enderecoResponseDto` × `endereco`), deixei o recado e o Kevin ajustou o backend.
+
+</details>
+
+<details>
+<summary><b>O que muda para quem vem de outra área?</b></summary>
+<br>
+
+Eu chego sabendo **por que** a tela existe. Antes de ser dev eu era o usuário: conferia nota fiscal, montava faturamento e sofria com planilha. Isso me faz perguntar "qual problema isso resolve?" antes de "qual biblioteca eu uso?".
 
 </details>
 
@@ -650,7 +1670,10 @@ O segredo foi **combinar antes de codar**: o contrato da API é a fonte da verda
 
 <div align="center">
 
-*Primeiro, resolva o problema. Depois, escreva o código.*
+<img src="assets/chamada.svg" width="100%" alt="Vamos trocar uma ideia?">
+
+<a href="https://www.linkedin.com/in/renan-costa-barros"><img src="assets/botoes/linkedin.svg" alt="💼 Conversar no LinkedIn"></a>
+<a href="mailto:renanbarros.tech@gmail.com"><img src="assets/botoes/email.svg" alt="✉️ Enviar e-mail"></a>
 
 <img src="assets/footer.svg" width="100%" alt="">
 

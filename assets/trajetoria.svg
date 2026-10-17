@@ -1,14 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="860" height="240" viewBox="0 0 860 240" role="img" aria-labelledby="t">
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="260" viewBox="0 0 860 260" role="img" aria-labelledby="t">
 <title id="t">Trajetória: 2023 Primeiro emprego, 2024 Graduação em GTI, 2025 Full Stack Club, 03/2026 Formação DevClub, 09/2026 RKF Bank, agora Rumo ao Pleno</title>
 <style>
-  :root{--bg:#ffffff;--card:#f6f8fa;--borda:#d0d7de;--texto:#1f2328;--suave:#57606a;--a1:#6d28d9;--a2:#0891b2;--a3:#7c3aed}
-  @media (prefers-color-scheme:dark){:root{--bg:#0d1117;--card:#161b22;--borda:#30363d;--texto:#e6edf3;--suave:#8b949e;--a1:#8b5cf6;--a2:#06b6d4;--a3:#a78bfa}}
-  @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+  :root{--bg:#ffffff;--card:#f6f8fa;--borda:#d0d7de;--texto:#1f2328;--suave:#57606a;--a1:#6d28d9;--a2:#0891b2;--a3:#7c3aed;
+    --ok:#1a7f37;--str:#0a7ea4;--kw:#8250df;--num:#bc4c00;--l0:#ebedf0;--l1:#ddd6fe;--l2:#a78bfa;--l3:#7c3aed;--l4:#5b21b6}
+  @media (prefers-color-scheme:dark){:root{--bg:#0d1117;--card:#161b22;--borda:#30363d;--texto:#e6edf3;--suave:#8b949e;--a1:#8b5cf6;--a2:#06b6d4;--a3:#a78bfa;
+    --ok:#3fb950;--str:#7dd3fc;--kw:#c4b5fd;--num:#fdba74;--l0:#161b22;--l1:#2e2160;--l2:#4c3ba6;--l3:#7c5cf0;--l4:#a78bfa}}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;opacity:1!important}}
   text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
   .mono{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace}
   .ano{font-size:13px;font-weight:700;fill:var(--a1)}
   .tit{font-size:14px;font-weight:700;fill:var(--texto)}
   .desc{font-size:11px;fill:var(--suave)}
+  .ic{font-size:17px}
+  .cab{font-size:16px;font-weight:700;fill:var(--texto)}
   .linha{stroke-dasharray:640;stroke-dashoffset:640;animation:risca 2.4s ease-out forwards}
   .marco{opacity:0;animation:aparece .6s ease-out forwards}
   @keyframes risca{to{stroke-dashoffset:0}}
@@ -16,49 +20,50 @@
 <defs>
   <linearGradient id="g" x1="0" x2="1" y1="0" y2="0"><stop offset="0" style="stop-color:var(--a1)"/><stop offset="1" style="stop-color:var(--a2)"/></linearGradient>
 </defs>
-<rect width="860" height="240" rx="16" style="fill:var(--bg);stroke:var(--borda)"/>
-  <line x1="115" y1="130" x2="745" y2="130" stroke-width="4" stroke-linecap="round" style="stroke:var(--borda)"/>
-  <line x1="115" y1="130" x2="745" y2="130" stroke="url(#g)" stroke-width="4" stroke-linecap="round" class="linha"/>
+<rect width="860" height="260" rx="16" style="fill:var(--bg);stroke:var(--borda)"/>
+  <text x="24" y="32" class="cab">🧭 Da planilha ao banco digital</text>
+  <line x1="115" y1="140" x2="745" y2="140" stroke-width="4" stroke-linecap="round" style="stroke:var(--borda)"/>
+  <line x1="115" y1="140" x2="745" y2="140" stroke="url(#g)" stroke-width="4" stroke-linecap="round" class="linha"/>
   <g class="marco" style="animation-delay:0.3s">
-    <circle cx="115" cy="130" r="9" stroke="url(#g)" stroke-width="3" style="fill:var(--bg)"/>
-    <circle cx="115" cy="130" r="4" style="fill:var(--a1)"/>
-    <text x="115" y="92" text-anchor="middle" class="ano">2023</text>
-    <text x="115" y="70" text-anchor="middle" class="tit">Primeiro emprego</text>
-    <text x="115" y="52" text-anchor="middle" class="desc">jovem aprendiz numa transportadora</text>
+    <circle cx="115" cy="140" r="19" stroke="url(#g)" stroke-width="3" style="fill:var(--bg)"/>
+    <text x="115" y="147" text-anchor="middle" class="ic">💼</text>
+    <text x="115" y="100" text-anchor="middle" class="ano">2023</text>
+    <text x="115" y="78" text-anchor="middle" class="tit">Primeiro emprego</text>
+    <text x="115" y="60" text-anchor="middle" class="desc">jovem aprendiz numa transportadora</text>
   </g>
   <g class="marco" style="animation-delay:0.6499999999999999s">
-    <circle cx="241" cy="130" r="9" stroke="url(#g)" stroke-width="3" style="fill:var(--bg)"/>
-    <circle cx="241" cy="130" r="4" style="fill:var(--a1)"/>
-    <text x="241" y="172" text-anchor="middle" class="ano">2024</text>
-    <text x="241" y="194" text-anchor="middle" class="tit">Graduação em GTI</text>
-    <text x="241" y="212" text-anchor="middle" class="desc">Estácio · e mais duas promoções</text>
+    <circle cx="241" cy="140" r="19" stroke="url(#g)" stroke-width="3" style="fill:var(--bg)"/>
+    <text x="241" y="147" text-anchor="middle" class="ic">📚</text>
+    <text x="241" y="186" text-anchor="middle" class="ano">2024</text>
+    <text x="241" y="208" text-anchor="middle" class="tit">Graduação em GTI</text>
+    <text x="241" y="226" text-anchor="middle" class="desc">Estácio · e mais duas promoções</text>
   </g>
   <g class="marco" style="animation-delay:1s">
-    <circle cx="367" cy="130" r="9" stroke="url(#g)" stroke-width="3" style="fill:var(--bg)"/>
-    <circle cx="367" cy="130" r="4" style="fill:var(--a1)"/>
-    <text x="367" y="92" text-anchor="middle" class="ano">2025</text>
-    <text x="367" y="70" text-anchor="middle" class="tit">Full Stack Club</text>
-    <text x="367" y="52" text-anchor="middle" class="desc">React, Node e projetos do zero ao deploy</text>
+    <circle cx="367" cy="140" r="19" stroke="url(#g)" stroke-width="3" style="fill:var(--bg)"/>
+    <text x="367" y="147" text-anchor="middle" class="ic">🧩</text>
+    <text x="367" y="100" text-anchor="middle" class="ano">2025</text>
+    <text x="367" y="78" text-anchor="middle" class="tit">Full Stack Club</text>
+    <text x="367" y="60" text-anchor="middle" class="desc">React, Node e projetos do zero ao deploy</text>
   </g>
   <g class="marco" style="animation-delay:1.3499999999999999s">
-    <circle cx="493" cy="130" r="9" stroke="url(#g)" stroke-width="3" style="fill:var(--bg)"/>
-    <circle cx="493" cy="130" r="4" style="fill:var(--a1)"/>
-    <text x="493" y="172" text-anchor="middle" class="ano">03/2026</text>
-    <text x="493" y="194" text-anchor="middle" class="tit">Formação DevClub</text>
-    <text x="493" y="212" text-anchor="middle" class="desc">140 h · certificado MEC</text>
+    <circle cx="493" cy="140" r="19" stroke="url(#g)" stroke-width="3" style="fill:var(--bg)"/>
+    <text x="493" y="147" text-anchor="middle" class="ic">🎓</text>
+    <text x="493" y="186" text-anchor="middle" class="ano">03/2026</text>
+    <text x="493" y="208" text-anchor="middle" class="tit">Formação DevClub</text>
+    <text x="493" y="226" text-anchor="middle" class="desc">140 h · certificado MEC</text>
   </g>
   <g class="marco" style="animation-delay:1.7s">
-    <circle cx="619" cy="130" r="9" stroke="url(#g)" stroke-width="3" style="fill:var(--bg)"/>
-    <circle cx="619" cy="130" r="4" style="fill:var(--a1)"/>
-    <text x="619" y="92" text-anchor="middle" class="ano">09/2026</text>
-    <text x="619" y="70" text-anchor="middle" class="tit">RKF Bank</text>
-    <text x="619" y="52" text-anchor="middle" class="desc">frontend Next.js em dupla</text>
+    <circle cx="619" cy="140" r="19" stroke="url(#g)" stroke-width="3" style="fill:var(--bg)"/>
+    <text x="619" y="147" text-anchor="middle" class="ic">🏦</text>
+    <text x="619" y="100" text-anchor="middle" class="ano">09/2026</text>
+    <text x="619" y="78" text-anchor="middle" class="tit">RKF Bank</text>
+    <text x="619" y="60" text-anchor="middle" class="desc">frontend Next.js em dupla</text>
   </g>
   <g class="marco" style="animation-delay:2.05s">
-    <circle cx="745" cy="130" r="9" stroke="url(#g)" stroke-width="3" style="fill:var(--bg)"/>
-    <circle cx="745" cy="130" r="4" style="fill:var(--a1)"/>
-    <text x="745" y="172" text-anchor="middle" class="ano">agora</text>
-    <text x="745" y="194" text-anchor="middle" class="tit">Rumo ao Pleno</text>
-    <text x="745" y="212" text-anchor="middle" class="desc">testes, CI e performance</text>
+    <circle cx="745" cy="140" r="19" stroke="url(#g)" stroke-width="3" style="fill:var(--bg)"/>
+    <text x="745" y="147" text-anchor="middle" class="ic">🚀</text>
+    <text x="745" y="186" text-anchor="middle" class="ano">agora</text>
+    <text x="745" y="208" text-anchor="middle" class="tit">Rumo ao Pleno</text>
+    <text x="745" y="226" text-anchor="middle" class="desc">testes, CI e performance</text>
   </g>
 </svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="292" viewBox="0 0 860 292" role="img" aria-labelledby="t">
+<title id="t">Terminal: últimos commits do Renan no RKF Bank. 17 commits no total.</title>
+<style>
+  :root{--bg:#ffffff;--card:#f6f8fa;--borda:#d0d7de;--texto:#1f2328;--suave:#57606a;--a1:#6d28d9;--a2:#0891b2;--a3:#7c3aed;
+    --ok:#1a7f37;--str:#0a7ea4;--kw:#8250df;--num:#bc4c00;--l0:#ebedf0;--l1:#ddd6fe;--l2:#a78bfa;--l3:#7c3aed;--l4:#5b21b6}
+  @media (prefers-color-scheme:dark){:root{--bg:#0d1117;--card:#161b22;--borda:#30363d;--texto:#e6edf3;--suave:#8b949e;--a1:#8b5cf6;--a2:#06b6d4;--a3:#a78bfa;
+    --ok:#3fb950;--str:#7dd3fc;--kw:#c4b5fd;--num:#fdba74;--l0:#161b22;--l1:#2e2160;--l2:#4c3ba6;--l3:#7c5cf0;--l4:#a78bfa}}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;opacity:1!important}}
+  text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+  .mono{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace}
+  .barra{fill:var(--card)}
+  .mono{font-size:13px}
+  .pr{fill:var(--ok)}.cmd{fill:var(--texto)}.h{fill:var(--num)}.m{fill:var(--texto)}.fim{fill:var(--ok);font-weight:700}
+  .tit{font-size:12px;fill:var(--suave)}
+  .digitando{clip-path:inset(0 100% 0 0);animation:digita 1.2s steps(40) .2s forwards}
+  .ln{opacity:0;animation:mostra .2s ease-out forwards}
+  @keyframes digita{to{clip-path:inset(0 0 0 0)}}
+  @keyframes mostra{to{opacity:1}}</style>
+<defs>
+  <linearGradient id="g" x1="0" x2="1" y1="0" y2="0"><stop offset="0" style="stop-color:var(--a1)"/><stop offset="1" style="stop-color:var(--a2)"/></linearGradient>
+</defs>
+<rect width="860" height="292" rx="16" style="fill:var(--bg);stroke:var(--borda)"/>
+  <path d="M1 17 a16 16 0 0 1 16 -16 h826 a16 16 0 0 1 16 16 v19 h-858 z" class="barra"/>
+  <circle cx="22" cy="19" r="6" fill="#ff5f57"/><circle cx="42" cy="19" r="6" fill="#febc2e"/><circle cx="62" cy="19" r="6" fill="#28c840"/>
+  <text x="430" y="23" text-anchor="middle" class="tit mono">bash — rkf_bank/frontend</text>
+  <text x="28" y="66" class="mono digitando"><tspan class="pr">renan@rkf</tspan><tspan class="cmd"> $ git log --oneline --author=renan</tspan></text>
+  <g class="ln" style="animation-delay:1.60s"><text x="28" y="96" class="mono"><tspan class="h">c439676</tspan> <tspan class="m">feat: tela da conta com saldo, dados e ID para transferências</tspan></text></g>
+<g class="ln" style="animation-delay:1.95s"><text x="28" y="118" class="mono"><tspan class="h">0a91720</tspan> <tspan class="m">feat: tela de abertura de conta e conta guardada no navegador</tspan></text></g>
+<g class="ln" style="animation-delay:2.30s"><text x="28" y="140" class="mono"><tspan class="h">7a5f1a8</tspan> <tspan class="m">docs: melhorando documentação do projeto inteiro.</tspan></text></g>
+<g class="ln" style="animation-delay:2.65s"><text x="28" y="162" class="mono"><tspan class="h">1c77144</tspan> <tspan class="m">docs: atualiza README do contrato de API com informações sobre stack, convenções e en…</tspan></text></g>
+<g class="ln" style="animation-delay:3.00s"><text x="28" y="184" class="mono"><tspan class="h">ab74b95</tspan> <tspan class="m">feat: adiciona sistema de logging no frontend</tspan></text></g>
+<g class="ln" style="animation-delay:3.35s"><text x="28" y="206" class="mono"><tspan class="h">23f2fb9</tspan> <tspan class="m">docs: adicionando checklist no roadmap e adicionando uma decisão</tspan></text></g>
+<g class="ln" style="animation-delay:3.70s"><text x="28" y="228" class="mono"><tspan class="h">cdeaee8</tspan> <tspan class="m">feat: criando a tela de cadrasto</tspan></text></g>
+  <g class="ln" style="animation-delay:4.25s"><text x="28" y="262" class="mono fim">✔ 17 commits meus no RKF Bank (landing, cadastro, conta, logs e docs)</text></g>
+</svg>
