@@ -1,0 +1,785 @@
+{
+  "geradoEm": "2026-10-17T00:06:30.067Z",
+  "regua": {
+    "praticadas": 11,
+    "total": 19,
+    "frontmatter": {
+      "praticadas": 11,
+      "total": 19
+    },
+    "itens": {
+      "praticadas": [
+        {
+          "texto": "Next.js (App Router) + TypeScript em projeto de time",
+          "evidencia": "RKF Bank: landing, login, cadastro, abertura de conta e tela da conta (25/09 a 14/10/2026)"
+        },
+        {
+          "texto": "UI com Tailwind CSS, shadcn/ui e identidade visual própria",
+          "evidencia": "RKF Bank (`483a3d1` aplica a marca RKF) e portfólio pessoal"
+        },
+        {
+          "texto": "Integração com API REST por camada de serviço tipada",
+          "evidencia": "RKF Bank `frontend/lib/api` + proxy `/api` no Next (decisão de 11/10)"
+        },
+        {
+          "texto": "Autenticação e autorização com Better Auth",
+          "evidencia": "treinos-api (Better Auth)"
+        },
+        {
+          "texto": "Modelagem de banco com ORM e migrações",
+          "evidencia": "BellaFlow (Prisma 7 + Neon) e treinos-api (Prisma)"
+        },
+        {
+          "texto": "API em Node.js com validação e documentação",
+          "evidencia": "treinos-api: Fastify + Zod + Swagger/Scalar + Prisma (bootcamp Full Stack Club)"
+        },
+        {
+          "texto": "Git em time: branches, Pull Requests e commits semânticos",
+          "evidencia": "RKF Bank: PRs #1 a #23 com o Kevin, branches `feature/*` e `docs/*`"
+        },
+        {
+          "texto": "Logs com dados pessoais mascarados (LGPD)",
+          "evidencia": "RKF Bank `frontend/lib/logger/mascara.ts` (CPF, e-mail, telefone e nome)"
+        },
+        {
+          "texto": "Documentação técnica e registro de decisões",
+          "evidencia": "RKF Bank `planing/` (decisões, recados, contrato da API) e revisão da documentação (`7a5f1a8`)"
+        },
+        {
+          "texto": "Software que resolve um problema real do negócio",
+          "evidencia": "sistema interno que uso no meu trabalho (projeto privado)"
+        },
+        {
+          "texto": "IA aplicada ao produto e ao fluxo de trabalho",
+          "evidencia": "treinos-api `src/routes/ai.ts` (AI SDK) e CLAUDE.md/AGENTS.md nos projetos"
+        }
+      ],
+      "andamento": [
+        {
+          "texto": "Testes automatizados no frontend (Vitest + Testing Library)",
+          "evidencia": "primeiro teste com Vitest num projeto pessoal; o RKF Bank ainda não tem testes no front"
+        },
+        {
+          "texto": "Segurança de dependências do frontend",
+          "evidencia": "CVEs do `next` 16.3.6 mapeadas nos débitos do RKF Bank; correção pendente"
+        },
+        {
+          "texto": "Arquitetura de software e system design",
+          "evidencia": "Imersão Arquitetura de Software com IA (Full Stack Club, 26/09/2026, 6 h); falta aplicar num projeto"
+        },
+        {
+          "texto": "Inglês técnico",
+          "evidencia": "Nível básico, em estudo (currículo)"
+        }
+      ],
+      "planejadas": [
+        {
+          "texto": "CI do frontend (lint, typecheck e build em todo PR)",
+          "evidencia": "débito registrado no RKF Bank"
+        },
+        {
+          "texto": "Testes end-to-end (Playwright)",
+          "evidencia": ""
+        },
+        {
+          "texto": "Performance medida (Core Web Vitals / Lighthouse)",
+          "evidencia": ""
+        },
+        {
+          "texto": "Deploy fora da Vercel (Docker, nuvem)",
+          "evidencia": "decisão \"onde publicar\" em aberto no RKF Bank"
+        }
+      ]
+    }
+  },
+  "projeto": {
+    "nome": "RKF Bank",
+    "repositorio": "https://github.com/k3vinrich4rd/rkf_bank",
+    "branch": "develop",
+    "prazo": "2026-10-31",
+    "papel": "frontend",
+    "encontrado": true,
+    "testes": {
+      "front": 0,
+      "backend": 109,
+      "arquivos": 13,
+      "total": 109
+    },
+    "commitsDoAutor": 17,
+    "commitsRecentes": [
+      {
+        "hash": "c439676",
+        "data": "2026-10-14T19:31:58-03:00",
+        "assunto": "feat: tela da conta com saldo, dados e ID para transferências"
+      },
+      {
+        "hash": "0a91720",
+        "data": "2026-10-14T18:18:45-03:00",
+        "assunto": "feat: tela de abertura de conta e conta guardada no navegador"
+      },
+      {
+        "hash": "7a5f1a8",
+        "data": "2026-10-13T20:03:14-03:00",
+        "assunto": "docs: melhorando documentação do projeto inteiro."
+      },
+      {
+        "hash": "1c77144",
+        "data": "2026-10-12T09:07:28-03:00",
+        "assunto": "docs: atualiza README do contrato de API com informações sobre stack, convenções e endpoints"
+      },
+      {
+        "hash": "ab74b95",
+        "data": "2026-10-12T09:07:11-03:00",
+        "assunto": "feat: adiciona sistema de logging no frontend"
+      },
+      {
+        "hash": "23f2fb9",
+        "data": "2026-10-11T10:13:01-03:00",
+        "assunto": "docs: adicionando checklist no roadmap e adicionando uma decisão"
+      },
+      {
+        "hash": "cdeaee8",
+        "data": "2026-10-11T10:11:25-03:00",
+        "assunto": "feat: criando a tela de cadrasto"
+      },
+      {
+        "hash": "5c62d86",
+        "data": "2026-10-11T10:07:08-03:00",
+        "assunto": "chore: configurando ambiente"
+      },
+      {
+        "hash": "9c1df0c",
+        "data": "2026-10-11T10:04:11-03:00",
+        "assunto": "docs: mudando rotas do contrato de API"
+      },
+      {
+        "hash": "c77ec83",
+        "data": "2026-10-06T19:23:14-03:00",
+        "assunto": "feat(frontend): adiciona pagina de login"
+      }
+    ]
+  },
+  "checklist": {
+    "prazo": "2026-10-31",
+    "secoes": [
+      {
+        "titulo": "Base",
+        "tarefas": [
+          {
+            "feito": true,
+            "texto": "Setup do frontend — 2026-09-25"
+          },
+          {
+            "feito": true,
+            "texto": "Landing page institucional com a identidade da marca — 2026-10-06"
+          },
+          {
+            "feito": true,
+            "texto": "Página de login (visual) — 2026-10-06"
+          },
+          {
+            "feito": true,
+            "texto": "Cliente HTTP e serviços de clientes e contas — 2026-10-06"
+          }
+        ]
+      },
+      {
+        "titulo": "Cliente e conta",
+        "tarefas": [
+          {
+            "feito": true,
+            "texto": "Tela de cadastro (endereço pelo CEP) — 2026-10-11"
+          },
+          {
+            "feito": true,
+            "texto": "Logs no frontend com dados mascarados — 2026-10-12"
+          },
+          {
+            "feito": true,
+            "texto": "Tela de abertura de conta — 2026-10-14"
+          },
+          {
+            "feito": true,
+            "texto": "Tela da conta (saldo, dados e ID para transferências) — 2026-10-14"
+          },
+          {
+            "feito": false,
+            "texto": "Decidir como o usuário volta para a conta: o Kevin registrou a decisão do login em 16/10 (`cb615d7`), falta conferir"
+          },
+          {
+            "feito": false,
+            "texto": "Integrar o login (CPF + senha, JWT) no frontend: o backend ficou pronto em 16/10"
+          },
+          {
+            "feito": false,
+            "texto": "Trocar a busca página a página por `GET /contas/{contaId}` quando o endpoint existir"
+          }
+        ]
+      },
+      {
+        "titulo": "Movimentações",
+        "tarefas": [
+          {
+            "feito": false,
+            "texto": "Tela de depósito"
+          },
+          {
+            "feito": false,
+            "texto": "Tela de saque"
+          },
+          {
+            "feito": false,
+            "texto": "Tela de transferência"
+          },
+          {
+            "feito": false,
+            "texto": "Tela de extrato"
+          }
+        ]
+      },
+      {
+        "titulo": "Lançamento",
+        "tarefas": [
+          {
+            "feito": false,
+            "texto": "Decidir onde publicar (site, API e banco)"
+          },
+          {
+            "feito": false,
+            "texto": "Fellipe testa tudo pelo roteiro E2E"
+          },
+          {
+            "feito": false,
+            "texto": "Corrigir os bugs encontrados"
+          },
+          {
+            "feito": false,
+            "texto": "Colocar no ar"
+          },
+          {
+            "feito": false,
+            "texto": "Atualizar o README com link e prints"
+          }
+        ]
+      }
+    ],
+    "feitos": 8,
+    "total": 20
+  },
+  "historico": [
+    {
+      "data": "2026-10-14",
+      "branch": "feature/tela-conta",
+      "mudanca": "feat: tela da conta com saldo, dados e ID para transferências (`c439676`)",
+      "aprendizado": ""
+    },
+    {
+      "data": "2026-10-14",
+      "branch": "feature/tela-abrir-conta",
+      "mudanca": "feat: tela de abertura de conta e conta guardada no navegador (`0a91720`)",
+      "aprendizado": ""
+    },
+    {
+      "data": "2026-10-13",
+      "branch": "docs/revisao-documentacao",
+      "mudanca": "docs: melhorando documentação do projeto inteiro. (`7a5f1a8`)",
+      "aprendizado": ""
+    },
+    {
+      "data": "2026-10-12",
+      "branch": "refactor/contrato-api-e-logs",
+      "mudanca": "docs: atualiza README do contrato de API com informações sobre stack, convenções e endpoints (`1c77144`)",
+      "aprendizado": ""
+    },
+    {
+      "data": "2026-10-12",
+      "branch": "refactor/contrato-api-e-logs",
+      "mudanca": "feat: adiciona sistema de logging no frontend (`ab74b95`)",
+      "aprendizado": "logar sem expor dados pessoais: mascarar CPF, e-mail, telefone e nome antes de escrever (LGPD)"
+    },
+    {
+      "data": "2026-10-11",
+      "branch": "feature/tela-cadastro-cliente",
+      "mudanca": "docs: adicionando checklist no roadmap e adicionando uma decisão (`23f2fb9`)",
+      "aprendizado": ""
+    },
+    {
+      "data": "2026-10-11",
+      "branch": "feature/tela-cadastro-cliente",
+      "mudanca": "feat: criando a tela de cadrasto (`cdeaee8`)",
+      "aprendizado": ""
+    },
+    {
+      "data": "2026-10-11",
+      "branch": "feature/tela-cadastro-cliente",
+      "mudanca": "chore: configurando ambiente (`5c62d86`)",
+      "aprendizado": ""
+    },
+    {
+      "data": "2026-10-11",
+      "branch": "feature/tela-cadastro-cliente",
+      "mudanca": "docs: mudando rotas do contrato de API (`9c1df0c`)",
+      "aprendizado": "o contrato da API é a regra entre front e back: mudou a rota, muda o contrato no mesmo PR"
+    },
+    {
+      "data": "2026-10-06",
+      "branch": "marketing",
+      "mudanca": "feat(frontend): adiciona pagina de login (`c77ec83`)",
+      "aprendizado": ""
+    },
+    {
+      "data": "2026-10-06",
+      "branch": "marketing",
+      "mudanca": "feat(frontend): implementa landing page institucional (`fd0065d`)",
+      "aprendizado": ""
+    },
+    {
+      "data": "2026-10-06",
+      "branch": "marketing",
+      "mudanca": "style(frontend): aplica identidade visual da marca RKF (`483a3d1`)",
+      "aprendizado": ""
+    },
+    {
+      "data": "2026-10-06",
+      "branch": "marketing",
+      "mudanca": "feat(frontend): centraliza rotas e configuracoes do site e marketing (`b801fbe`)",
+      "aprendizado": ""
+    },
+    {
+      "data": "2026-10-06",
+      "branch": "marketing",
+      "mudanca": "feat(frontend): adiciona cliente http e servicos de clientes e contas (`880e252`)",
+      "aprendizado": ""
+    },
+    {
+      "data": "2026-10-04",
+      "branch": "develop",
+      "mudanca": "fix: delete .env (`4d8c0b8`)",
+      "aprendizado": "`.env` nunca vai para o Git; segredo vazado precisa ser trocado, não só apagado"
+    },
+    {
+      "data": "2026-10-04",
+      "branch": "planing",
+      "mudanca": "docs: adicionando planos para o time (`ace5a26`)",
+      "aprendizado": ""
+    },
+    {
+      "data": "2026-09-25",
+      "branch": "planing",
+      "mudanca": "chore: configurando setup frontend (`3627f7f`)",
+      "aprendizado": ""
+    }
+  ],
+  "debitos": 5,
+  "estudos": [
+    {
+      "assunto": "System design",
+      "area": "Arquitetura",
+      "status": "andamento",
+      "foco": false,
+      "proximos": 2,
+      "proximoPasso": "Redesenhar o RKF Bank pensando em escala (cache, réplica de leitura)"
+    },
+    {
+      "assunto": "APIs com Fastify, Zod e OpenAPI",
+      "area": "Backend",
+      "status": "praticado",
+      "foco": false,
+      "proximos": 1,
+      "proximoPasso": "Comparar com Express (FSC Task Manager)"
+    },
+    {
+      "assunto": "Node.js assíncrono e módulos",
+      "area": "Backend",
+      "status": "praticado",
+      "foco": false,
+      "proximos": 1,
+      "proximoPasso": "Revisar event loop com um exemplo próprio"
+    },
+    {
+      "assunto": "Prisma, Drizzle e migrações",
+      "area": "Backend",
+      "status": "praticado",
+      "foco": false,
+      "proximos": 1,
+      "proximoPasso": "Escrever na régua quando escolher Prisma ou Drizzle"
+    },
+    {
+      "assunto": "CI com GitHub Actions",
+      "area": "DevOps",
+      "status": "planejado",
+      "foco": false,
+      "proximos": 1,
+      "proximoPasso": "Criar o workflow do frontend do RKF Bank: lint, typecheck e build"
+    },
+    {
+      "assunto": "Git e GitHub em time",
+      "area": "DevOps",
+      "status": "praticado",
+      "foco": false,
+      "proximos": 1,
+      "proximoPasso": "Aprender `git rebase` interativo com segurança"
+    },
+    {
+      "assunto": "Formulários com React Hook Form e Zod",
+      "area": "Frontend",
+      "status": "praticado",
+      "foco": false,
+      "proximos": 1,
+      "proximoPasso": "Padronizar mensagens de erro em pt-BR"
+    },
+    {
+      "assunto": "Next.js App Router",
+      "area": "Frontend",
+      "status": "praticado",
+      "foco": false,
+      "proximos": 2,
+      "proximoPasso": "Estudar Server Actions vs. proxy de API e quando usar cada um"
+    },
+    {
+      "assunto": "Performance e Core Web Vitals",
+      "area": "Frontend",
+      "status": "planejado",
+      "foco": false,
+      "proximos": 2,
+      "proximoPasso": "Rodar o Lighthouse na landing do RKF Bank e anotar LCP, CLS e INP"
+    },
+    {
+      "assunto": "Testes com Vitest e Testing Library",
+      "area": "Frontend",
+      "status": "andamento",
+      "foco": true,
+      "proximos": 3,
+      "proximoPasso": "Escrever o primeiro teste do `use-cadastro-form` no RKF Bank"
+    },
+    {
+      "assunto": "IA aplicada ao desenvolvimento",
+      "area": "IA",
+      "status": "praticado",
+      "foco": false,
+      "proximos": 1,
+      "proximoPasso": "Escrever um guia pessoal de prompts em Prompts"
+    },
+    {
+      "assunto": "Inglês técnico",
+      "area": "Idiomas",
+      "status": "andamento",
+      "foco": false,
+      "proximos": 1,
+      "proximoPasso": ""
+    },
+    {
+      "assunto": "Lógica de programação (livro)",
+      "area": "JavaScript",
+      "status": "andamento",
+      "foco": false,
+      "proximos": 1,
+      "proximoPasso": ""
+    },
+    {
+      "assunto": "Autenticação com Better Auth",
+      "area": "Segurança",
+      "status": "praticado",
+      "foco": false,
+      "proximos": 1,
+      "proximoPasso": "Estudar como o JWT do RKF Bank vai chegar no frontend"
+    }
+  ],
+  "diario": [
+    {
+      "data": "2026-10-16",
+      "feito": [
+        "RKF Bank: merge do PR #23 (`feature/flyway`) na `develop`",
+        "Montei o segundo cérebro no Obsidian"
+      ],
+      "aprendi": [],
+      "amanha": [
+        "Recriar o MySQL local uma vez (`docker compose down -v && docker compose up -d`), conforme o recado do Kevin",
+        "Ler a decisão do login que o Kevin registrou e planejar a tela de login no front"
+      ]
+    },
+    {
+      "data": "2026-10-14",
+      "feito": [
+        "RKF Bank: tela de abertura de conta e conta guardada no navegador (`0a91720`, `feature/tela-abrir-conta`)",
+        "RKF Bank: tela da conta com saldo, dados e ID para transferências (`c439676`, `feature/tela-conta`)"
+      ],
+      "aprendi": [],
+      "amanha": []
+    }
+  ],
+  "pdi": {
+    "objetivo": "Junior → Pleno Full Stack",
+    "gantt": "gantt\n    title Roadmap até o fim de 2026\n    dateFormat YYYY-MM-DD\n    axisFormat %d/%m\n    section RKF Bank (MVP 31/10)\n    Telas de cliente e conta          :done,   r1, 2026-10-05, 2026-10-14\n    Depósito, saque e transferência   :active, r2, 2026-10-19, 7d\n    Extrato                           :        r3, after r2, 3d\n    Testar e lançar                   :crit,   r4, 2026-10-26, 2026-10-31\n    section Rumo ao Pleno\n    Testes no front (Vitest)          :        p1, 2026-11-01, 14d\n    CI do frontend                    :        p2, after p1, 7d\n    Corrigir CVEs do Next             :        p3, 2026-11-01, 3d\n    Performance (Lighthouse)          :        p4, after p2, 7d\n    Playwright (E2E)                  :        p5, after p4, 10d\n    section Contínuo\n    Inglês técnico                    :        i1, 2026-10-16, 2026-12-31\n    Graduação GTI (Estácio)           :        g1, 2026-10-16, 2026-12-31"
+  },
+  "portfolio": [
+    {
+      "titulo": "API de treinos",
+      "repositorio": "https://github.com/renanbarrostech-cmd/treinos-api",
+      "stack": [
+        "TypeScript",
+        "Fastify",
+        "Prisma",
+        "Better Auth",
+        "Zod",
+        "AI SDK"
+      ],
+      "commits": 26,
+      "inicio": "2026-08-29",
+      "ultimo": "2026-09-05",
+      "destaque": false,
+      "descricao": "API de treinos com autenticação, documentação interativa e uma rota de IA. Projeto do bootcamp Full Stack Club."
+    },
+    {
+      "titulo": "BellaFlow Studio",
+      "repositorio": "https://github.com/renanbarrostech-cmd/bella-flow",
+      "stack": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Prisma"
+      ],
+      "commits": 3,
+      "inicio": "2026-07-30",
+      "ultimo": "2026-07-30",
+      "destaque": false,
+      "descricao": "Demonstração de automação de atendimento para salões de beleza (agenda, clientes, WhatsApp), com um chat processado por um workflow do n8n. Feita para apresentar a clientes."
+    },
+    {
+      "titulo": "Calculator",
+      "repositorio": "https://github.com/renanbarrostech-cmd/Calculator",
+      "stack": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "commits": 6,
+      "inicio": "2026-09-01",
+      "ultimo": "2026-09-01",
+      "destaque": false,
+      "descricao": "Calculadora em JavaScript."
+    },
+    {
+      "titulo": "Campo Minado",
+      "repositorio": "https://github.com/renanbarrostech-cmd/Campo-Minado",
+      "stack": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "commits": 13,
+      "inicio": "2026-09-02",
+      "ultimo": "2026-09-03",
+      "destaque": false,
+      "descricao": "Campo minado em JavaScript puro, publicado em https://campo-minado-cyan.vercel.app."
+    },
+    {
+      "titulo": "Curso de Git e GitHub",
+      "repositorio": "https://github.com/renanbarrostech-cmd/CURSO_GIT_E_GITHUB",
+      "stack": [
+        "HTML",
+        "JavaScript"
+      ],
+      "commits": 4,
+      "inicio": "2026-09-12",
+      "ultimo": "2026-09-12",
+      "destaque": false,
+      "descricao": "Exercícios do curso de Git e GitHub."
+    },
+    {
+      "titulo": "DevBarros Vendas",
+      "repositorio": "https://github.com/renanbarrostech-cmd/devbarros-vendas",
+      "stack": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS"
+      ],
+      "commits": 4,
+      "inicio": "2026-07-30",
+      "ultimo": "2026-08-01",
+      "destaque": false,
+      "descricao": ""
+    },
+    {
+      "titulo": "Frontend de treinos",
+      "repositorio": "https://github.com/renanbarrostech-cmd/treinos-frontend",
+      "stack": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Better Auth",
+        "Zod",
+        "AI SDK",
+        "Orval"
+      ],
+      "commits": 8,
+      "inicio": "2026-08-30",
+      "ultimo": "2026-09-05",
+      "destaque": false,
+      "descricao": "Cliente Next.js da API de treinos, com o cliente HTTP gerado pelo Orval a partir da especificação. Projeto do bootcamp Full Stack Club."
+    },
+    {
+      "titulo": "Fut de Sexta",
+      "repositorio": "https://github.com/renanbarrostech-cmd/futdelta",
+      "stack": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "commits": 4,
+      "inicio": "2026-09-18",
+      "ultimo": "2026-09-18",
+      "destaque": false,
+      "descricao": "Sorteio dos times da pelada: marca quem vem, remove quem furou e sorteia em um toque."
+    },
+    {
+      "titulo": "JavaScript ES6+",
+      "repositorio": "https://github.com/renanbarrostech-cmd/CURSO_JAVASCRIPT_ES6-",
+      "stack": [
+        "HTML",
+        "JavaScript"
+      ],
+      "commits": 28,
+      "inicio": "2026-09-12",
+      "ultimo": "2026-09-22",
+      "destaque": false,
+      "descricao": "Estudos dos recursos do ES6+: desestruturação, spread, map/filter/reduce, classes e módulos."
+    },
+    {
+      "titulo": "Lógica com JavaScript (livro)",
+      "repositorio": "https://github.com/renanbarrostech-cmd/Logica-com-JavaScript-livro",
+      "stack": [
+        "HTML",
+        "JavaScript"
+      ],
+      "commits": 7,
+      "inicio": "2026-08-17",
+      "ultimo": "2026-09-09",
+      "destaque": false,
+      "descricao": "Exercícios do livro de lógica de programação com JavaScript."
+    },
+    {
+      "titulo": "Mini game",
+      "repositorio": "https://github.com/renanbarrostech-cmd/mini-game",
+      "stack": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS"
+      ],
+      "commits": 3,
+      "inicio": "2026-05-10",
+      "ultimo": "2026-05-13",
+      "destaque": false,
+      "descricao": ""
+    },
+    {
+      "titulo": "Módulos no Node.js",
+      "repositorio": "https://github.com/renanbarrostech-cmd/MODULOS_NO_NODE_JS",
+      "stack": [
+        "JavaScript"
+      ],
+      "commits": 9,
+      "inicio": "2026-09-14",
+      "ultimo": "2026-09-16",
+      "destaque": false,
+      "descricao": "Estudos de módulos: import/export, módulos nativos, npm, ES modules e publicação no npm."
+    },
+    {
+      "titulo": "Nimbus Atlas",
+      "repositorio": "https://github.com/renanbarrostech-cmd/Nimbus-Atlas",
+      "stack": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "commits": 11,
+      "inicio": "2026-09-08",
+      "ultimo": "2026-09-10",
+      "destaque": false,
+      "descricao": "App de tema escuro para explorar países e ver o clima em tempo real."
+    },
+    {
+      "titulo": "Node.js assíncrono",
+      "repositorio": "https://github.com/renanbarrostech-cmd/NODE_JS_ASSINCRONO",
+      "stack": [
+        "JavaScript"
+      ],
+      "commits": 4,
+      "inicio": "2026-09-17",
+      "ultimo": "2026-09-18",
+      "destaque": false,
+      "descricao": "Estudos de código assíncrono, funcionamento interno do Node e callbacks."
+    },
+    {
+      "titulo": "Portfólio DevBarros (v1)",
+      "repositorio": "https://github.com/renanbarrostech-cmd/portfolio-devbarrostech",
+      "stack": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS"
+      ],
+      "commits": 8,
+      "inicio": "2026-05-13",
+      "ultimo": "2026-05-13",
+      "destaque": false,
+      "descricao": "Primeira versão do portfólio em Next.js (maio/2026)."
+    },
+    {
+      "titulo": "Task Manager (backend)",
+      "repositorio": "https://github.com/renanbarrostech-cmd/FSC-TASK-MANEGER-BACKEND",
+      "stack": [
+        "Express",
+        "MongoDB"
+      ],
+      "commits": 18,
+      "inicio": "2026-09-22",
+      "ultimo": "2026-10-02",
+      "destaque": false,
+      "descricao": "API de tarefas em Node.js com Express e MongoDB (Mongoose). Formação React PRO, Full Stack Club."
+    },
+    {
+      "titulo": "Task Manager (frontend)",
+      "repositorio": "https://github.com/renanbarrostech-cmd/FSC-TASK-MANEGER-FRONTEND",
+      "stack": [
+        "React"
+      ],
+      "commits": 9,
+      "inicio": "2026-10-04",
+      "ultimo": "2026-10-11",
+      "destaque": false,
+      "descricao": "Frontend em React (Create React App) do gerenciador de tarefas. Formação React PRO, Full Stack Club."
+    },
+    {
+      "titulo": "Vertex Systems",
+      "repositorio": "https://github.com/renanbarrostech-cmd/Vertex-Systems",
+      "stack": [
+        "HTML",
+        "CSS"
+      ],
+      "commits": 7,
+      "inicio": "2026-08-27",
+      "ultimo": "2026-08-28",
+      "destaque": false,
+      "descricao": "Projeto feito a partir de requisitos fictícios gerados por IA, simulando uma demanda real de cliente (sistema de gestão de tarefas internas)."
+    },
+    {
+      "titulo": "Whiteboard",
+      "repositorio": "https://github.com/renanbarrostech-cmd/Whiteboard",
+      "stack": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "commits": 2,
+      "inicio": "2026-09-11",
+      "ultimo": "2026-09-11",
+      "destaque": false,
+      "descricao": "Quadro para desenhar no navegador."
+    }
+  ]
+}

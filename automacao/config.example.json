@@ -1,0 +1,9 @@
+{
+  "vault": "C:/Users/renanzinho-tech/Documents/Obsidian/Segundo Cérebro",
+  "projeto": "C:/caminho/para/rkf_bank",
+  "notaProjeto": "02 Projetos/RKF Bank",
+  "branchProjeto": "develop",
+  "autorEmail": "renanbarros.tech@gmail.com",
+  "termosPrivados": ["nome-de-empresa", "nome-de-projeto-privado"],
+  "autoPush": false
+}

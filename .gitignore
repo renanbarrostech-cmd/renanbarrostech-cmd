@@ -1,0 +1,4 @@
+# Configuração local (caminhos da sua máquina)
+automacao/config.json
+automacao/sync.log
+node_modules/
