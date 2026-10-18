@@ -140,9 +140,9 @@ Duas dicas que eu daria para quem está onde eu estava:
 <!-- AUTO:agora:END -->
 
 <!-- AUTO:dica:START -->
-> 💡 **Dica do dia: `Proxy de API no Next`**  
-> No RKF Bank o navegador chama `/api/...` no próprio Next, que repassa para o backend: sem CORS e sem expor o endereço da API.  
-> <sub>Muda todo dia sozinha · 4/20</sub>
+> 💡 **Dica do dia: `Log sem dado pessoal`**  
+> Mascare CPF, e-mail e telefone dentro do logger, antes de escrever. Quem loga não precisa lembrar: a LGPD vira padrão.  
+> <sub>Muda todo dia sozinha · 5/20</sub>
 <!-- AUTO:dica:END -->
 
 <picture>
@@ -157,16 +157,16 @@ Duas dicas que eu daria para quem está onde eu estava:
 
 |  | Repositório | Commit | Quando |
 | --- | --- | --- | --- |
-| ✨ | [`rkf_bank`](https://github.com/k3vinrich4rd/rkf_bank) | [`c439676`](https://github.com/k3vinrich4rd/rkf_bank/commit/c439676a0b1ba21fea25c75cbc2fc91dfea5f5af) feat: tela da conta com saldo, dados e ID para transferências | 14/10/2026 |
-| ✨ | [`rkf_bank`](https://github.com/k3vinrich4rd/rkf_bank) | [`0a91720`](https://github.com/k3vinrich4rd/rkf_bank/commit/0a91720b436120ae55cfa19032d3ce15d0a38c14) feat: tela de abertura de conta e conta guardada no navegador | 14/10/2026 |
-| 📝 | [`rkf_bank`](https://github.com/k3vinrich4rd/rkf_bank) | [`7a5f1a8`](https://github.com/k3vinrich4rd/rkf_bank/commit/7a5f1a83c1ba5a7b2315fb89df7b609485081d8a) docs: melhorando documentação do projeto inteiro. | 13/10/2026 |
-| 📝 | [`rkf_bank`](https://github.com/k3vinrich4rd/rkf_bank) | [`1c77144`](https://github.com/k3vinrich4rd/rkf_bank/commit/1c7714444a394d70c2f3843399b0463c949b41d9) docs: atualiza README do contrato de API com informações sobre stack, convenções e endpoints | 12/10/2026 |
+| 📝 | [`rkf_bank`](https://github.com/k3vinrich4rd/rkf_bank) | [`51cff1e`](https://github.com/k3vinrich4rd/rkf_bank/commit/51cff1ecb57db943712813518d764a80c3f1d1c3) docs(planing): marca no roadmap as telas da conta, movimentacoes e extrato | 17/10/2026 |
+| 📝 | [`rkf_bank`](https://github.com/k3vinrich4rd/rkf_bank) | [`726123c`](https://github.com/k3vinrich4rd/rkf_bank/commit/726123cdb549342e9834e4f506b35df6199a97bd) docs: decisao do token em cookie httpOnly, recado ao Kevin e README do login | 17/10/2026 |
+| ♻️ | [`rkf_bank`](https://github.com/k3vinrich4rd/rkf_bank) | [`15be287`](https://github.com/k3vinrich4rd/rkf_bank/commit/15be287066f02b51fc96ac9b2351a91f8cc57e5a) refactor(conta): usa as contas do usuario logado no lugar do localStorage | 17/10/2026 |
+| ✨ | [`rkf_bank`](https://github.com/k3vinrich4rd/rkf_bank) | [`c79ca5e`](https://github.com/k3vinrich4rd/rkf_bank/commit/c79ca5e2fb266cc0a64c48ef2e2e1c4676dc13e9) feat(auth): login com JWT em cookie httpOnly e senha no cadastro | 17/10/2026 |
 | 📌 | [`FSC-TASK-MANEGER-FRONTEND`](https://github.com/renanbarrostech-cmd/FSC-TASK-MANEGER-FRONTEND) | [`f3be3b0`](https://github.com/renanbarrostech-cmd/FSC-TASK-MANEGER-FRONTEND/commit/f3be3b05b65ecf5655de3fb63d76761dea05826c) PDF: ciclos da vida de um component | 11/10/2026 |
 | ♻️ | [`FSC-TASK-MANEGER-FRONTEND`](https://github.com/renanbarrostech-cmd/FSC-TASK-MANEGER-FRONTEND) | [`1f2a842`](https://github.com/renanbarrostech-cmd/FSC-TASK-MANEGER-FRONTEND/commit/1f2a842c8328339b8c3c47f2902836de403bed9d) refactor: acess lifecycle methods in function components | 11/10/2026 |
 | ✨ | [`FSC-TASK-MANEGER-FRONTEND`](https://github.com/renanbarrostech-cmd/FSC-TASK-MANEGER-FRONTEND) | [`9bac2d2`](https://github.com/renanbarrostech-cmd/FSC-TASK-MANEGER-FRONTEND/commit/9bac2d21a49ad310f9416fb1600643fcff485ae7) feat: add lifecycle methods to our components | 11/10/2026 |
 | ♻️ | [`FSC-TASK-MANEGER-FRONTEND`](https://github.com/renanbarrostech-cmd/FSC-TASK-MANEGER-FRONTEND) | [`5a66b48`](https://github.com/renanbarrostech-cmd/FSC-TASK-MANEGER-FRONTEND/commit/5a66b48395874e2e9e3670d63353b3dc5c80db8e) refactor: convert component to Class | 11/10/2026 |
 
-<sub>✨ feat · 🐛 fix · 🧪 test · 📝 docs · 🔧 chore/build/ci · ♻️ refactor | 🤖 atualizado sozinho a cada 6 horas · 16/10 às 21:46</sub>
+<sub>✨ feat · 🐛 fix · 🧪 test · 📝 docs · 🔧 chore/build/ci · ♻️ refactor | 🤖 atualizado sozinho a cada 6 horas · 18/10 às 01:46</sub>
 
 </details>
 <!-- AUTO:atividade:END -->
