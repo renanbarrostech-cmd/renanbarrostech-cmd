@@ -140,9 +140,9 @@ Duas dicas que eu daria para quem está onde eu estava:
 <!-- AUTO:agora:END -->
 
 <!-- AUTO:dica:START -->
-> 💡 **Dica do dia: `satisfies`**  
-> `const x = {...} satisfies Tipo` checa o formato sem perder os tipos literais, diferente de anotar `: Tipo`.  
-> <sub>Muda todo dia sozinha · 8/20</sub>
+> 💡 **Dica do dia: `key estável em listas`**  
+> Use o id do item como `key`, nunca o índice: se a lista reordenar, o React não confunde o estado dos componentes.  
+> <sub>Muda todo dia sozinha · 9/20</sub>
 <!-- AUTO:dica:END -->
 
 <picture>
