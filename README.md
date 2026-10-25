@@ -157,16 +157,16 @@ Duas dicas que eu daria para quem está onde eu estava:
 
 |  | Repositório | Commit | Quando |
 | --- | --- | --- | --- |
-| 📝 | [`rkf_bank`](https://github.com/k3vinrich4rd/rkf_bank) | [`6c21ff7`](https://github.com/k3vinrich4rd/rkf_bank/commit/6c21ff777f50473586583059d4b4fd42fe3e1db2) docs(planing): recado ao Kevin sobre o fim de linha do mvnw.cmd | 17/10/2026 |
-| 📝 | [`rkf_bank`](https://github.com/k3vinrich4rd/rkf_bank) | [`51cff1e`](https://github.com/k3vinrich4rd/rkf_bank/commit/51cff1ecb57db943712813518d764a80c3f1d1c3) docs(planing): marca no roadmap as telas da conta, movimentacoes e extrato | 17/10/2026 |
+| ✨ | [`rkf_bank`](https://github.com/k3vinrich4rd/rkf_bank) | [`04ea3a6`](https://github.com/k3vinrich4rd/rkf_bank/commit/04ea3a647d2ca6f55982ccbdeae19b01248554cd) feat(frontend): login minimalista com rótulo flutuante | 22/10/2026 |
+| 📝 | [`rkf_bank`](https://github.com/k3vinrich4rd/rkf_bank) | [`124f30b`](https://github.com/k3vinrich4rd/rkf_bank/commit/124f30b66eda2980991332ec3d3beb112db3bf23) docs(planing): recado ao Kevin com a revisão do front e as entregas | 22/10/2026 |
+| 🐛 | [`rkf_bank`](https://github.com/k3vinrich4rd/rkf_bank) | [`863cbd9`](https://github.com/k3vinrich4rd/rkf_bank/commit/863cbd98624cbd129c2582430270a0587275b121) fix(frontend): nome completo do Kevin na seção Sobre | 22/10/2026 |
+| ✨ | [`rkf_bank`](https://github.com/k3vinrich4rd/rkf_bank) | [`54adf8c`](https://github.com/k3vinrich4rd/rkf_bank/commit/54adf8c7df1f1c229ccd77e675f10408a6d6ebfb) feat(frontend): seção Sobre com os desenvolvedores e o testador | 22/10/2026 |
 | 📌 | [`FSC-TASK-MANEGER-FRONTEND`](https://github.com/renanbarrostech-cmd/FSC-TASK-MANEGER-FRONTEND) | [`f3be3b0`](https://github.com/renanbarrostech-cmd/FSC-TASK-MANEGER-FRONTEND/commit/f3be3b05b65ecf5655de3fb63d76761dea05826c) PDF: ciclos da vida de um component | 11/10/2026 |
 | ♻️ | [`FSC-TASK-MANEGER-FRONTEND`](https://github.com/renanbarrostech-cmd/FSC-TASK-MANEGER-FRONTEND) | [`1f2a842`](https://github.com/renanbarrostech-cmd/FSC-TASK-MANEGER-FRONTEND/commit/1f2a842c8328339b8c3c47f2902836de403bed9d) refactor: acess lifecycle methods in function components | 11/10/2026 |
 | ✨ | [`FSC-TASK-MANEGER-FRONTEND`](https://github.com/renanbarrostech-cmd/FSC-TASK-MANEGER-FRONTEND) | [`9bac2d2`](https://github.com/renanbarrostech-cmd/FSC-TASK-MANEGER-FRONTEND/commit/9bac2d21a49ad310f9416fb1600643fcff485ae7) feat: add lifecycle methods to our components | 11/10/2026 |
 | ♻️ | [`FSC-TASK-MANEGER-FRONTEND`](https://github.com/renanbarrostech-cmd/FSC-TASK-MANEGER-FRONTEND) | [`5a66b48`](https://github.com/renanbarrostech-cmd/FSC-TASK-MANEGER-FRONTEND/commit/5a66b48395874e2e9e3670d63353b3dc5c80db8e) refactor: convert component to Class | 11/10/2026 |
-| ♻️ | [`FSC-TASK-MANEGER-BACKEND`](https://github.com/renanbarrostech-cmd/FSC-TASK-MANEGER-BACKEND) | [`e98e4eb`](https://github.com/renanbarrostech-cmd/FSC-TASK-MANEGER-BACKEND/commit/e98e4eb198f4a46531580da570e258c5330d7dae) refactor: move object id cast error to separate file | 02/10/2026 |
-| ♻️ | [`FSC-TASK-MANEGER-BACKEND`](https://github.com/renanbarrostech-cmd/FSC-TASK-MANEGER-BACKEND) | [`22bc454`](https://github.com/renanbarrostech-cmd/FSC-TASK-MANEGER-BACKEND/commit/22bc454be12b9b4be0fc148676a8bfd9375f6d38) refactor: move not allowed fields to update error to separate file | 02/10/2026 |
 
-<sub>✨ feat · 🐛 fix · 🧪 test · 📝 docs · 🔧 chore/build/ci · ♻️ refactor | 🤖 atualizado sozinho a cada 6 horas · 21/10 às 14:22</sub>
+<sub>✨ feat · 🐛 fix · 🧪 test · 📝 docs · 🔧 chore/build/ci · ♻️ refactor | 🤖 atualizado sozinho a cada 6 horas · 25/10 às 17:58</sub>
 
 </details>
 <!-- AUTO:atividade:END -->
