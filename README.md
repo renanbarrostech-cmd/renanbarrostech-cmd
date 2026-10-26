@@ -140,9 +140,9 @@ Duas dicas que eu daria para quem está onde eu estava:
 <!-- AUTO:agora:END -->
 
 <!-- AUTO:dica:START -->
-> 💡 **Dica do dia: `next/image`**  
-> Defina largura e altura (ou `fill`) no `next/image`: o navegador reserva o espaço e o CLS não sobe.  
-> <sub>Muda todo dia sozinha · 12/20</sub>
+> 💡 **Dica do dia: `select no Prisma`**  
+> Busque só os campos que a tela usa com `select`: menos dados trafegando e nada sensível vazando por engano.  
+> <sub>Muda todo dia sozinha · 13/20</sub>
 <!-- AUTO:dica:END -->
 
 <picture>
