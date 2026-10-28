@@ -140,9 +140,9 @@ Duas dicas que eu daria para quem está onde eu estava:
 <!-- AUTO:agora:END -->
 
 <!-- AUTO:dica:START -->
-> 💡 **Dica do dia: `Migração aplicada não se edita`**  
-> Mudou o banco? Crie uma migração nova. Editar uma que já rodou deixa os ambientes diferentes entre si.  
-> <sub>Muda todo dia sozinha · 14/20</sub>
+> 💡 **Dica do dia: `Sessão em cookie httpOnly`**  
+> Com Better Auth a sessão fica num cookie httpOnly: o JavaScript da página não lê o token, o que reduz o estrago de um XSS.  
+> <sub>Muda todo dia sozinha · 15/20</sub>
 <!-- AUTO:dica:END -->
 
 <picture>
