@@ -140,9 +140,9 @@ Duas dicas que eu daria para quem está onde eu estava:
 <!-- AUTO:agora:END -->
 
 <!-- AUTO:dica:START -->
-> 💡 **Dica do dia: `Contrato da API no mesmo PR`**  
-> Mudou uma rota? Atualize o contrato no mesmo PR: é a regra combinada entre front e back no RKF Bank.  
-> <sub>Muda todo dia sozinha · 18/20</sub>
+> 💡 **Dica do dia: `Tool calling`**  
+> Na Treinos API a IA não inventa dados: ela chama funções tipadas (ler dados do usuário, criar plano) e responde com o resultado.  
+> <sub>Muda todo dia sozinha · 19/20</sub>
 <!-- AUTO:dica:END -->
 
 <picture>
@@ -618,13 +618,13 @@ pie showData
 ```mermaid
 xychart-beta
     title "Repositórios criados por mês"
-    x-axis ["mai/26", "jun/26", "jul/26", "ago/26", "set/26", "out/26"]
+    x-axis ["mai/26", "jun/26", "jul/26", "ago/26", "set/26", "out/26", "nov/26"]
     y-axis "Repositórios" 0 --> 12
-    bar [2, 0, 2, 4, 10, 1]
-    line [2, 0, 2, 4, 10, 1]
+    bar [2, 0, 2, 4, 10, 1, 0]
+    line [2, 0, 2, 4, 10, 1, 0]
 ```
 
-**🧊 Os mesmos números em 3D** (gire com o mouse, dê zoom com a roda). Da esquerda para a direita: mai/26, jun/26, jul/26, ago/26, set/26, out/26.
+**🧊 Os mesmos números em 3D** (gire com o mouse, dê zoom com a roda). Da esquerda para a direita: mai/26, jun/26, jul/26, ago/26, set/26, out/26, nov/26.
 
 ```stl
 solid repositorios_por_mes
@@ -632,41 +632,41 @@ solid repositorios_por_mes
     outer loop
       vertex -4.000 -4.000 -1.000
       vertex -4.000 12.000 -1.000
-      vertex 72.000 12.000 -1.000
+      vertex 84.000 12.000 -1.000
     endloop
   endfacet
   facet normal 0 0 -1
     outer loop
       vertex -4.000 -4.000 -1.000
-      vertex 72.000 12.000 -1.000
-      vertex 72.000 -4.000 -1.000
+      vertex 84.000 12.000 -1.000
+      vertex 84.000 -4.000 -1.000
     endloop
   endfacet
   facet normal 0 0 1
     outer loop
       vertex -4.000 -4.000 0.000
-      vertex 72.000 -4.000 0.000
-      vertex 72.000 12.000 0.000
+      vertex 84.000 -4.000 0.000
+      vertex 84.000 12.000 0.000
     endloop
   endfacet
   facet normal 0 0 1
     outer loop
       vertex -4.000 -4.000 0.000
-      vertex 72.000 12.000 0.000
+      vertex 84.000 12.000 0.000
       vertex -4.000 12.000 0.000
     endloop
   endfacet
   facet normal 0 -1 0
     outer loop
       vertex -4.000 -4.000 -1.000
-      vertex 72.000 -4.000 -1.000
-      vertex 72.000 -4.000 0.000
+      vertex 84.000 -4.000 -1.000
+      vertex 84.000 -4.000 0.000
     endloop
   endfacet
   facet normal 0 -1 0
     outer loop
       vertex -4.000 -4.000 -1.000
-      vertex 72.000 -4.000 0.000
+      vertex 84.000 -4.000 0.000
       vertex -4.000 -4.000 0.000
     endloop
   endfacet
@@ -674,14 +674,14 @@ solid repositorios_por_mes
     outer loop
       vertex -4.000 12.000 -1.000
       vertex -4.000 12.000 0.000
-      vertex 72.000 12.000 0.000
+      vertex 84.000 12.000 0.000
     endloop
   endfacet
   facet normal 0 1 0
     outer loop
       vertex -4.000 12.000 -1.000
-      vertex 72.000 12.000 0.000
-      vertex 72.000 12.000 -1.000
+      vertex 84.000 12.000 0.000
+      vertex 84.000 12.000 -1.000
     endloop
   endfacet
   facet normal -1 0 0
@@ -700,16 +700,16 @@ solid repositorios_por_mes
   endfacet
   facet normal 1 0 0
     outer loop
-      vertex 72.000 -4.000 -1.000
-      vertex 72.000 12.000 -1.000
-      vertex 72.000 12.000 0.000
+      vertex 84.000 -4.000 -1.000
+      vertex 84.000 12.000 -1.000
+      vertex 84.000 12.000 0.000
     endloop
   endfacet
   facet normal 1 0 0
     outer loop
-      vertex 72.000 -4.000 -1.000
-      vertex 72.000 12.000 0.000
-      vertex 72.000 -4.000 0.000
+      vertex 84.000 -4.000 -1.000
+      vertex 84.000 12.000 0.000
+      vertex 84.000 -4.000 0.000
     endloop
   endfacet
   facet normal 0 0 -1
@@ -1214,6 +1214,90 @@ solid repositorios_por_mes
       vertex 68.000 0.000 0.000
       vertex 68.000 8.000 3.200
       vertex 68.000 0.000 3.200
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex 72.000 0.000 0.000
+      vertex 72.000 8.000 0.000
+      vertex 80.000 8.000 0.000
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex 72.000 0.000 0.000
+      vertex 80.000 8.000 0.000
+      vertex 80.000 0.000 0.000
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 72.000 0.000 0.600
+      vertex 80.000 0.000 0.600
+      vertex 80.000 8.000 0.600
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 72.000 0.000 0.600
+      vertex 80.000 8.000 0.600
+      vertex 72.000 8.000 0.600
+    endloop
+  endfacet
+  facet normal 0 -1 0
+    outer loop
+      vertex 72.000 0.000 0.000
+      vertex 80.000 0.000 0.000
+      vertex 80.000 0.000 0.600
+    endloop
+  endfacet
+  facet normal 0 -1 0
+    outer loop
+      vertex 72.000 0.000 0.000
+      vertex 80.000 0.000 0.600
+      vertex 72.000 0.000 0.600
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 72.000 8.000 0.000
+      vertex 72.000 8.000 0.600
+      vertex 80.000 8.000 0.600
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 72.000 8.000 0.000
+      vertex 80.000 8.000 0.600
+      vertex 80.000 8.000 0.000
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex 72.000 0.000 0.000
+      vertex 72.000 0.000 0.600
+      vertex 72.000 8.000 0.600
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex 72.000 0.000 0.000
+      vertex 72.000 8.000 0.600
+      vertex 72.000 8.000 0.000
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 80.000 0.000 0.000
+      vertex 80.000 8.000 0.000
+      vertex 80.000 8.000 0.600
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 80.000 0.000 0.000
+      vertex 80.000 8.000 0.600
+      vertex 80.000 0.000 0.600
     endloop
   endfacet
 endsolid repositorios_por_mes
@@ -1241,7 +1325,7 @@ endsolid repositorios_por_mes
 | [portfolio-devbarrostech](https://github.com/renanbarrostech-cmd/portfolio-devbarrostech) | Primeira versão do portfólio em Next.js (maio/2026). | TypeScript | 2026-05-14 |
 | [mini-game](https://github.com/renanbarrostech-cmd/mini-game) | — | TypeScript | 2026-05-14 |
 
-<sub>🤖 Lido da API do GitHub em 16/10 às 21:46.</sub>
+<sub>🤖 Lido da API do GitHub em 01/11 às 03:25.</sub>
 
 </details>
 <!-- AUTO:repos:END -->
