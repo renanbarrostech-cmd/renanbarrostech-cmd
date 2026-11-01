@@ -603,25 +603,24 @@ sequenceDiagram
 
 <!-- AUTO:repos:START -->
 <details>
-<summary><b>📊 Meus 19 repositórios públicos em números</b></summary>
+<summary><b>📊 Meus 15 repositórios públicos em números</b></summary>
 <br>
 
 ```mermaid
 pie showData
     title Linguagem principal dos repositórios
-    "JavaScript" : 7
-    "TypeScript" : 6
+    "JavaScript" : 6
+    "TypeScript" : 5
     "HTML" : 4
-    "CSS" : 2
 ```
 
 ```mermaid
 xychart-beta
     title "Repositórios criados por mês"
     x-axis ["mai/26", "jun/26", "jul/26", "ago/26", "set/26", "out/26", "nov/26"]
-    y-axis "Repositórios" 0 --> 12
-    bar [2, 0, 2, 4, 10, 1, 0]
-    line [2, 0, 2, 4, 10, 1, 0]
+    y-axis "Repositórios" 0 --> 10
+    bar [2, 0, 1, 3, 8, 1, 0]
+    line [2, 0, 1, 3, 8, 1, 0]
 ```
 
 **🧊 Os mesmos números em 3D** (gire com o mouse, dê zoom com a roda). Da esquerda para a direita: mai/26, jun/26, jul/26, ago/26, set/26, out/26, nov/26.
@@ -728,57 +727,57 @@ solid repositorios_por_mes
   endfacet
   facet normal 0 0 1
     outer loop
-      vertex 0.000 0.000 6.400
-      vertex 8.000 0.000 6.400
-      vertex 8.000 8.000 6.400
+      vertex 0.000 0.000 8.000
+      vertex 8.000 0.000 8.000
+      vertex 8.000 8.000 8.000
     endloop
   endfacet
   facet normal 0 0 1
     outer loop
-      vertex 0.000 0.000 6.400
-      vertex 8.000 8.000 6.400
-      vertex 0.000 8.000 6.400
+      vertex 0.000 0.000 8.000
+      vertex 8.000 8.000 8.000
+      vertex 0.000 8.000 8.000
     endloop
   endfacet
   facet normal 0 -1 0
     outer loop
       vertex 0.000 0.000 0.000
       vertex 8.000 0.000 0.000
-      vertex 8.000 0.000 6.400
+      vertex 8.000 0.000 8.000
     endloop
   endfacet
   facet normal 0 -1 0
     outer loop
       vertex 0.000 0.000 0.000
-      vertex 8.000 0.000 6.400
-      vertex 0.000 0.000 6.400
+      vertex 8.000 0.000 8.000
+      vertex 0.000 0.000 8.000
     endloop
   endfacet
   facet normal 0 1 0
     outer loop
       vertex 0.000 8.000 0.000
-      vertex 0.000 8.000 6.400
-      vertex 8.000 8.000 6.400
+      vertex 0.000 8.000 8.000
+      vertex 8.000 8.000 8.000
     endloop
   endfacet
   facet normal 0 1 0
     outer loop
       vertex 0.000 8.000 0.000
-      vertex 8.000 8.000 6.400
+      vertex 8.000 8.000 8.000
       vertex 8.000 8.000 0.000
     endloop
   endfacet
   facet normal -1 0 0
     outer loop
       vertex 0.000 0.000 0.000
-      vertex 0.000 0.000 6.400
-      vertex 0.000 8.000 6.400
+      vertex 0.000 0.000 8.000
+      vertex 0.000 8.000 8.000
     endloop
   endfacet
   facet normal -1 0 0
     outer loop
       vertex 0.000 0.000 0.000
-      vertex 0.000 8.000 6.400
+      vertex 0.000 8.000 8.000
       vertex 0.000 8.000 0.000
     endloop
   endfacet
@@ -786,14 +785,14 @@ solid repositorios_por_mes
     outer loop
       vertex 8.000 0.000 0.000
       vertex 8.000 8.000 0.000
-      vertex 8.000 8.000 6.400
+      vertex 8.000 8.000 8.000
     endloop
   endfacet
   facet normal 1 0 0
     outer loop
       vertex 8.000 0.000 0.000
-      vertex 8.000 8.000 6.400
-      vertex 8.000 0.000 6.400
+      vertex 8.000 8.000 8.000
+      vertex 8.000 0.000 8.000
     endloop
   endfacet
   facet normal 0 0 -1
@@ -896,57 +895,57 @@ solid repositorios_por_mes
   endfacet
   facet normal 0 0 1
     outer loop
-      vertex 24.000 0.000 6.400
-      vertex 32.000 0.000 6.400
-      vertex 32.000 8.000 6.400
+      vertex 24.000 0.000 4.000
+      vertex 32.000 0.000 4.000
+      vertex 32.000 8.000 4.000
     endloop
   endfacet
   facet normal 0 0 1
     outer loop
-      vertex 24.000 0.000 6.400
-      vertex 32.000 8.000 6.400
-      vertex 24.000 8.000 6.400
+      vertex 24.000 0.000 4.000
+      vertex 32.000 8.000 4.000
+      vertex 24.000 8.000 4.000
     endloop
   endfacet
   facet normal 0 -1 0
     outer loop
       vertex 24.000 0.000 0.000
       vertex 32.000 0.000 0.000
-      vertex 32.000 0.000 6.400
+      vertex 32.000 0.000 4.000
     endloop
   endfacet
   facet normal 0 -1 0
     outer loop
       vertex 24.000 0.000 0.000
-      vertex 32.000 0.000 6.400
-      vertex 24.000 0.000 6.400
+      vertex 32.000 0.000 4.000
+      vertex 24.000 0.000 4.000
     endloop
   endfacet
   facet normal 0 1 0
     outer loop
       vertex 24.000 8.000 0.000
-      vertex 24.000 8.000 6.400
-      vertex 32.000 8.000 6.400
+      vertex 24.000 8.000 4.000
+      vertex 32.000 8.000 4.000
     endloop
   endfacet
   facet normal 0 1 0
     outer loop
       vertex 24.000 8.000 0.000
-      vertex 32.000 8.000 6.400
+      vertex 32.000 8.000 4.000
       vertex 32.000 8.000 0.000
     endloop
   endfacet
   facet normal -1 0 0
     outer loop
       vertex 24.000 0.000 0.000
-      vertex 24.000 0.000 6.400
-      vertex 24.000 8.000 6.400
+      vertex 24.000 0.000 4.000
+      vertex 24.000 8.000 4.000
     endloop
   endfacet
   facet normal -1 0 0
     outer loop
       vertex 24.000 0.000 0.000
-      vertex 24.000 8.000 6.400
+      vertex 24.000 8.000 4.000
       vertex 24.000 8.000 0.000
     endloop
   endfacet
@@ -954,14 +953,14 @@ solid repositorios_por_mes
     outer loop
       vertex 32.000 0.000 0.000
       vertex 32.000 8.000 0.000
-      vertex 32.000 8.000 6.400
+      vertex 32.000 8.000 4.000
     endloop
   endfacet
   facet normal 1 0 0
     outer loop
       vertex 32.000 0.000 0.000
-      vertex 32.000 8.000 6.400
-      vertex 32.000 0.000 6.400
+      vertex 32.000 8.000 4.000
+      vertex 32.000 0.000 4.000
     endloop
   endfacet
   facet normal 0 0 -1
@@ -980,57 +979,57 @@ solid repositorios_por_mes
   endfacet
   facet normal 0 0 1
     outer loop
-      vertex 36.000 0.000 12.800
-      vertex 44.000 0.000 12.800
-      vertex 44.000 8.000 12.800
+      vertex 36.000 0.000 12.000
+      vertex 44.000 0.000 12.000
+      vertex 44.000 8.000 12.000
     endloop
   endfacet
   facet normal 0 0 1
     outer loop
-      vertex 36.000 0.000 12.800
-      vertex 44.000 8.000 12.800
-      vertex 36.000 8.000 12.800
+      vertex 36.000 0.000 12.000
+      vertex 44.000 8.000 12.000
+      vertex 36.000 8.000 12.000
     endloop
   endfacet
   facet normal 0 -1 0
     outer loop
       vertex 36.000 0.000 0.000
       vertex 44.000 0.000 0.000
-      vertex 44.000 0.000 12.800
+      vertex 44.000 0.000 12.000
     endloop
   endfacet
   facet normal 0 -1 0
     outer loop
       vertex 36.000 0.000 0.000
-      vertex 44.000 0.000 12.800
-      vertex 36.000 0.000 12.800
+      vertex 44.000 0.000 12.000
+      vertex 36.000 0.000 12.000
     endloop
   endfacet
   facet normal 0 1 0
     outer loop
       vertex 36.000 8.000 0.000
-      vertex 36.000 8.000 12.800
-      vertex 44.000 8.000 12.800
+      vertex 36.000 8.000 12.000
+      vertex 44.000 8.000 12.000
     endloop
   endfacet
   facet normal 0 1 0
     outer loop
       vertex 36.000 8.000 0.000
-      vertex 44.000 8.000 12.800
+      vertex 44.000 8.000 12.000
       vertex 44.000 8.000 0.000
     endloop
   endfacet
   facet normal -1 0 0
     outer loop
       vertex 36.000 0.000 0.000
-      vertex 36.000 0.000 12.800
-      vertex 36.000 8.000 12.800
+      vertex 36.000 0.000 12.000
+      vertex 36.000 8.000 12.000
     endloop
   endfacet
   facet normal -1 0 0
     outer loop
       vertex 36.000 0.000 0.000
-      vertex 36.000 8.000 12.800
+      vertex 36.000 8.000 12.000
       vertex 36.000 8.000 0.000
     endloop
   endfacet
@@ -1038,14 +1037,14 @@ solid repositorios_por_mes
     outer loop
       vertex 44.000 0.000 0.000
       vertex 44.000 8.000 0.000
-      vertex 44.000 8.000 12.800
+      vertex 44.000 8.000 12.000
     endloop
   endfacet
   facet normal 1 0 0
     outer loop
       vertex 44.000 0.000 0.000
-      vertex 44.000 8.000 12.800
-      vertex 44.000 0.000 12.800
+      vertex 44.000 8.000 12.000
+      vertex 44.000 0.000 12.000
     endloop
   endfacet
   facet normal 0 0 -1
@@ -1148,57 +1147,57 @@ solid repositorios_por_mes
   endfacet
   facet normal 0 0 1
     outer loop
-      vertex 60.000 0.000 3.200
-      vertex 68.000 0.000 3.200
-      vertex 68.000 8.000 3.200
+      vertex 60.000 0.000 4.000
+      vertex 68.000 0.000 4.000
+      vertex 68.000 8.000 4.000
     endloop
   endfacet
   facet normal 0 0 1
     outer loop
-      vertex 60.000 0.000 3.200
-      vertex 68.000 8.000 3.200
-      vertex 60.000 8.000 3.200
+      vertex 60.000 0.000 4.000
+      vertex 68.000 8.000 4.000
+      vertex 60.000 8.000 4.000
     endloop
   endfacet
   facet normal 0 -1 0
     outer loop
       vertex 60.000 0.000 0.000
       vertex 68.000 0.000 0.000
-      vertex 68.000 0.000 3.200
+      vertex 68.000 0.000 4.000
     endloop
   endfacet
   facet normal 0 -1 0
     outer loop
       vertex 60.000 0.000 0.000
-      vertex 68.000 0.000 3.200
-      vertex 60.000 0.000 3.200
+      vertex 68.000 0.000 4.000
+      vertex 60.000 0.000 4.000
     endloop
   endfacet
   facet normal 0 1 0
     outer loop
       vertex 60.000 8.000 0.000
-      vertex 60.000 8.000 3.200
-      vertex 68.000 8.000 3.200
+      vertex 60.000 8.000 4.000
+      vertex 68.000 8.000 4.000
     endloop
   endfacet
   facet normal 0 1 0
     outer loop
       vertex 60.000 8.000 0.000
-      vertex 68.000 8.000 3.200
+      vertex 68.000 8.000 4.000
       vertex 68.000 8.000 0.000
     endloop
   endfacet
   facet normal -1 0 0
     outer loop
       vertex 60.000 0.000 0.000
-      vertex 60.000 0.000 3.200
-      vertex 60.000 8.000 3.200
+      vertex 60.000 0.000 4.000
+      vertex 60.000 8.000 4.000
     endloop
   endfacet
   facet normal -1 0 0
     outer loop
       vertex 60.000 0.000 0.000
-      vertex 60.000 8.000 3.200
+      vertex 60.000 8.000 4.000
       vertex 60.000 8.000 0.000
     endloop
   endfacet
@@ -1206,14 +1205,14 @@ solid repositorios_por_mes
     outer loop
       vertex 68.000 0.000 0.000
       vertex 68.000 8.000 0.000
-      vertex 68.000 8.000 3.200
+      vertex 68.000 8.000 4.000
     endloop
   endfacet
   facet normal 1 0 0
     outer loop
       vertex 68.000 0.000 0.000
-      vertex 68.000 8.000 3.200
-      vertex 68.000 0.000 3.200
+      vertex 68.000 8.000 4.000
+      vertex 68.000 0.000 4.000
     endloop
   endfacet
   facet normal 0 0 -1
@@ -1308,24 +1307,20 @@ endsolid repositorios_por_mes
 | [FSC-TASK-MANEGER-FRONTEND](https://github.com/renanbarrostech-cmd/FSC-TASK-MANEGER-FRONTEND) | Frontend em React (Create React App) do gerenciador de tarefas. Formação React PRO, Full Stack Club. | JavaScript | 2026-10-11 |
 | [FSC-TASK-MANEGER-BACKEND](https://github.com/renanbarrostech-cmd/FSC-TASK-MANEGER-BACKEND) | API de tarefas em Node.js com Express e MongoDB (Mongoose). Formação React PRO, Full Stack Club. | JavaScript | 2026-10-02 |
 | [CURSO_JAVASCRIPT_ES6-](https://github.com/renanbarrostech-cmd/CURSO_JAVASCRIPT_ES6-) | Estudos dos recursos do ES6+: desestruturação, spread, map/filter/reduce, classes e módulos. | JavaScript | 2026-09-23 |
-| [futdelta](https://github.com/renanbarrostech-cmd/futdelta) | Sorteio dos times da pelada: marca quem vem, remove quem furou e sorteia em um toque. | JavaScript | 2026-09-18 |
 | [NODE_JS_ASSINCRONO](https://github.com/renanbarrostech-cmd/NODE_JS_ASSINCRONO) | Estudos de código assíncrono, funcionamento interno do Node e callbacks. | JavaScript | 2026-09-18 |
 | [MODULOS_NO_NODE_JS](https://github.com/renanbarrostech-cmd/MODULOS_NO_NODE_JS) | Estudos de módulos: import/export, módulos nativos, npm, ES modules e publicação no npm. | JavaScript | 2026-09-16 |
 | [CURSO_GIT_E_GITHUB](https://github.com/renanbarrostech-cmd/CURSO_GIT_E_GITHUB) | Exercícios do curso de Git e GitHub. | HTML | 2026-09-12 |
 | [Whiteboard](https://github.com/renanbarrostech-cmd/Whiteboard) | Quadro para desenhar no navegador. | HTML | 2026-09-11 |
-| [Nimbus-Atlas](https://github.com/renanbarrostech-cmd/Nimbus-Atlas) | App de tema escuro para explorar países e ver o clima em tempo real. | CSS | 2026-09-10 |
 | [Logica-com-JavaScript-livro](https://github.com/renanbarrostech-cmd/Logica-com-JavaScript-livro) | Exercícios do livro de lógica de programação com JavaScript. | HTML | 2026-09-10 |
 | [treinos-frontend](https://github.com/renanbarrostech-cmd/treinos-frontend) | Cliente Next.js da API de treinos, com o cliente HTTP gerado pelo Orval a partir da especificação. Projeto do bootcamp Full Stack Club. | TypeScript | 2026-09-05 |
 | [treinos-api](https://github.com/renanbarrostech-cmd/treinos-api) | API de treinos com autenticação, documentação interativa e uma rota de IA. Projeto do bootcamp Full Stack Club. | TypeScript | 2026-09-05 |
 | [Campo-Minado](https://github.com/renanbarrostech-cmd/Campo-Minado) | Campo minado em JavaScript puro, publicado em https://campo-minado-cyan.vercel.app. | JavaScript | 2026-09-03 |
 | [Calculator](https://github.com/renanbarrostech-cmd/Calculator) | Calculadora em JavaScript. | HTML | 2026-09-01 |
-| [Vertex-Systems](https://github.com/renanbarrostech-cmd/Vertex-Systems) | This project was developed from AI-generated fictional requirements designed to simulate real-world business scenarios and improve my programming, problem-solving, and software engineering skills. | CSS | 2026-08-28 |
 | [devbarros-vendas](https://github.com/renanbarrostech-cmd/devbarros-vendas) | — | TypeScript | 2026-08-01 |
-| [bella-flow](https://github.com/renanbarrostech-cmd/bella-flow) | Demonstração de automação de atendimento para salões de beleza (agenda, clientes, WhatsApp), com um chat processado por um workflow do n8n. Feita para apresentar a clientes. | TypeScript | 2026-07-30 |
 | [portfolio-devbarrostech](https://github.com/renanbarrostech-cmd/portfolio-devbarrostech) | Primeira versão do portfólio em Next.js (maio/2026). | TypeScript | 2026-05-14 |
 | [mini-game](https://github.com/renanbarrostech-cmd/mini-game) | — | TypeScript | 2026-05-14 |
 
-<sub>🤖 Lido da API do GitHub em 01/11 às 03:25.</sub>
+<sub>🤖 Lido da API do GitHub em 01/11 às 19:11.</sub>
 
 </details>
 <!-- AUTO:repos:END -->
