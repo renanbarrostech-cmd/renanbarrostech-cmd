@@ -140,9 +140,9 @@ Duas dicas que eu daria para quem está onde eu estava:
 <!-- AUTO:agora:END -->
 
 <!-- AUTO:dica:START -->
-> 💡 **Dica do dia: `Tool calling`**  
-> Na Treinos API a IA não inventa dados: ela chama funções tipadas (ler dados do usuário, criar plano) e responde com o resultado.  
-> <sub>Muda todo dia sozinha · 19/20</sub>
+> 💡 **Dica do dia: `Fallback sem custo`**  
+> No BellaFlow, sem o n8n configurado o chat responde por regras de palavra-chave: a demonstração funciona mesmo sem IA paga.  
+> <sub>Muda todo dia sozinha · 20/20</sub>
 <!-- AUTO:dica:END -->
 
 <picture>
