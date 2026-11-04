@@ -140,9 +140,9 @@ Duas dicas que eu daria para quem está onde eu estava:
 <!-- AUTO:agora:END -->
 
 <!-- AUTO:dica:START -->
-> 💡 **Dica do dia: `"use client" só onde precisa`**  
-> No App Router todo componente nasce Server Component. Marque como client só o que tem estado, efeito ou evento: o resto vai pronto do servidor e o bundle fica menor.  
-> <sub>Muda todo dia sozinha · 1/20</sub>
+> 💡 **Dica do dia: `z.infer`**  
+> Um schema do Zod vira tipo TypeScript com `z.infer<typeof schema>`: validação e tipo saem da mesma fonte, sem duplicar nada.  
+> <sub>Muda todo dia sozinha · 2/20</sub>
 <!-- AUTO:dica:END -->
 
 <picture>
