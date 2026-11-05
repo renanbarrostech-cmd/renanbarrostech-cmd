@@ -140,9 +140,9 @@ Duas dicas que eu daria para quem está onde eu estava:
 <!-- AUTO:agora:END -->
 
 <!-- AUTO:dica:START -->
-> 💡 **Dica do dia: `z.infer`**  
-> Um schema do Zod vira tipo TypeScript com `z.infer<typeof schema>`: validação e tipo saem da mesma fonte, sem duplicar nada.  
-> <sub>Muda todo dia sozinha · 2/20</sub>
+> 💡 **Dica do dia: `zodResolver`**  
+> React Hook Form + `zodResolver(schema)` valida o formulário no cliente com o mesmo schema que o servidor usa.  
+> <sub>Muda todo dia sozinha · 3/20</sub>
 <!-- AUTO:dica:END -->
 
 <picture>
