@@ -140,9 +140,9 @@ Duas dicas que eu daria para quem está onde eu estava:
 <!-- AUTO:agora:END -->
 
 <!-- AUTO:dica:START -->
-> 💡 **Dica do dia: `Máscara não é validação`**  
-> Formatar o CPF no input ajuda quem digita, mas a regra (dígitos verificadores, unicidade) precisa ser validada no servidor.  
-> <sub>Muda todo dia sozinha · 6/20</sub>
+> 💡 **Dica do dia: `as const`**  
+> `as const` deixa o objeto imutável e os tipos literais: ótimo para rotas, configurações e listas de opções.  
+> <sub>Muda todo dia sozinha · 7/20</sub>
 <!-- AUTO:dica:END -->
 
 <picture>
