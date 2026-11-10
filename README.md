@@ -140,9 +140,9 @@ Duas dicas que eu daria para quem está onde eu estava:
 <!-- AUTO:agora:END -->
 
 <!-- AUTO:dica:START -->
-> 💡 **Dica do dia: `as const`**  
-> `as const` deixa o objeto imutável e os tipos literais: ótimo para rotas, configurações e listas de opções.  
-> <sub>Muda todo dia sozinha · 7/20</sub>
+> 💡 **Dica do dia: `satisfies`**  
+> `const x = {...} satisfies Tipo` checa o formato sem perder os tipos literais, diferente de anotar `: Tipo`.  
+> <sub>Muda todo dia sozinha · 8/20</sub>
 <!-- AUTO:dica:END -->
 
 <picture>
