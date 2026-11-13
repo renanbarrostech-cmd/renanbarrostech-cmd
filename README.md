@@ -140,9 +140,9 @@ Duas dicas que eu daria para quem está onde eu estava:
 <!-- AUTO:agora:END -->
 
 <!-- AUTO:dica:START -->
-> 💡 **Dica do dia: `useEffect não deriva estado`**  
-> Se um valor pode ser calculado a partir de props ou estado, calcule durante o render. `useEffect` é para sincronizar com algo de fora.  
-> <sub>Muda todo dia sozinha · 10/20</sub>
+> 💡 **Dica do dia: `next/font`**  
+> `next/font` baixa a fonte no build e serve do seu domínio: sem pedido extra ao Google e sem pulo de layout.  
+> <sub>Muda todo dia sozinha · 11/20</sub>
 <!-- AUTO:dica:END -->
 
 <picture>
