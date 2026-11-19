@@ -140,9 +140,9 @@ Duas dicas que eu daria para quem está onde eu estava:
 <!-- AUTO:agora:END -->
 
 <!-- AUTO:dica:START -->
-> 💡 **Dica do dia: `.env fora do Git`**  
-> Commitou um segredo? Apagar o arquivo não basta: ele fica no histórico. Troque a chave e coloque `.env` no `.gitignore`.  
-> <sub>Muda todo dia sozinha · 16/20</sub>
+> 💡 **Dica do dia: `Commits semânticos`**  
+> `feat:`, `fix:`, `docs:`, `chore:`… O histórico vira um changelog e o revisor entende o PR antes de abrir o diff.  
+> <sub>Muda todo dia sozinha · 17/20</sub>
 <!-- AUTO:dica:END -->
 
 <picture>
