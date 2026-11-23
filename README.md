@@ -140,9 +140,9 @@ Duas dicas que eu daria para quem está onde eu estava:
 <!-- AUTO:agora:END -->
 
 <!-- AUTO:dica:START -->
-> 💡 **Dica do dia: `Fallback sem custo`**  
-> No BellaFlow, sem o n8n configurado o chat responde por regras de palavra-chave: a demonstração funciona mesmo sem IA paga.  
-> <sub>Muda todo dia sozinha · 20/20</sub>
+> 💡 **Dica do dia: `"use client" só onde precisa`**  
+> No App Router todo componente nasce Server Component. Marque como client só o que tem estado, efeito ou evento: o resto vai pronto do servidor e o bundle fica menor.  
+> <sub>Muda todo dia sozinha · 1/20</sub>
 <!-- AUTO:dica:END -->
 
 <picture>
