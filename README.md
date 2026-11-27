@@ -140,9 +140,9 @@ Duas dicas que eu daria para quem está onde eu estava:
 <!-- AUTO:agora:END -->
 
 <!-- AUTO:dica:START -->
-> 💡 **Dica do dia: `Proxy de API no Next`**  
-> No RKF Bank o navegador chama `/api/...` no próprio Next, que repassa para o backend: sem CORS e sem expor o endereço da API.  
-> <sub>Muda todo dia sozinha · 4/20</sub>
+> 💡 **Dica do dia: `Log sem dado pessoal`**  
+> Mascare CPF, e-mail e telefone dentro do logger, antes de escrever. Quem loga não precisa lembrar: a LGPD vira padrão.  
+> <sub>Muda todo dia sozinha · 5/20</sub>
 <!-- AUTO:dica:END -->
 
 <picture>
