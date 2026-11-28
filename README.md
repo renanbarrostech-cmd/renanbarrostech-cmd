@@ -140,9 +140,9 @@ Duas dicas que eu daria para quem está onde eu estava:
 <!-- AUTO:agora:END -->
 
 <!-- AUTO:dica:START -->
-> 💡 **Dica do dia: `Log sem dado pessoal`**  
-> Mascare CPF, e-mail e telefone dentro do logger, antes de escrever. Quem loga não precisa lembrar: a LGPD vira padrão.  
-> <sub>Muda todo dia sozinha · 5/20</sub>
+> 💡 **Dica do dia: `Máscara não é validação`**  
+> Formatar o CPF no input ajuda quem digita, mas a regra (dígitos verificadores, unicidade) precisa ser validada no servidor.  
+> <sub>Muda todo dia sozinha · 6/20</sub>
 <!-- AUTO:dica:END -->
 
 <picture>
